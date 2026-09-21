@@ -50,22 +50,30 @@ const sources = [
   { name: 'Reddit · Technology', tag: '科技 · Reddit', url: 'https://www.reddit.com/r/technology/top/.rss?t=day' }
 ];
 
-const decode = (value = '') => value
+const decodeEntities = (value = '') => value
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
   .replace(/&lt;/g, '<')
   .replace(/&gt;/g, '>')
   .replace(/&amp;/g, '&')
-  .replace(/<[^>]+>/g, ' ')
   .replace(/&nbsp;/g, ' ')
   .replace(/&quot;/g, '"')
   .replace(/&#39;|&apos;/g, "'")
+  .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
   .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+;
+
+const decode = (value = '') => decodeEntities(value)
+  .replace(/<[^>]+>/g, ' ')
   .replace(/\s+/g, ' ')
   .trim();
 
-const field = (block, name) => {
+const rawField = (block, name) => {
   const match = block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, 'i'));
-  return decode(match?.[1] || '');
+  return decodeEntities(match?.[1] || '');
+};
+
+const field = (block, name) => {
+  return decode(rawField(block, name));
 };
 
 const extractBingDestination = (value = '') => {
@@ -78,18 +86,54 @@ const extractBingDestination = (value = '') => {
   }
 };
 
+const articleBlocksFromHtml = (html = '', baseUrl = '') => {
+  const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] || html;
+  const sanitized = article.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>|<svg[\s\S]*?<\/svg>/gi, ' ');
+  const parts = sanitized.split(/(<img\b[^>]*>)/gi);
+  const blocks = [];
+  const seenImages = new Set();
+  let textLength = 0;
+  for (const part of parts) {
+    if (/^<img\b/i.test(part)) {
+      const source = part.match(/\b(?:src|data-src|data-original|data-lazy-src)=['"]([^'"]+)['"]/i)?.[1];
+      if (!source || /^data:/i.test(source) || seenImages.has(source) || seenImages.size >= 12) continue;
+      let imageUrl = source;
+      try { imageUrl = new URL(source, baseUrl).href; } catch { /* keep the source as provided */ }
+      if (!seenImages.has(imageUrl)) {
+        seenImages.add(imageUrl);
+        blocks.push({ type: 'image', value: imageUrl });
+      }
+      continue;
+    }
+    const withBreaks = part
+      .replace(/<(?:br|p|div|li|h[1-6]|figcaption|blockquote)\b[^>]*>/gi, '\n')
+      .replace(/<\/[^>]+>/g, '\n');
+    for (const line of withBreaks.split(/\n+/)) {
+      const text = decode(line).trim();
+      if (text.length < 20) continue;
+      if (textLength + text.length > articleMaxLength) break;
+      blocks.push({ type: 'text', value: text });
+      textLength += text.length;
+    }
+  }
+  return blocks;
+};
+
 const parseFeed = (xml, source) => {
   const blocks = [...xml.matchAll(/<(?:item|entry)\b[\s\S]*?<\/(?:item|entry)>/gi)].map((m) => m[0]);
   return blocks.map((block) => {
     const atomLink = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i)?.[1] || '';
     const link = extractBingDestination(field(block, 'link') || atomLink);
     const title = field(block, 'title');
-    const encodedContent = field(block, 'content:encoded') || field(block, 'encoded') || field(block, 'content');
-    const description = field(block, 'description') || field(block, 'summary') || encodedContent;
-    const articleText = (encodedContent || description || title).replace(/\s+/g, ' ').trim().slice(0, articleMaxLength);
+    const rawEncodedContent = rawField(block, 'content:encoded') || rawField(block, 'encoded') || rawField(block, 'content');
+    const rawDescription = rawField(block, 'description') || rawField(block, 'summary') || rawEncodedContent;
+    const encodedContent = decode(rawEncodedContent);
+    const description = decode(rawDescription);
+    const articleBlocks = articleBlocksFromHtml(rawEncodedContent || rawDescription || title, link);
+    const articleText = (articleBlocks.filter((item) => item.type === 'text').map((item) => item.value).join('\n\n') || encodedContent || description || title).slice(0, articleMaxLength);
     const inlineDate = block.match(/(?:^|>)([A-Z][a-z]{2},\s?\d{1,2}-[A-Z][a-z]{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+GMT)(?:<|$)/i)?.[1] || '';
     const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || inlineDate || now.toISOString();
-    return { title, link, description, articleText, publishedAt, sourceName: source.name, tag: source.tag };
+    return { title, link, description, articleText, articleBlocks, publishedAt, sourceName: source.name, tag: source.tag };
   }).filter((item) => item.title && item.link);
 };
 
@@ -111,8 +155,10 @@ const hydrateArticle = async (item) => {
   try {
     const response = await fetch(item.link, { headers: { 'user-agent': 'Mozilla/5.0 JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(10000) });
     if (!response.ok || !response.headers.get('content-type')?.includes('text/html')) return item;
-    const extracted = extractArticleText(await response.text());
-    if (extracted.length > Math.max(current.length + 160, 500)) return { ...item, articleText: extracted.slice(0, articleMaxLength) };
+    const html = await response.text();
+    const articleBlocks = articleBlocksFromHtml(html, item.link);
+    const extracted = articleBlocks.filter((block) => block.type === 'text').map((block) => block.value).join('\n\n') || extractArticleText(html);
+    if (extracted.length > Math.max(current.length + 160, 500)) return { ...item, articleText: extracted.slice(0, articleMaxLength), articleBlocks };
   } catch (error) {
     console.warn(`article body skipped: ${item.title} (${error.message})`);
   }
@@ -288,6 +334,7 @@ let enriched = selected.map((item, index) => ({
   tag: item.tag,
   desc: clean(item.description || item.title),
   articleText: clean(item.articleText || item.description || item.title, articleMaxLength),
+  articleBlocks: item.articleBlocks?.length ? item.articleBlocks : [{ type: 'text', value: clean(item.articleText || item.description || item.title, articleMaxLength) }],
   sourceName: item.sourceName,
   sourceUrl: item.link,
   publishedAt: new Date(item.publishedAt).toISOString().slice(0, 10)
