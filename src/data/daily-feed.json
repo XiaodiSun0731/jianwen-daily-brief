@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T18:25:53.358Z",
+  "generatedAt": "2026-09-21T18:27:25.490Z",
   "timezone": "Europe/Rome",
   "status": "live",
   "heroImage": "images/daily-hero-01.png",
@@ -81,7 +81,7 @@
       "id": "2026-09-21-09",
       "title": "J.C. Penney 失去市场份额，因销售额持续下滑而推出市场",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "第二季度总净销售额下降超过 8%，但亮点包括运动服，尤其是美妆。",
+      "desc": "第二季度总净销售额下降了 8% 以上，但亮点包括运动服，尤其是美妆。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/",
       "publishedAt": "2026-09-21"
@@ -90,16 +90,16 @@
       "id": "2026-09-21-10",
       "title": "伊森·艾伦 (Ethan Allen) 启动 CEO 搜寻工作",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "近两个月前，一位激进投资者推动更换该零售商的董事会，其中包括首席执行官兼董事会主席 Farooq Kathwari。",
+      "desc": "近两个月前，一名激进投资者推动对包括首席执行官兼董事会主席 Farooq Kathwari 在内的该零售商董事会进行彻底改革。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/ethan-allen-launches-ceo-search/830892/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-11",
-      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - sohu.com",
+      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - 搜狐网",
       "tag": "电商 · 中国",
-      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 sohu.com",
+      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 搜狐网",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZQNl9kWDRFSnNNN2hQd3hqM04tbnYtVXpyeWQycm5UakZqMXBYWXpaUm5EZVhZdlo2cFdBekg3SVFOdkdZOWVvdVdyaGd5UkYzelVRa010VEhGY2F6c3N3dzM5MVZFMTdCNEFadGhlVm1OSjBmWUR3U3M3UU1DQmZFblJaWVhB?oc=5",
       "publishedAt": "2026-09-21"
@@ -115,7 +115,7 @@
     },
     {
       "id": "2026-09-21-13",
-      "title": "英伟达的免费人工智能模型可能会推动阿联酋与美国的距离更近。",
+      "title": "英伟达的免费人工智能模型可能会让阿联酋更接近美国",
       "tag": "商业 · 全球",
       "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一点。",
       "sourceName": "Rest of World",
