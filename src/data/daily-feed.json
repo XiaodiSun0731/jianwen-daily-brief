@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-21T18:27:25.490Z",
+  "generatedAt": "2026-09-21T18:51:34.033Z",
   "timezone": "Europe/Rome",
-  "status": "live",
+  "status": "live-raw",
   "heroImage": "images/daily-hero-01.png",
   "weekdayLabel": "周一",
   "items": [
     {
       "id": "2026-09-21-01",
-      "title": "Brooks Brothers 2027 春季成衣",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "服装 · 欧洲 / 全球",
-      "desc": "Brooks Brothers 2027 春季成衣",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "sourceName": "Vogue",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/burberry-prorsum",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-02",
+      "title": "今日资讯（原文暂时无法翻译）",
+      "tag": "服装 · 欧洲 / 全球",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Vogue",
       "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/brooks-brothers",
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-02",
-      "title": "张惠珊 2027 春季成衣",
-      "tag": "服装 · 欧洲 / 全球",
-      "desc": "张惠珊 2027 春季成衣",
-      "sourceName": "Vogue",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/huishan-zhang",
-      "publishedAt": "2026-09-21"
-    },
-    {
       "id": "2026-09-21-03",
-      "title": "Kairos Power 从三星集团获得高达 1 亿美元的资金，为谷歌建造核反应堆",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "科技 · 全球",
-      "desc": "未来的谷歌供应商 Kairos Power 与三星 C&T 签署了一项协议，帮助建设其第一座 50 兆瓦核电站。",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/",
       "publishedAt": "2026-09-21"
@@ -43,27 +43,27 @@
     },
     {
       "id": "2026-09-21-05",
-      "title": "Meta 的 AI 代理已被禁止使用 Amazon.com",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "科技 · 全球",
-      "desc": "缪斯不再是受欢迎的购物者。",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-06",
-      "title": "通用汽车无法“带回”Apple CarPlay，因为它从未离开过",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "科技 · 全球",
-      "desc": "上周，通用汽车宣布为其即将推出的雪佛兰索罗德和 GMC Sierra 卡车提供新的软件体验，包括 Apple CarPlay 和 Android Auto（流行的手机）的新外观",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-07",
-      "title": "派拉蒙就阻止华纳兄弟 1100 亿美元合并的诉讼达成和解",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "科技 · 全球",
-      "desc": "派拉蒙公司已与加利福尼亚州和其他 11 个州达成和解，这些州提起诉讼，阻止派拉蒙公司计划以 1100 亿美元收购华纳兄弟探索公司。和解协议删除了",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
       "publishedAt": "2026-09-21"
@@ -79,18 +79,18 @@
     },
     {
       "id": "2026-09-21-09",
-      "title": "J.C. Penney 失去市场份额，因销售额持续下滑而推出市场",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "第二季度总净销售额下降了 8% 以上，但亮点包括运动服，尤其是美妆。",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-10",
-      "title": "伊森·艾伦 (Ethan Allen) 启动 CEO 搜寻工作",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "近两个月前，一名激进投资者推动对包括首席执行官兼董事会主席 Farooq Kathwari 在内的该零售商董事会进行彻底改革。",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/ethan-allen-launches-ceo-search/830892/",
       "publishedAt": "2026-09-21"
@@ -115,9 +115,9 @@
     },
     {
       "id": "2026-09-21-13",
-      "title": "英伟达的免费人工智能模型可能会让阿联酋更接近美国",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "商业 · 全球",
-      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一点。",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "publishedAt": "2026-09-21"
@@ -133,9 +133,9 @@
     },
     {
       "id": "2026-09-21-15",
-      "title": "艾略特·马奇 (Elliot March) 让风景引领道路",
+      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "设计 · 全球",
-      "desc": "MAWD 联合创始人着眼于景观、建筑和地方特色来塑造有归属感的空间",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Design Milk",
       "sourceUrl": "https://design-milk.com/friday-five-elliot-march-mawd/",
       "publishedAt": "2026-09-18"
