@@ -85,8 +85,8 @@ const parseFeed = (xml, source) => {
 const parseZhihuHot = (payload, source) => (payload?.hot_search_queries || []).map((item) => ({
   title: item.query || item.real_query,
   link: `https://www.zhihu.com/search?type=content&q=${encodeURIComponent(item.query || item.real_query || '')}`,
-  description: `知乎热榜热度 ${item.hot_show || item.hot || '—'}，可继续查看相关高赞回答。`,
-  articleText: `知乎热榜问题：${item.query || item.real_query || ''}。可打开来源查看相关高赞回答与讨论。`,
+  description: `知乎热榜热度 ${item.hot_show || item.hot || '—'}。`,
+  articleText: `知乎热榜问题：${item.query || item.real_query || ''}；热度：${item.hot_show || item.hot || '—'}。`,
   publishedAt: now.toISOString(),
   sourceName: source.name,
   tag: source.tag,
