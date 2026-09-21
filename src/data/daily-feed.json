@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:31:24.742Z",
+  "generatedAt": "2026-09-21T20:58:20.690Z",
   "timezone": "Europe/Rome",
   "status": "live",
   "heroImage": "images/daily-hero-01.png",
@@ -9,76 +9,94 @@
       "id": "2026-09-21-01",
       "title": "闲鱼暗藏涉黄产业链",
       "tag": "高分内容 · 知乎",
-      "desc": "知乎热榜热度 570 万，可继续查看相关高赞回答。",
+      "desc": "知乎热榜热度 556 万，可继续查看相关高赞回答。",
       "sourceName": "知乎热榜",
       "sourceUrl": "https://www.zhihu.com/search?type=content&q=%E9%97%B2%E9%B1%BC%E6%9A%97%E8%97%8F%E6%B6%89%E9%BB%84%E4%BA%A7%E4%B8%9A%E9%93%BE",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-02",
-      "title": "了解接下来的活动：购买 TechCrunch Disrupt 2026 机票还剩 5 天，可节省高达 200 美元",
-      "tag": "科技 · 全球",
-      "desc": "还剩 5 天，您购买 TechCrunch Disrupt 2026 通行证可节省高达 200 美元，第二张通行证还可享受 50% 的折扣。十月，与旧金山 Moscone West 的 10,000 多名创始人、投资者和运营商一起",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+      "title": "OpenAI敦促美国牵头为人工智能制定全球标准- AI 人工智能 - cnBeta.COM",
+      "tag": "AI 技术 · 中国 / 全球",
+      "desc": "OpenAI敦促美国牵头为人工智能制定全球标准- AI 人工智能 cnBeta.COM",
+      "sourceName": "Google News · AI 技术",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9maTFWclRfWmtMeUY1Skw2MTljMjFHdXFxSjJvRlZjREZWaTJGbWNIc1U0aVVzWUJFZHhScDFkOUc0ZkdEa19zRGMtaUJKNVFTbmk0R3ZibmFndlgyTmNBYw?oc=5",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-03",
-      "title": "国际油价21日显著下跌 - 新华网",
-      "tag": "官方 · 中国",
-      "desc": "国际油价21日显著下跌 新华网",
-      "sourceName": "Google News · 中国官方",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50aDdVMFd0Y1hDTm9qb0V2cm0yODBxWVE2WXdOV0tCd0Y5NGRid2RGS3BuV3NndDhzX1NSTFBXWDZpOHZKYTljUUt6OGxoOFprbWMwODFNTWV5MWdEc2xTWEprX2JwYlc4akFFSkdnN1EwbjJyNnJWZzNqNTJ4Mm8?oc=5",
+      "title": "“我们可能正在寻找张力”：formafantasma 谈展览空间设计",
+      "tag": "工业设计 · 全球",
+      "desc": "从白色立方体到纸板隔断，设计工作室的设计师们研究建筑如何塑造我们所看到的、我们如何移动以及艺术品如何相互关联。帖子",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/design/formafantasma-exhibition-design-interview/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-04",
-      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
+      "title": "丹麦及格陵兰岛将和美国签署安全协议 - 新华网",
+      "tag": "官方 · 中国",
+      "desc": "丹麦及格陵兰岛将和美国签署安全协议 新华网",
+      "sourceName": "Google News · 中国官方",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42WjdRT2JWUUl6bFQtWklob2haUmR6Vkw2RVczWk0waWRQNUZNMWwtQloyNnJLcUpPamRmaWpRMXNiOTVlNnI2OUs0SG5SYVM2bnhwdkR6VGFuclh0WGhYalRURjFSV2JYN2RQWGxCQlZYNXhxMWxR?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-05",
+      "title": "加州收紧人工智能数据中心能源和用水的规定",
+      "tag": "科技 · 全球",
+      "desc": "据《洛杉矶时报》早些时候报道，加利福尼亚州州长加文·纽瑟姆签署了七项法案，旨在防止人工智能数据中心将公用事业成本转嫁给居民。这",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-06",
+      "title": "享受飞行速度的电子商务交付",
+      "tag": "电商 · 欧洲 / 美国",
+      "desc": "一网。两个方向。了解 SmartKargo 如何应对旺季激增。",
+      "sourceName": "Retail Dive",
+      "sourceUrl": "https://www.retaildive.com/spons/enjoy-e-commerce-delivery-at-the-speed-of-flight/830957/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-07",
+      "title": "OpenAI 成立数学咨询小组，其 AI 解决了 100 多个开放问题",
+      "tag": "科技 · 全球",
+      "desc": "该小组不会有放慢或重新调整 OpenAI 正在进行的数学研究的余地。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-08",
+      "title": "草原露营附近希尔顿营销很火实际呢？3个维度拆穿“伪露营”真相+FAQ - 手机新浪网",
+      "tag": "自媒体 · 中国",
+      "desc": "草原露营附近希尔顿营销很火实际呢？3个维度拆穿“伪露营”真相+FAQ 手机新浪网",
+      "sourceName": "Google News · 抖音小红书",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ09XZlhiSXhtVldaeEphUmxtaThhQ0ZhblZVQU90NEZOTVFiUUlhcDBnWnRxWmc4UW5rUW1sNEZ3VDJjWWgySGJxSUpYX1N0TFQ4S2tKaGVJel9Zc2tUNUV3Q2U2R0RvWUZZU2Q0WHptRm5SR3lkU0EzQ2RBQ0xCc1FB?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-09",
+      "title": "沙特阿拉伯退出中国主导的跨境货币平台",
+      "tag": "科技 · Reddit",
+      "desc": "由 /u/helic_vet 提交 [链接] [评论]",
+      "sourceName": "Reddit · Technology",
+      "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmlip4/saudi_arabia_quits_chinaled_crossborder_currency/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-10",
+      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - finance.sina.cn",
       "tag": "电商 · 中国",
-      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
+      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” finance.sina.cn",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUYyVG1xbTVGV1c1WEdVMHIzaDNsQ2ozcmEwSTRXVV9xaDVVUTZpWTVVVmhSYjVPR1cyckZlOEtydjRtT2pteWpFa3NVNk5DdWZ4aWsyZHFoYm9haWlTMk9Ca2YtYXpqQjdWWUEzZWg4UnE0bzlXZzlQZ1dtMjdNbUdHb1FETkIzRmg5eWt3c2dGam50dmFXbUpTbUUySzFEbFZlRk5HMA?oc=5",
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-05",
-      "title": "美国总统及其家族在人工智能领域的巨额投资可能引发冲突",
-      "tag": "科技 · Reddit",
-      "desc": "由 /u/Majano57 提交 [链接] [评论]",
-      "sourceName": "Reddit · Technology",
-      "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-06",
-      "title": "通用汽车无法“带回”Apple CarPlay，因为它从未离开过",
-      "tag": "科技 · 全球",
-      "desc": "上周，通用汽车宣布为其即将推出的雪佛兰索罗德和 GMC Sierra 卡车提供新的软件体验，包括 Apple CarPlay 和 Android Auto（流行的手机）的新外观",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-07",
-      "title": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 - 微博",
-      "tag": "自媒体 · 中国",
-      "desc": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 微博",
-      "sourceName": "Google News · 抖音小红书",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwUkNvbWJ4cXdzT0RBNzJrVTJjQ1FtSmYta2NienpUUHJkWTUxMDN2M3RuZ1dwZHQ5SDZ0RkVydGd6RnRrTHNTWXc1LW1vOWdpWFpNTGp3?oc=5",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-08",
-      "title": "J.C. Penney 失去市场份额，因销售额持续下滑而推出市场",
-      "tag": "电商 · 欧洲 / 美国",
-      "desc": "第二季度总净销售额下降超过 8%，但亮点包括运动服，尤其是美妆。",
-      "sourceName": "Retail Dive",
-      "sourceUrl": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-09",
+      "id": "2026-09-21-11",
       "title": "看工业设计如何改写“中国制造” - 手机网易网",
       "tag": "工业设计 · 中国 / 全球",
       "desc": "看工业设计如何改写“中国制造” 手机网易网",
@@ -87,16 +105,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-10",
-      "title": "近 1,000 个木铃变成了阿尔卑斯乐器",
-      "tag": "工业设计 · 全球",
-      "desc": "在 le Festival des Cabanes 音乐节上，一面可演奏的木墙在安纳西湖上方的山脉中传递着不断变化的木质色调。近 1,000 个木钟转动着 le bruit du bois",
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/architecture/1000-wooden-chimes-bruit-bois-alpine-instrument-sound-music-festival-cabanes-france/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-11",
+      "id": "2026-09-21-12",
       "title": "下载：调查美国边境“虚​​拟墙”的死亡事件",
       "tag": "AI 技术 · 全球",
       "desc": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。美国花费数十亿用于边境监视",
@@ -105,19 +114,10 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-12",
-      "title": "芯位人工智能学院迎来首届新生，“AI原生大学”正式启航 - 新浪财经",
-      "tag": "AI 技术 · 中国 / 全球",
-      "desc": "芯位人工智能学院迎来首届新生，“AI原生大学”正式启航 新浪财经",
-      "sourceName": "Google News · AI 技术",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kMGM5T0g1Yy1iS3VsTmNodWIyb1IxN3kzTjJVbzhpbl9VblhkR1QxaWg4R0tseEN0UXlyQzI0NFFzeUJnMF9rTnRtZ3E1V2JTQkg4a2JybU9FZ3R6aWpMTHhHemk0cHhZTkhYdWlxdnpzanFhUm5NSg?oc=5",
-      "publishedAt": "2026-09-21"
-    },
-    {
       "id": "2026-09-21-13",
       "title": "英伟达的免费人工智能模型可能会让阿联酋更接近美国",
       "tag": "商业 · 全球",
-      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一现状。",
+      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一点。",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "publishedAt": "2026-09-21"
