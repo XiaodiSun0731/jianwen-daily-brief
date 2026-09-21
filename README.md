@@ -1,6 +1,6 @@
 # 见闻 Daily Brief
 
-面向个人使用的 iPhone 资讯简报原型：工作日 07:40 收集 15 条全球商业、科技、设计、服装、电商和自媒体资讯；每周六 15:00 从收藏中整理准备优化的项目。
+面向个人使用的 iPhone 资讯简报原型：工作日 07:40 收集 15 条全球商业、科技、设计、服装、电商和自媒体资讯；在今日收藏的资讯会自动进入“想法”，供之后继续阅读。
 
 - 在线 App：[xiaodisun0731.github.io/jianwen-daily-brief](https://xiaodisun0731.github.io/jianwen-daily-brief/)
 - GitHub：[XiaodiSun0731/jianwen-daily-brief](https://github.com/XiaodiSun0731/jianwen-daily-brief)

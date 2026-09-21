@@ -56,11 +56,11 @@ The fourth bottom tab is a dedicated daily fable section. Each calendar day sele
 
 ## Interaction revision
 
-The prototype now separates the three actions clearly: reading records progress only, every article has a manual 收藏 action, and 收藏 is the user's collection. The 项目 tab is now a weekly optimization shortlist and only displays saved articles moved to `准备优化` from 收藏. This revision was manually verified by saving an article, moving it to `准备优化`, and confirming it appeared in 项目 while the reading count remained independent.
+The prototype now separates the two actions clearly: reading records progress only, while every article has a manual 收藏 action that automatically adds it to 想法. 想法 is a single saved-article list without stage filters or project status transitions; the reading count remains independent.
 
 ## Navigation and next-step revision
 
-The three root tabs now live in a shared tab shell. Moving toward a later tab animates from the right; moving back toward an earlier tab animates from the left. The bar is fixed to the bottom safe area used by the iPhone preview, with the home-indicator region kept in the same paper background. The selected project detail now presents three suggested next steps: validate the problem, compare three real competitors, and make a minimum sample for feedback.
+The three root tabs now live in a shared tab shell: 今日, 寓言, and 想法. Moving toward a later tab animates from the right; moving back toward an earlier tab animates from the left. The bar is fixed to the bottom safe area used by the iPhone preview, with the home-indicator region kept in the same paper background.
 
 ## Content freshness review
 
