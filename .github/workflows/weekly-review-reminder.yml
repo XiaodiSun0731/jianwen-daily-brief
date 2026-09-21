@@ -1,0 +1,37 @@
+name: Weekly review reminder
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Cover both CET and CEST; the shell check keeps only 15:00 Europe/Rome.
+    - cron: '0 13 * * 6'
+    - cron: '0 14 * * 6'
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Saturday reminder
+        env:
+          PUSH_API_URL: ${{ vars.PUSH_API_URL }}
+          PUSH_CRON_SECRET: ${{ secrets.PUSH_CRON_SECRET }}
+          PAGE_URL: ${{ vars.PAGE_URL || 'https://xiaodisun0731.github.io/jianwen-daily-brief/' }}
+        run: |
+          if [ -n "$GITHUB_EVENT_NAME" ] && [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+            weekday=$(TZ=Europe/Rome date +%u)
+            hour=$(TZ=Europe/Rome date +%H)
+            if [ "$weekday" != "6" ] || [ "$hour" != "15" ]; then
+              echo "Skipping outside Saturday 15:00 Europe/Rome."
+              exit 0
+            fi
+          fi
+          if [ -z "$PUSH_API_URL" ] || [ -z "$PUSH_CRON_SECRET" ]; then
+            echo "Push server is not configured; skipping notification."
+            exit 0
+          fi
+          curl --fail-with-body --request POST "$PUSH_API_URL/send-daily" \
+            --header "content-type: application/json" \
+            --header "x-cron-secret: $PUSH_CRON_SECRET" \
+            --data "{\"title\":\"见闻 · 本周项目整理\",\"body\":\"从收藏中选出准备优化的方向。\",\"url\":\"$PAGE_URL\"}"
