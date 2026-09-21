@@ -73,10 +73,12 @@ const parseFeed = (xml, source) => {
     const atomLink = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i)?.[1] || '';
     const link = field(block, 'link') || atomLink;
     const title = field(block, 'title');
-    const description = field(block, 'description') || field(block, 'summary') || field(block, 'content');
+    const encodedContent = field(block, 'content:encoded') || field(block, 'encoded') || field(block, 'content');
+    const description = field(block, 'description') || field(block, 'summary') || encodedContent;
+    const articleText = (encodedContent || description || title).replace(/\s+/g, ' ').trim().slice(0, 6000);
     const inlineDate = block.match(/(?:^|>)([A-Z][a-z]{2},\s?\d{1,2}-[A-Z][a-z]{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+GMT)(?:<|$)/i)?.[1] || '';
     const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || inlineDate || now.toISOString();
-    return { title, link, description, publishedAt, sourceName: source.name, tag: source.tag };
+    return { title, link, description, articleText, publishedAt, sourceName: source.name, tag: source.tag };
   }).filter((item) => item.title && item.link);
 };
 
@@ -84,6 +86,7 @@ const parseZhihuHot = (payload, source) => (payload?.hot_search_queries || []).m
   title: item.query || item.real_query,
   link: `https://www.zhihu.com/search?type=content&q=${encodeURIComponent(item.query || item.real_query || '')}`,
   description: `知乎热榜热度 ${item.hot_show || item.hot || '—'}，可继续查看相关高赞回答。`,
+  articleText: `知乎热榜问题：${item.query || item.real_query || ''}。可打开来源查看相关高赞回答与讨论。`,
   publishedAt: now.toISOString(),
   sourceName: source.name,
   tag: source.tag,
@@ -140,7 +143,7 @@ const choose = (items) => {
 
 const summarizeWithOpenAI = async (items) => {
   if (!process.env.OPENAI_API_KEY || !items.length) return items;
-  const payload = items.map((item, index) => ({ index, title: item.title, description: clean(item.description, 600), tag: item.tag }));
+  const payload = items.map((item, index) => ({ index, title: item.title, description: clean(item.desc || item.description || item.articleText || item.title, 600), tag: item.tag }));
   const response = await fetch('https://api.openai.com/v1/responses', {
     method: 'POST',
     headers: { authorization: `Bearer ${process.env.OPENAI_API_KEY}`, 'content-type': 'application/json' },
@@ -154,7 +157,7 @@ const summarizeWithOpenAI = async (items) => {
   const body = await response.json();
   const text = body.output_text || body.output?.flatMap((part) => part.content || []).find((part) => part.text)?.text;
   const parsed = JSON.parse(text);
-  return items.map((item, index) => ({ ...item, description: parsed.items?.[index]?.desc || clean(item.description || item.title), why: parsed.items?.[index]?.why || '' }));
+  return items.map((item, index) => ({ ...item, desc: parsed.items?.[index]?.desc || item.desc || clean(item.articleText || item.title), why: parsed.items?.[index]?.why || '' }));
 };
 
 const translateToChinese = async (text) => {
@@ -225,6 +228,7 @@ let enriched = selected.map((item, index) => ({
   title: clean(item.title, 90),
   tag: item.tag,
   desc: clean(item.description || item.title),
+  articleText: clean(item.articleText || item.description || item.title, 6000),
   sourceName: item.sourceName,
   sourceUrl: item.link,
   publishedAt: new Date(item.publishedAt).toISOString().slice(0, 10)
