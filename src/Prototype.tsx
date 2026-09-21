@@ -25,13 +25,18 @@ const fallbackNews:News[] = [
 ];
 const news:News[] = dailyFeed.items?.length ? dailyFeed.items : fallbackNews;
 const fableDateParts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(({type,value})=>[type,value]));
-const fableDay=Math.floor(Date.UTC(Number(fableDateParts.year),Number(fableDateParts.month)-1,Number(fableDateParts.day))/86400000);
 const fableDateKey=`${fableDateParts.year}-${fableDateParts.month}-${fableDateParts.day}`;
-const fableHistoryEntries=Array.isArray(dailyFableHistory.entries)?dailyFableHistory.entries:[];
+const fableHistoryStorageKey='jianwen-fable-history-v1';
+const localFableHistoryEntries=(()=>{if(typeof window==='undefined')return [];try{const value=JSON.parse(window.localStorage.getItem(fableHistoryStorageKey)||'[]');return Array.isArray(value)?value.filter((entry)=>entry&&typeof entry.date==='string'&&typeof entry.id==='string'):[]}catch{return []}})();
+const remoteFableHistoryEntries=Array.isArray(dailyFableHistory.entries)?dailyFableHistory.entries:[];
+const fableHistoryEntries=[...remoteFableHistoryEntries,...localFableHistoryEntries.filter((localEntry)=>!remoteFableHistoryEntries.some((remoteEntry)=>remoteEntry.date===localEntry.date))];
 const todayFableId=fableHistoryEntries.find((entry)=>entry.date===fableDateKey)?.id;
 const usedFableIds=new Set(fableHistoryEntries.map((entry)=>entry.id));
-const dailyFableIndex=Math.max(0,dailyFables.findIndex((fable)=>(fable as any).id===todayFableId||(todayFableId===undefined&&!usedFableIds.has((fable as any).id))));
+const historyFableIndex=dailyFables.findIndex((fable)=>(fable as any).id===todayFableId);
+const nextUnusedFableIndex=dailyFables.findIndex((fable)=>!usedFableIds.has((fable as any).id));
+const dailyFableIndex=historyFableIndex>=0?historyFableIndex:Math.max(0,nextUnusedFableIndex);
 const dailyFable=dailyFables[dailyFableIndex];
+if(!todayFableId&&dailyFable&&(dailyFable as any).id&&typeof window!=='undefined'){try{window.localStorage.setItem(fableHistoryStorageKey,JSON.stringify([...localFableHistoryEntries,{date:fableDateKey,id:(dailyFable as any).id}]))}catch{}}
 const projects = [
 {title:'为小众服装品牌，做更清楚的商品表达',category:'设计服务',region:'欧洲',lead:'把面料、版型和穿着场景，变成容易理解的商品页面。',customer:'拥有独立站、但缺少专职内容设计师的小型服装品牌。',revenue:'按单品收取图文设计费，或按月提供新品内容服务。价格与成本需要访谈后确定。',rivals:'待研究：当地电商摄影工作室、自由设计师，以及品牌内部制作团队。正式版应列出具体名称、服务、价格与来源。',risk:'客户是否愿意为内容改善单独付费？语言能力、拍摄资源和实际转化效果仍需确认。',first:'访谈3家小型服装品牌，了解商品内容的制作流程和最耗时的环节。'},
 {title:'让设计师少做重复工作的素材整理工具',category:'轻量工具',region:'中国 / 欧洲',lead:'从命名、分类到交付，聚焦一个高频重复动作。',customer:'需要反复整理图片与交付文件的独立设计师、小型工作室。',revenue:'一次性模板销售，或按月提供工具服务；先确认使用频率再选择模式。',rivals:'待研究：现有素材管理软件、文件管理工具、团队自己制作的自动化脚本。',risk:'现有工具可能已经解决问题；需要证明新增工具能节省时间。',first:'记录自己一周的素材整理过程，再邀请3名设计师复现同一任务。'},
