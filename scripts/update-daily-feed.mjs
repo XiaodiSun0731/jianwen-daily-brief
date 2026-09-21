@@ -144,7 +144,11 @@ const translateItems = async (items) => {
     } catch (error) {
       console.warn(`translation skipped: ${item.title} (${error.message})`);
       complete = false;
-      translated.push(item);
+      translated.push({
+        ...item,
+        title: /[\u3400-\u9fff]/.test(item.title) ? item.title : '今日资讯（原文暂时无法翻译）',
+        desc: '翻译服务暂时不可用，请点击来源查看原文。'
+      });
     }
   }
   return { items: translated, complete };
