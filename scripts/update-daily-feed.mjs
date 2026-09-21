@@ -1,0 +1,141 @@
+#!/usr/bin/env node
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const output = path.join(root, 'src', 'data', 'daily-feed.json');
+const now = new Date();
+if (process.env.GITHUB_EVENT_NAME === 'schedule') {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', weekday: 'short', hour: '2-digit', hour12: false }).formatToParts(now).map(({ type, value }) => [type, value]));
+  if (['Sat', 'Sun'].includes(parts.weekday) || parts.hour !== '07') {
+    console.log(`Skipping scheduled run outside 07:40 Europe/Rome (local ${parts.weekday} ${parts.hour}:40)`);
+    process.exit(0);
+  }
+}
+
+const sources = [
+  { name: 'TechCrunch', tag: '科技 · 全球', url: 'https://techcrunch.com/feed/' },
+  { name: 'The Verge', tag: '科技 · 全球', url: 'https://www.theverge.com/rss/index.xml' },
+  { name: 'Design Milk', tag: '设计 · 全球', url: 'https://design-milk.com/feed/' },
+  { name: 'Vogue Business', tag: '服装 · 欧洲 / 全球', url: 'https://www.voguebusiness.com/feed/rss' },
+  { name: 'Retail Dive', tag: '电商 · 欧洲 / 美国', url: 'https://www.retaildive.com/feeds/news/' },
+  { name: 'Social Media Today', tag: '自媒体 · 全球', url: 'https://www.socialmediatoday.com/rss.xml' },
+  { name: 'Rest of World', tag: '商业 · 全球', url: 'https://restofworld.org/feed/' },
+  { name: 'Google News · 淘宝电商', tag: '电商 · 中国', url: 'https://news.google.com/rss/search?q=%E6%B7%98%E5%AE%9D+%E7%94%B5%E5%95%86&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Google News · 抖音小红书', tag: '自媒体 · 中国', url: 'https://news.google.com/rss/search?q=%E6%8A%96%E9%9F%B3+%E5%B0%8F%E7%BA%A2%E4%B9%A6&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Google News · Amazon TikTok', tag: '电商 · 欧洲 / 东南亚', url: 'https://news.google.com/rss/search?q=Amazon+TikTok+commerce&hl=en-US&gl=US&ceid=US:en' },
+  { name: 'Google News · 日韩设计', tag: '设计 · 日韩', url: 'https://news.google.com/rss/search?q=%E6%97%A5%E9%9F%A9+%E8%AE%BE%E8%AE%A1+%E6%B6%88%E8%B4%B9&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' }
+];
+
+const decode = (value = '') => value
+  .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+  .replace(/&lt;/g, '<')
+  .replace(/&gt;/g, '>')
+  .replace(/&amp;/g, '&')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&nbsp;/g, ' ')
+  .replace(/&quot;/g, '"')
+  .replace(/&#39;|&apos;/g, "'")
+  .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+  .replace(/\s+/g, ' ')
+  .trim();
+
+const field = (block, name) => {
+  const match = block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, 'i'));
+  return decode(match?.[1] || '');
+};
+
+const parseFeed = (xml, source) => {
+  const blocks = [...xml.matchAll(/<(?:item|entry)\b[\s\S]*?<\/(?:item|entry)>/gi)].map((m) => m[0]);
+  return blocks.map((block) => {
+    const atomLink = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i)?.[1] || '';
+    const link = field(block, 'link') || atomLink;
+    const title = field(block, 'title');
+    const description = field(block, 'description') || field(block, 'summary') || field(block, 'content');
+    const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || now.toISOString();
+    return { title, link, description, publishedAt, sourceName: source.name, tag: source.tag };
+  }).filter((item) => item.title && item.link);
+};
+
+const fetchSource = async (source) => {
+  try {
+    const response = await fetch(source.url, { headers: { 'user-agent': 'JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(12000) });
+    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+    return parseFeed(await response.text(), source);
+  } catch (error) {
+    console.warn(`source skipped: ${source.name} (${error.message})`);
+    return [];
+  }
+};
+
+const clean = (value, max = 180) => value.replace(/\s+/g, ' ').trim().slice(0, max);
+const unique = (items) => {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = item.link || item.title.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+};
+
+const choose = (items) => {
+  const ranked = [...items].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  const selected = [];
+  const sourceCounts = new Map();
+  for (const item of ranked) {
+    const count = sourceCounts.get(item.sourceName) || 0;
+    if (count >= 2) continue;
+    selected.push(item);
+    sourceCounts.set(item.sourceName, count + 1);
+    if (selected.length === 15) break;
+  }
+  return selected;
+};
+
+const summarizeWithOpenAI = async (items) => {
+  if (!process.env.OPENAI_API_KEY || !items.length) return items;
+  const payload = items.map((item, index) => ({ index, title: item.title, description: clean(item.description, 600), tag: item.tag }));
+  const response = await fetch('https://api.openai.com/v1/responses', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${process.env.OPENAI_API_KEY}`, 'content-type': 'application/json' },
+    body: JSON.stringify({
+      model: process.env.OPENAI_MODEL || 'gpt-5-mini',
+      input: `你是中文商业资讯编辑。把以下新闻逐条整理成适合设计师和创业者阅读的中文摘要。只返回 JSON 数组，每项包含 index、desc、why；desc 不超过 70 个汉字，why 不超过 55 个汉字。不要虚构原文没有的事实。\n${JSON.stringify(payload)}`,
+      text: { format: { type: 'json_schema', name: 'digest', strict: true, schema: { type: 'object', properties: { items: { type: 'array', items: { type: 'object', properties: { index: { type: 'integer' }, desc: { type: 'string' }, why: { type: 'string' } }, required: ['index', 'desc', 'why'], additionalProperties: false } } }, required: ['items'], additionalProperties: false } } }
+    })
+  });
+  if (!response.ok) throw new Error(`OpenAI ${response.status}`);
+  const body = await response.json();
+  const text = body.output_text || body.output?.flatMap((part) => part.content || []).find((part) => part.text)?.text;
+  const parsed = JSON.parse(text);
+  return items.map((item, index) => ({ ...item, description: parsed.items?.[index]?.desc || clean(item.description || item.title), why: parsed.items?.[index]?.why || '' }));
+};
+
+const feeds = (await Promise.all(sources.map(fetchSource))).flat();
+let selected = choose(unique(feeds));
+if (selected.length < 15) {
+  const previous = JSON.parse(await readFile(output, 'utf8'));
+  selected = [...selected, ...(previous.items || []).filter((item) => item.sourceName === '示例内容')].slice(0, 15);
+}
+if (!selected.length) throw new Error('No feed items were collected and no fallback is available');
+
+let enriched = selected.map((item, index) => ({
+  id: `${now.toISOString().slice(0, 10)}-${String(index + 1).padStart(2, '0')}`,
+  title: clean(item.title, 90),
+  tag: item.tag,
+  desc: clean(item.description || item.title),
+  sourceName: item.sourceName,
+  sourceUrl: item.link,
+  publishedAt: new Date(item.publishedAt).toISOString().slice(0, 10)
+}));
+try {
+  enriched = await summarizeWithOpenAI(enriched);
+} catch (error) {
+  console.warn(`summary skipped: ${error.message}`);
+}
+
+await mkdir(path.dirname(output), { recursive: true });
+await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: process.env.OPENAI_API_KEY ? 'live' : 'live-raw', items: enriched }, null, 2)}\n`);
+console.log(`Wrote ${enriched.length} items to ${path.relative(root, output)}`);

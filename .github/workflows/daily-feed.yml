@@ -1,0 +1,80 @@
+name: Daily feed and Pages deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run at 07:40 Europe/Rome in both CET and CEST windows.
+    - cron: '40 5 * * 1-5'
+    - cron: '40 6 * * 1-5'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update daily feed
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: npm run update:feed
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/daily-feed.json
+          git diff --cached --quiet || git commit -m "chore: update daily feed"
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build app
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/client
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Send iPhone notification
+        env:
+          PUSH_API_URL: ${{ vars.PUSH_API_URL }}
+          PUSH_CRON_SECRET: ${{ secrets.PUSH_CRON_SECRET }}
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          if [ -z "$PUSH_API_URL" ] || [ -z "$PUSH_CRON_SECRET" ]; then
+            echo "Push server is not configured; skipping notification."
+            exit 0
+          fi
+          curl --fail-with-body --request POST "$PUSH_API_URL/send-daily" \
+            --header "content-type: application/json" \
+            --header "x-cron-secret: $PUSH_CRON_SECRET" \
+            --data "{\"title\":\"见闻 · 今日 15 条精选\",\"body\":\"日报已经准备好，打开查看今天的来源与项目线索。\",\"url\":\"${PAGE_URL:-/}\"}"
