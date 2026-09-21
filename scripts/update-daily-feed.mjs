@@ -138,19 +138,31 @@ const translateToChinese = async (text) => {
   const chineseChars = (value.match(/[\u3400-\u9fff]/g) || []).length;
   const latinChars = (value.match(/[A-Za-z]/g) || []).length;
   if (!value || (chineseChars >= 4 && chineseChars >= latinChars)) return value;
-  const endpoint = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(value)}`;
-  let lastError = 'translation failed';
-  for (let attempt = 0; attempt < 4; attempt += 1) {
-    try {
+  const providers = [
+    async () => {
+      const endpoint = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(value)}`;
       const response = await fetch(endpoint, { headers: { 'user-agent': 'Mozilla/5.0 JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(12000) });
-      if (!response.ok) throw new Error(`translation ${response.status}`);
+      if (!response.ok) throw new Error(`Google translation ${response.status}`);
       const payload = await response.json();
-      const translated = (payload?.[0] || []).map((part) => part?.[0] || '').join('').trim();
+      return (payload?.[0] || []).map((part) => part?.[0] || '').join('').trim();
+    },
+    async () => {
+      const endpoint = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(value)}&langpair=en|zh-CN`;
+      const response = await fetch(endpoint, { headers: { 'user-agent': 'JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(12000) });
+      if (!response.ok) throw new Error(`MyMemory translation ${response.status}`);
+      const payload = await response.json();
+      if (payload?.responseStatus && payload.responseStatus !== 200) throw new Error(`MyMemory translation ${payload.responseStatus}`);
+      return clean(payload?.responseData?.translatedText || '');
+    }
+  ];
+  let lastError = 'translation failed';
+  for (const provider of providers) {
+    try {
+      const translated = await provider();
       if (!translated) throw new Error('translation returned empty text');
       return translated;
     } catch (error) {
       lastError = error.message;
-      await new Promise((resolve) => setTimeout(resolve, 800 * (attempt + 1)));
     }
   }
   throw new Error(lastError);
