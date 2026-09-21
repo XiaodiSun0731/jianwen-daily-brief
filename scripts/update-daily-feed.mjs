@@ -151,11 +151,14 @@ const fetchSource = async (source) => {
 
 const clean = (value, max = 180) => value.replace(/\s+/g, ' ').trim().slice(0, max);
 const unique = (items) => {
-  const seen = new Set();
+  const seenLinks = new Set();
+  const seenTitles = new Set();
   return items.filter((item) => {
-    const key = item.link || item.title.toLowerCase();
-    if (seen.has(key)) return false;
-    seen.add(key);
+    const linkKey = (item.link || item.sourceUrl || '').split('#')[0].replace(/\/+$/, '').toLowerCase();
+    const titleKey = item.title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+    if (seenLinks.has(linkKey) || seenTitles.has(titleKey)) return false;
+    seenLinks.add(linkKey);
+    seenTitles.add(titleKey);
     return true;
   });
 };
@@ -177,9 +180,15 @@ const choose = (items) => {
   }
   for (const item of ranked) {
     const count = sourceCounts.get(item.sourceName) || 0;
+    if (selected.includes(item)) continue;
     if (count >= 2) continue;
     selected.push(item);
     sourceCounts.set(item.sourceName, count + 1);
+    if (selected.length === 15) break;
+  }
+  for (const item of ranked) {
+    if (selected.includes(item)) continue;
+    selected.push(item);
     if (selected.length === 15) break;
   }
   return selected;
@@ -251,8 +260,8 @@ const translateItems = async (items) => {
       complete = false;
       translated.push({
         ...item,
-        title: /[\u3400-\u9fff]/.test(item.title) ? item.title : '今日资讯（原文暂时无法翻译）',
-        desc: '翻译服务暂时不可用，请点击来源查看原文。'
+        title: item.title,
+        desc: item.desc || clean(item.articleText || item.title)
       });
     }
   }
@@ -260,7 +269,11 @@ const translateItems = async (items) => {
 };
 
 const feeds = (await Promise.all(sources.map(fetchSource))).flat();
-let selected = choose(unique(feeds));
+const feedPool = unique(feeds).sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)).slice(0, 60);
+const hydratedPool = await hydrateArticles(feedPool);
+const uniqueHydratedPool = unique(hydratedPool);
+const readablePool = uniqueHydratedPool.filter((item) => (item.articleText || item.description || '').length >= 300);
+let selected = choose(readablePool.length >= 15 ? readablePool : uniqueHydratedPool);
 if (selected.length < 15) {
   const previous = JSON.parse(await readFile(output, 'utf8'));
   selected = [...selected, ...(previous.items || []).filter((item) => item.sourceName === '示例内容')].slice(0, 15);
@@ -291,6 +304,7 @@ if (!process.env.OPENAI_API_KEY || !translationComplete || needsChinesePass) {
   enriched = result.items;
   translationComplete = result.complete;
 }
+enriched = unique(enriched);
 
 await mkdir(path.dirname(output), { recursive: true });
 await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: translationComplete ? 'live' : 'live-raw', heroImage, weekdayLabel, items: enriched }, null, 2)}\n`);
