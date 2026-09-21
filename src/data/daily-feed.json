@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-21T19:17:48.110Z",
+  "generatedAt": "2026-09-21T19:22:41.250Z",
   "timezone": "Europe/Rome",
-  "status": "live-raw",
+  "status": "live",
   "heroImage": "images/daily-hero-01.png",
   "weekdayLabel": "周一",
   "items": [
     {
       "id": "2026-09-21-01",
-      "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "服装 · 欧洲 / 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "Vogue",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/burberry-prorsum",
+      "title": "Meta的Muse正在超越ChatGPT的早期移动发布",
+      "tag": "科技 · 全球",
+      "desc": "Meta的新人工智能代理Muse在美国和加拿大的下载量和日活跃用户数量超过了ChatGPT在移动首次亮相后的同期。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-02",
-      "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "科技 · 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/",
+      "title": "Di Petsa 2027年春季成衣系列",
+      "tag": "服装 · 欧洲 / 全球",
+      "desc": "Di Petsa 2027年春季成衣系列",
+      "sourceName": "Vogue",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/di-petsa",
       "publishedAt": "2026-09-21"
     },
     {
@@ -34,18 +34,18 @@
     },
     {
       "id": "2026-09-21-04",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "美国总统和家族的大规模人工智能相关投资可能引发冲突",
       "tag": "科技 · Reddit",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "提交者/u/Majano57 [link] [comments]",
       "sourceName": "Reddit · Technology",
       "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-05",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "通用汽车无法“带回” Apple CarPlay ，因为它从未离开",
       "tag": "科技 · 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "上周，通用汽车宣布为其即将推出的雪佛兰Silverado和GMC Sierra卡车提供新的软件体验，包括Apple CarPlay和流行手机Android Auto的新外观",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
       "publishedAt": "2026-09-21"
@@ -61,65 +61,65 @@
     },
     {
       "id": "2026-09-21-07",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "随着销售额持续下滑， J.C. Penney失去市场份额，推出市场",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "第二季度总净销售额下降了8%以上，但亮点包括运动服装，尤其是美容产品。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-08",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "英伟达的免费人工智能模式可能会推动阿联酋更接近美国",
       "tag": "商业 · 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "阿联酋航空拥有这些机器，但租用情报。英伟达的下一个免费人工智能模式可能会改变这一点。",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-09",
-      "title": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 - cn.concall.com",
+      "title": "MUSINSA 携LOOKAST、 FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 - cn.concall.com",
       "tag": "设计 · 日韩",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "MUSINSA 携LOOKAST、 FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 cn.concall.com",
       "sourceName": "Google News · 日韩设计",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiVktITVJyS2xUbUJfdG1veVJic2lXckdrUXFGUWFHRUJkS1JiRHozbU50Z3puMmxqdGl5YzJYWUViaFFLazhfZkd2c2tHZC1iSzhWTDZ2MG0zWGNZQk1XdjdSTQ?oc=5",
       "publishedAt": "2026-09-20"
     },
     {
       "id": "2026-09-21-10",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "埃利奥特·马奇（ Elliot March ）让景观引领潮流",
       "tag": "设计 · 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "MAWD联合创始人着眼于景观、建筑和房源的特色，塑造有归属感的空间",
       "sourceName": "Design Milk",
       "sourceUrl": "https://design-milk.com/friday-five-elliot-march-mawd/",
       "publishedAt": "2026-09-18"
     },
     {
       "id": "2026-09-21-11",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "日本猫砂品牌ZuttoNyan通过亚马逊和TikTok商店进入美国市场-零售新闻",
       "tag": "电商 · 欧洲 / 东南亚",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "日本猫砂品牌ZuttoNyan通过亚马逊和TikTok Shop Retail News Asia进入美国市场",
       "sourceName": "Google News · Amazon TikTok",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUZfZS1JS0JldGMzaGF2eGNkeWQ2cE4weUZ4U1R5dmExdFNLbnFVN2Z1cDg4clV5T2xTdVdfWjkzQ3NncmxLWXNFaUg4bUVyMjJaQ1Jud3lHWGl5a19UX3VQWExLT2tPRnhqMXdTNzhoWUM0LVp0X1lTM3pnUmdjWWZuanlZNVVBRmlwTW9nMFRWOFlFV18yOWhLamc3RGxqa2c?oc=5",
       "publishedAt": "2026-09-18"
     },
     {
       "id": "2026-09-21-12",
-      "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "服装 · 欧洲 / 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "Vogue",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/burberry-prorsum",
+      "title": "Meta的Muse正在超越ChatGPT的早期移动发布",
+      "tag": "科技 · 全球",
+      "desc": "Meta的新人工智能代理Muse在美国和加拿大的下载量和日活跃用户数量超过了ChatGPT在移动首次亮相后的同期。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-13",
-      "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "科技 · 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/",
+      "title": "Di Petsa 2027年春季成衣系列",
+      "tag": "服装 · 欧洲 / 全球",
+      "desc": "Di Petsa 2027年春季成衣系列",
+      "sourceName": "Vogue",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/di-petsa",
       "publishedAt": "2026-09-21"
     },
     {
@@ -133,9 +133,9 @@
     },
     {
       "id": "2026-09-21-15",
-      "title": "今日资讯（原文暂时无法翻译）",
+      "title": "美国总统和家族的大规模人工智能相关投资可能引发冲突",
       "tag": "科技 · Reddit",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "desc": "提交者/u/Majano57 [link] [comments]",
       "sourceName": "Reddit · Technology",
       "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
       "publishedAt": "2026-09-21"
