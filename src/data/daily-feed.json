@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-21T15:27:40.111Z",
+  "generatedAt": "2026-09-21T15:47:29.233Z",
   "timezone": "Europe/Rome",
-  "status": "live-raw",
+  "status": "live",
   "items": [
     {
       "id": "2026-09-21-01",
-      "title": "Brooks Brothers Spring 2027 Ready-to-Wear",
+      "title": "Brooks Brothers 2027 春季成衣",
       "tag": "服装 · 欧洲 / 全球",
-      "desc": "Brooks Brothers Spring 2027 Ready-to-Wear",
+      "desc": "Brooks Brothers 2027 春季成衣",
       "sourceName": "Vogue",
       "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/brooks-brothers",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-02",
-      "title": "Huishan Zhang Spring 2027 Ready-to-Wear",
+      "title": "张惠珊 2027 春季成衣",
       "tag": "服装 · 欧洲 / 全球",
-      "desc": "Huishan Zhang Spring 2027 Ready-to-Wear",
+      "desc": "张惠珊 2027 春季成衣",
       "sourceName": "Vogue",
       "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/huishan-zhang",
       "publishedAt": "2026-09-21"
@@ -32,63 +32,63 @@
     },
     {
       "id": "2026-09-21-04",
-      "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at ",
+      "title": "下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系具有重要意义",
       "tag": "科技 · 全球",
-      "desc": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25, 11:59 p.m.",
+      "desc": "下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系将在 TechCrunch Disrupt 2026 的主舞台上发挥作用。在 9 月 25 日晚上 11:59 之前最多可节省 200 美元。",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-05",
-      "title": "Costco now offers nationwide delivery on Uber and DoorDash",
+      "title": "Costco 现在通过 Uber 和 DoorDash 提供全国送货服务",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "The wholesaler expanded its partnerships with both e-commerce providers at a time when same-day delivery is resonating with its shoppers.",
+      "desc": "在当日送达引起购物者共鸣之际，这家批发商扩大了与两家电子商务提供商的合作伙伴关系。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/costco-uber-doordash-nationwide-same-day-delivery-ecommerce/830874/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-06",
-      "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+      "title": "谷歌 899 美元的 Googlebook 打赌你会为双子座购买一台新笔记本电脑",
       "tag": "科技 · 全球",
-      "desc": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
+      "desc": "谷歌的人工智能原生 Googlebook 将 Gemini 与光标、听写、小部件和桌面体验的其他部分联系起来。",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-07",
-      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - sohu.com",
+      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - 搜狐网",
       "tag": "电商 · 中国",
-      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 sohu.com",
+      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 搜狐网",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZQNl9kWDRFSnNNN2hQd3hqM04tbnYtVXpyeWQycm5UakZqMXBYWXpaUm5EZVhZdlo2cFdBekg3SVFOdkdZOWVvdVdyaGd5UkYzelVRa010VEhGY2F6c3N3dzM5MVZFMTdCNEFadGhlVm1OSjBmWUR3U3M3UU1DQmZFblJaWVhB?oc=5",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-08",
-      "title": "3 tips from Chewy’s COO on gaining a last-mile delivery edge",
+      "title": "Chewy 首席运营官提供的关于获得最后一英里配送优势的 3 条建议",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "Personalization and close carrier collaboration can help shippers win in a space where Amazon and Walmart loom large, Scott Anderson told Supply Chain Dive.",
+      "desc": "斯科特·安德森 (Scott Anderson) 告诉 Supply Chain Dive，个性化和与承运商的密切合作可以帮助托运人在亚马逊和沃尔玛占据主导地位的领域获胜。",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/chewy-coo-gaining-last-mile-delivery-edge/830796/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-09",
-      "title": "Can John Ternus find Apple’s next big thing?",
+      "title": "约翰·特努斯 (John Ternus) 能否找到苹果的下一件大事？",
       "tag": "科技 · 全球",
-      "desc": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. E",
+      "desc": "今天，我正在采访马克·古尔曼 (Mark Gurman)，他是世界上消息来源最丰富的苹果记者，既担任彭博社的首席苹果记者，又担任即将推出的播客 Power On 的主持人。乙",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-10",
-      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+      "title": "iPhone 用户现在可以在苹果 2.5 亿美元 Siri AI 和解协议中提出索赔",
       "tag": "科技 · 全球",
-      "desc": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US",
+      "desc": "苹果公司将支付 2.5 亿美元来解决有关其未能提供人工智能升级版 Siri 的索赔——现在，符合条件的 iPhone 用户可以提交索赔要求。如果您住在美国",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
       "publishedAt": "2026-09-21"
@@ -113,9 +113,9 @@
     },
     {
       "id": "2026-09-21-13",
-      "title": "Nvidia’s free AI model could push the UAE closer to the U.S.",
+      "title": "英伟达的免费人工智能模型可能会推动阿联酋与美国的距离更近。",
       "tag": "商业 · 全球",
-      "desc": "The Emirates owns the machines but rents the intelligence. Nvidia’s next free AI model could change that.",
+      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一点。",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "publishedAt": "2026-09-21"
@@ -131,9 +131,9 @@
     },
     {
       "id": "2026-09-21-15",
-      "title": "Elliot March Lets the Landscape Lead the Way",
+      "title": "艾略特·马奇 (Elliot March) 让风景引领道路",
       "tag": "设计 · 全球",
-      "desc": "The MAWD cofounder looks to landscapes, architecture, and the character of a place to shape spaces that feel like they belong",
+      "desc": "MAWD 联合创始人着眼于景观、建筑和地方特色来塑造有归属感的空间",
       "sourceName": "Design Milk",
       "sourceUrl": "https://design-milk.com/friday-five-elliot-march-mawd/",
       "publishedAt": "2026-09-18"

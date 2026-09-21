@@ -113,6 +113,43 @@ const summarizeWithOpenAI = async (items) => {
   return items.map((item, index) => ({ ...item, description: parsed.items?.[index]?.desc || clean(item.description || item.title), why: parsed.items?.[index]?.why || '' }));
 };
 
+const translateToChinese = async (text) => {
+  const value = clean(text || '');
+  if (!value || /[\u3400-\u9fff]/.test(value)) return value;
+  const endpoint = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(value)}`;
+  let lastError = 'translation failed';
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    try {
+      const response = await fetch(endpoint, { headers: { 'user-agent': 'Mozilla/5.0 JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(12000) });
+      if (!response.ok) throw new Error(`translation ${response.status}`);
+      const payload = await response.json();
+      const translated = (payload?.[0] || []).map((part) => part?.[0] || '').join('').trim();
+      if (!translated) throw new Error('translation returned empty text');
+      return translated;
+    } catch (error) {
+      lastError = error.message;
+      await new Promise((resolve) => setTimeout(resolve, 800 * (attempt + 1)));
+    }
+  }
+  throw new Error(lastError);
+};
+
+const translateItems = async (items) => {
+  let complete = true;
+  const translated = [];
+  for (const item of items) {
+    try {
+      translated.push({ ...item, title: await translateToChinese(item.title), desc: await translateToChinese(item.desc) });
+      await new Promise((resolve) => setTimeout(resolve, 500));
+    } catch (error) {
+      console.warn(`translation skipped: ${item.title} (${error.message})`);
+      complete = false;
+      translated.push(item);
+    }
+  }
+  return { items: translated, complete };
+};
+
 const feeds = (await Promise.all(sources.map(fetchSource))).flat();
 let selected = choose(unique(feeds));
 if (selected.length < 15) {
@@ -130,12 +167,20 @@ let enriched = selected.map((item, index) => ({
   sourceUrl: item.link,
   publishedAt: new Date(item.publishedAt).toISOString().slice(0, 10)
 }));
+let translationComplete = false;
 try {
   enriched = await summarizeWithOpenAI(enriched);
+  translationComplete = Boolean(process.env.OPENAI_API_KEY);
 } catch (error) {
   console.warn(`summary skipped: ${error.message}`);
 }
+const needsChinesePass = enriched.some((item) => !/[\u3400-\u9fff]/.test(item.title) || !/[\u3400-\u9fff]/.test(item.desc));
+if (!process.env.OPENAI_API_KEY || !translationComplete || needsChinesePass) {
+  const result = await translateItems(enriched);
+  enriched = result.items;
+  translationComplete = result.complete;
+}
 
 await mkdir(path.dirname(output), { recursive: true });
-await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: process.env.OPENAI_API_KEY ? 'live' : 'live-raw', items: enriched }, null, 2)}\n`);
+await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: translationComplete ? 'live' : 'live-raw', items: enriched }, null, 2)}\n`);
 console.log(`Wrote ${enriched.length} items to ${path.relative(root, output)}`);
