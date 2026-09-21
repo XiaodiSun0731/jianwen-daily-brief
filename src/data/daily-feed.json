@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:09:40.178Z",
+  "generatedAt": "2026-09-21T19:17:48.110Z",
   "timezone": "Europe/Rome",
   "status": "live-raw",
   "heroImage": "images/daily-hero-01.png",
@@ -17,15 +17,6 @@
     {
       "id": "2026-09-21-02",
       "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "服装 · 欧洲 / 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "Vogue",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/brooks-brothers",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-03",
-      "title": "今日资讯（原文暂时无法翻译）",
       "tag": "科技 · 全球",
       "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "TechCrunch",
@@ -33,7 +24,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-04",
+      "id": "2026-09-21-03",
       "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
       "tag": "电商 · 中国",
       "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
@@ -42,16 +33,16 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-05",
+      "id": "2026-09-21-04",
       "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "科技 · 全球",
+      "tag": "科技 · Reddit",
       "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+      "sourceName": "Reddit · Technology",
+      "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-06",
+      "id": "2026-09-21-05",
       "title": "今日资讯（原文暂时无法翻译）",
       "tag": "科技 · 全球",
       "desc": "翻译服务暂时不可用，请点击来源查看原文。",
@@ -60,16 +51,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-07",
-      "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "科技 · 全球",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-08",
+      "id": "2026-09-21-06",
       "title": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 - 微博",
       "tag": "自媒体 · 中国",
       "desc": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 微博",
@@ -78,7 +60,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-09",
+      "id": "2026-09-21-07",
       "title": "今日资讯（原文暂时无法翻译）",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "翻译服务暂时不可用，请点击来源查看原文。",
@@ -87,34 +69,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-10",
-      "title": "今日资讯（原文暂时无法翻译）",
-      "tag": "电商 · 欧洲 / 美国",
-      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
-      "sourceName": "Retail Dive",
-      "sourceUrl": "https://www.retaildive.com/news/ethan-allen-launches-ceo-search/830892/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-11",
-      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - 搜狐网",
-      "tag": "电商 · 中国",
-      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 搜狐网",
-      "sourceName": "Google News · 淘宝电商",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZQNl9kWDRFSnNNN2hQd3hqM04tbnYtVXpyeWQycm5UakZqMXBYWXpaUm5EZVhZdlo2cFdBekg3SVFOdkdZOWVvdVdyaGd5UkYzelVRa010VEhGY2F6c3N3dzM5MVZFMTdCNEFadGhlVm1OSjBmWUR3U3M3UU1DQmZFblJaWVhB?oc=5",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-12",
-      "title": "2026内容电商客服怎么接｜抖音小红书和货架店差这3条线 - t.cj.sina.cn",
-      "tag": "自媒体 · 中国",
-      "desc": "2026内容电商客服怎么接｜抖音小红书和货架店差这3条线 t.cj.sina.cn",
-      "sourceName": "Google News · 抖音小红书",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWEJ4YV80emkwcTJhMDlBWDNBaUVVb3BjQ1d1am92ZnFQTDU5a0gzTzVMQ3N0SzZZYS15bC02VzZ0eFJabkRTNTBXQVRPZ244VUZWUU9xMlIxaGRSS3MwODQ5clUxYWpZWjR2QlhqNXRDOUFHM0lETmI4RzliN3hTNXB1cEpiOVVocTh5TjNB?oc=5",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-13",
+      "id": "2026-09-21-08",
       "title": "今日资讯（原文暂时无法翻译）",
       "tag": "商业 · 全球",
       "desc": "翻译服务暂时不可用，请点击来源查看原文。",
@@ -123,22 +78,67 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-14",
+      "id": "2026-09-21-09",
       "title": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 - cn.concall.com",
       "tag": "设计 · 日韩",
-      "desc": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 cn.concall.com",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Google News · 日韩设计",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiVktITVJyS2xUbUJfdG1veVJic2lXckdrUXFGUWFHRUJkS1JiRHozbU50Z3puMmxqdGl5YzJYWUViaFFLazhfZkd2c2tHZC1iSzhWTDZ2MG0zWGNZQk1XdjdSTQ?oc=5",
       "publishedAt": "2026-09-20"
     },
     {
-      "id": "2026-09-21-15",
+      "id": "2026-09-21-10",
       "title": "今日资讯（原文暂时无法翻译）",
       "tag": "设计 · 全球",
       "desc": "翻译服务暂时不可用，请点击来源查看原文。",
       "sourceName": "Design Milk",
       "sourceUrl": "https://design-milk.com/friday-five-elliot-march-mawd/",
       "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "2026-09-21-11",
+      "title": "今日资讯（原文暂时无法翻译）",
+      "tag": "电商 · 欧洲 / 东南亚",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "sourceName": "Google News · Amazon TikTok",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUZfZS1JS0JldGMzaGF2eGNkeWQ2cE4weUZ4U1R5dmExdFNLbnFVN2Z1cDg4clV5T2xTdVdfWjkzQ3NncmxLWXNFaUg4bUVyMjJaQ1Jud3lHWGl5a19UX3VQWExLT2tPRnhqMXdTNzhoWUM0LVp0X1lTM3pnUmdjWWZuanlZNVVBRmlwTW9nMFRWOFlFV18yOWhLamc3RGxqa2c?oc=5",
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "2026-09-21-12",
+      "title": "今日资讯（原文暂时无法翻译）",
+      "tag": "服装 · 欧洲 / 全球",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "sourceName": "Vogue",
+      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/burberry-prorsum",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-13",
+      "title": "今日资讯（原文暂时无法翻译）",
+      "tag": "科技 · 全球",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-14",
+      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
+      "tag": "电商 · 中国",
+      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
+      "sourceName": "Google News · 淘宝电商",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUYyVG1xbTVGV1c1WEdVMHIzaDNsQ2ozcmEwSTRXVV9xaDVVUTZpWTVVVmhSYjVPR1cyckZlOEtydjRtT2pteWpFa3NVNk5DdWZ4aWsyZHFoYm9haWlTMk9Ca2YtYXpqQjdWWUEzZWg4UnE0bzlXZzlQZ1dtMjdNbUdHb1FETkIzRmg5eWt3c2dGam50dmFXbUpTbUUySzFEbFZlRk5HMA?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-15",
+      "title": "今日资讯（原文暂时无法翻译）",
+      "tag": "科技 · Reddit",
+      "desc": "翻译服务暂时不可用，请点击来源查看原文。",
+      "sourceName": "Reddit · Technology",
+      "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
+      "publishedAt": "2026-09-21"
     }
   ]
 }
