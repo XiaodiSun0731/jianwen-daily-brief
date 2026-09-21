@@ -55,7 +55,11 @@ jobs:
       - name: Build app
         env:
           VITE_BASE_PATH: /jianwen-daily-brief/
-        run: npm run build -- --base /jianwen-daily-brief/
+        run: |
+          node scripts/check-mobile-runtime.mjs
+          npx tsc
+          npx vite build --base /jianwen-daily-brief/
+          node scripts/prepare-sites-build.mjs
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
