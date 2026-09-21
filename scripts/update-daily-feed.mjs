@@ -21,7 +21,7 @@ const heroImage = weekdayBanner.image;
 const weekdayLabel = weekdayBanner.label;
 if (process.env.GITHUB_EVENT_NAME === 'schedule') {
   const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', weekday: 'short', hour: '2-digit', hour12: false }).formatToParts(now).map(({ type, value }) => [type, value]));
-  if (['Sat', 'Sun'].includes(parts.weekday) || parts.hour !== '07') {
+  if (parts.hour !== '07') {
     console.log(`Skipping scheduled run outside 07:40 Europe/Rome (local ${parts.weekday} ${parts.hour}:40)`);
     process.exit(0);
   }

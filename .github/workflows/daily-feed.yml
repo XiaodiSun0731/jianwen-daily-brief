@@ -3,9 +3,9 @@ name: Daily feed and Pages deploy
 on:
   workflow_dispatch:
   schedule:
-    # Run at 07:40 Europe/Rome in both CET and CEST windows.
-    - cron: '40 5 * * 1-5'
-    - cron: '40 6 * * 1-5'
+    # Update every day at 07:40 Europe/Rome in both CET and CEST windows.
+    - cron: '40 5 * * *'
+    - cron: '40 6 * * *'
 
 permissions:
   contents: write
@@ -78,6 +78,14 @@ jobs:
           PUSH_CRON_SECRET: ${{ secrets.PUSH_CRON_SECRET }}
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+            weekday=$(TZ=Europe/Rome date +%u)
+            hour=$(TZ=Europe/Rome date +%H)
+            if [ "$weekday" -gt 5 ] || [ "$hour" != "07" ]; then
+              echo "Daily content updated; skipping iPhone notification outside Monday-Friday 07:40 Europe/Rome."
+              exit 0
+            fi
+          fi
           if [ -z "$PUSH_API_URL" ] || [ -z "$PUSH_CRON_SECRET" ]; then
             echo "Push server is not configured; skipping notification."
             exit 0

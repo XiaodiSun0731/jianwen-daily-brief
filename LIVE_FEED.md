@@ -2,7 +2,9 @@
 
 App 读取 `src/data/daily-feed.json`。本地文件里保留 15 条回退内容，避免资讯服务暂时不可用时空白；它们会显示为“示例内容”。GitHub Actions 运行 `scripts/update-daily-feed.mjs` 后，会把抓到的 RSS/Atom 条目（包括 Reddit Technology 当日热门、知乎热榜、中国官方新闻与工业设计/AI 技术来源）去重、按时间排序、保留原文链接，再写回同一个 JSON，下一次 Pages 部署后 App 就会读取新内容。官方 RSS 会读取条目自身的日期，超过 45 天的旧内容不会混入今日精选。
 
-工作日的两个 UTC 触发点用于覆盖意大利冬夏令时。脚本会用 `Europe/Rome` 判断是否正好是本地 07:40，只有正确的那一次才更新数据。手动运行 `workflow_dispatch` 可立即刷新。
+每日的两个 UTC 触发点用于覆盖意大利冬夏令时。脚本会用 `Europe/Rome` 判断是否正好是本地 07:40，只有正确的那一次才更新数据；日报内容每天更新，但 iPhone 推送仍只在周一至周五发送。手动运行 `workflow_dispatch` 可立即刷新。
+
+每日寓言不依赖新闻抓取：页面按 `Europe/Rome` 的自然日从 `src/data/daily-fables.json` 选择当天内容，因此跨过午夜会自动换成下一则；当前内容池为 7 则，按日期轮换。收藏寓言和收藏资讯共用“想法”页。
 
 ## GitHub 设置
 
