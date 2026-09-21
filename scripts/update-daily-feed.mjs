@@ -36,13 +36,13 @@ const sources = [
   { name: 'Retail Dive', tag: '电商 · 欧洲 / 美国', url: 'https://www.retaildive.com/feeds/news/' },
   { name: 'Social Media Today', tag: '自媒体 · 全球', url: 'https://www.socialmediatoday.com/rss.xml' },
   { name: 'Rest of World', tag: '商业 · 全球', url: 'https://restofworld.org/feed/' },
-  { name: 'Google News · 淘宝电商', tag: '电商 · 中国', url: 'https://news.google.com/rss/search?q=%E6%B7%98%E5%AE%9D+%E7%94%B5%E5%95%86&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
-  { name: 'Google News · 抖音小红书', tag: '自媒体 · 中国', url: 'https://news.google.com/rss/search?q=%E6%8A%96%E9%9F%B3+%E5%B0%8F%E7%BA%A2%E4%B9%A6&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
-  { name: 'Google News · Amazon TikTok', tag: '电商 · 欧洲 / 东南亚', url: 'https://news.google.com/rss/search?q=Amazon+TikTok+commerce&hl=en-US&gl=US&ceid=US:en' },
-  { name: 'Google News · 日韩设计', tag: '设计 · 日韩', url: 'https://news.google.com/rss/search?q=%E6%97%A5%E9%9F%A9+%E8%AE%BE%E8%AE%A1+%E6%B6%88%E8%B4%B9&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
-  { name: 'Google News · 工业设计', tag: '工业设计 · 中国 / 全球', url: 'https://news.google.com/rss/search?q=%E5%B7%A5%E4%B8%9A%E8%AE%BE%E8%AE%A1+%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
-  { name: 'Google News · AI 技术', tag: 'AI 技术 · 中国 / 全球', url: 'https://news.google.com/rss/search?q=AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E6%8A%80%E6%9C%AF&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
-  { name: 'Google News · 中国官方', tag: '官方 · 中国', url: 'https://news.google.com/rss/search?q=site%3Anews.cn+OR+site%3Agov.cn+%E4%B8%AD%E5%9B%BD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Bing News · 淘宝电商', tag: '电商 · 中国', url: 'https://www.bing.com/news/search?q=%E6%B7%98%E5%AE%9D+%E7%94%B5%E5%95%86&format=rss&setlang=zh-CN' },
+  { name: 'Bing News · 抖音小红书', tag: '自媒体 · 中国', url: 'https://www.bing.com/news/search?q=%E6%8A%96%E9%9F%B3+%E5%B0%8F%E7%BA%A2%E4%B9%A6&format=rss&setlang=zh-CN' },
+  { name: 'Bing News · Amazon TikTok', tag: '电商 · 欧洲 / 东南亚', url: 'https://www.bing.com/news/search?q=Amazon+TikTok+commerce&format=rss&setlang=en-US' },
+  { name: 'Bing News · 日韩设计', tag: '设计 · 日韩', url: 'https://www.bing.com/news/search?q=%E6%97%A5%E9%9F%A9+%E8%AE%BE%E8%AE%A1+%E6%B6%88%E8%B4%B9&format=rss&setlang=zh-CN' },
+  { name: 'Bing News · 工业设计', tag: '工业设计 · 中国 / 全球', url: 'https://www.bing.com/news/search?q=%E5%B7%A5%E4%B8%9A%E8%AE%BE%E8%AE%A1+%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1&format=rss&setlang=zh-CN' },
+  { name: 'Bing News · AI 技术', tag: 'AI 技术 · 中国 / 全球', url: 'https://www.bing.com/news/search?q=AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E6%8A%80%E6%9C%AF&format=rss&setlang=zh-CN' },
+  { name: 'Bing News · 中国官方', tag: '官方 · 中国', url: 'https://www.bing.com/news/search?q=site%3Anews.cn+OR+site%3Agov.cn+%E4%B8%AD%E5%9B%BD&format=rss&setlang=zh-CN' },
   { name: '新华网 · 时政', tag: '官方 · 中国', url: 'https://www.xinhuanet.com/politics/news_politics.xml' },
   { name: '新华网 · 国内', tag: '官方 · 中国', url: 'https://www.xinhuanet.com/local/news_province.xml' },
   { name: '知乎热榜', tag: '高分内容 · 知乎', url: 'https://www.zhihu.com/api/v4/search/hot_search', format: 'zhihu-hot' },
@@ -67,11 +67,21 @@ const field = (block, name) => {
   return decode(match?.[1] || '');
 };
 
+const extractBingDestination = (value = '') => {
+  try {
+    const parsed = new URL(value);
+    const target = parsed.searchParams.get('url');
+    return target ? decodeURIComponent(target) : value;
+  } catch {
+    return value;
+  }
+};
+
 const parseFeed = (xml, source) => {
   const blocks = [...xml.matchAll(/<(?:item|entry)\b[\s\S]*?<\/(?:item|entry)>/gi)].map((m) => m[0]);
   return blocks.map((block) => {
     const atomLink = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i)?.[1] || '';
-    const link = field(block, 'link') || atomLink;
+    const link = extractBingDestination(field(block, 'link') || atomLink);
     const title = field(block, 'title');
     const encodedContent = field(block, 'content:encoded') || field(block, 'encoded') || field(block, 'content');
     const description = field(block, 'description') || field(block, 'summary') || encodedContent;
@@ -80,6 +90,40 @@ const parseFeed = (xml, source) => {
     const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || inlineDate || now.toISOString();
     return { title, link, description, articleText, publishedAt, sourceName: source.name, tag: source.tag };
   }).filter((item) => item.title && item.link);
+};
+
+const extractArticleText = (html = '') => {
+  const jsonBodies = [...html.matchAll(/"articleBody"\s*:\s*"((?:\\.|[^"\\])*)"/gi)].map((match) => {
+    try { return JSON.parse(`"${match[1]}"`); } catch { return ''; }
+  }).filter((value) => value.length > 200);
+  const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] || html;
+  const text = decode(article
+    .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>|<svg[\s\S]*?<\/svg>/gi, ' ')
+    .replace(/<(?:br|p|div|li|h[1-6])\b[^>]*>/gi, '\n')
+    .replace(/<\/[^>]+>/g, '\n'));
+  return [...jsonBodies, text].sort((a, b) => b.length - a.length)[0] || '';
+};
+
+const hydrateArticle = async (item) => {
+  const current = clean(item.articleText || item.description || item.title, 6000);
+  if (!item.link || current.length >= 700 || item.sourceName === '知乎热榜') return item;
+  try {
+    const response = await fetch(item.link, { headers: { 'user-agent': 'Mozilla/5.0 JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(10000) });
+    if (!response.ok || !response.headers.get('content-type')?.includes('text/html')) return item;
+    const extracted = extractArticleText(await response.text());
+    if (extracted.length > Math.max(current.length + 160, 500)) return { ...item, articleText: extracted.slice(0, 6000) };
+  } catch (error) {
+    console.warn(`article body skipped: ${item.title} (${error.message})`);
+  }
+  return item;
+};
+
+const hydrateArticles = async (items) => {
+  const hydrated = [];
+  for (let index = 0; index < items.length; index += 4) {
+    hydrated.push(...await Promise.all(items.slice(index, index + 4).map(hydrateArticle)));
+  }
+  return hydrated;
 };
 
 const parseZhihuHot = (payload, source) => (payload?.hot_search_queries || []).map((item) => ({
@@ -222,6 +266,7 @@ if (selected.length < 15) {
   selected = [...selected, ...(previous.items || []).filter((item) => item.sourceName === '示例内容')].slice(0, 15);
 }
 if (!selected.length) throw new Error('No feed items were collected and no fallback is available');
+selected = await hydrateArticles(selected);
 
 let enriched = selected.map((item, index) => ({
   id: `${now.toISOString().slice(0, 10)}-${String(index + 1).padStart(2, '0')}`,
