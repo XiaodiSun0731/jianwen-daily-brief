@@ -24,7 +24,7 @@ const fallbackNews:News[] = [
 {title:'日韩日用品，哪些细节可以被借鉴？',tag:'设计 · 日韩',desc:'把易用性、工艺与成本一起纳入比较。'},
 {title:'跨市场发现机会，第一步要确认什么？',tag:'商业 · 中国 / 欧洲',desc:'确认同样的问题是否存在，以及谁愿意为解决它付费。'}
 ];
-const news:News[] = dailyFeed.items?.length ? dailyFeed.items : fallbackNews;
+const news:News[] = dailyFeed.items?.length ? dailyFeed.items as unknown as News[] : fallbackNews;
 const fableDateParts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(({type,value})=>[type,value]));
 const fableDateKey=`${fableDateParts.year}-${fableDateParts.month}-${fableDateParts.day}`;
 const fableHistoryStorageKey='jianwen-fable-history-v1';
