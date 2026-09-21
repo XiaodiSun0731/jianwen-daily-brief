@@ -3,6 +3,7 @@ import { ReaderIcon, BookmarkIcon, BookmarkFilledIcon, QuoteIcon, LightningBoltI
 import { FlowStack, MobileScroll, BottomSheet, KeyboardTextarea, useKeyboard, type FlowControls, type FlowScreen } from './mobile';
 import dailyFeed from './data/daily-feed.json';
 import dailyFables from './data/daily-fables.json';
+import dailyFableHistory from './data/daily-fable-history.json';
 
 type News = { id?:string; title:string; tag:string; desc:string; sourceName?:string; sourceUrl?:string; publishedAt?:string; why?:string };
 const fallbackNews:News[] = [
@@ -25,7 +26,11 @@ const fallbackNews:News[] = [
 const news:News[] = dailyFeed.items?.length ? dailyFeed.items : fallbackNews;
 const fableDateParts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(({type,value})=>[type,value]));
 const fableDay=Math.floor(Date.UTC(Number(fableDateParts.year),Number(fableDateParts.month)-1,Number(fableDateParts.day))/86400000);
-const dailyFableIndex=(fableDay%dailyFables.length+dailyFables.length)%dailyFables.length;
+const fableDateKey=`${fableDateParts.year}-${fableDateParts.month}-${fableDateParts.day}`;
+const fableHistoryEntries=Array.isArray(dailyFableHistory.entries)?dailyFableHistory.entries:[];
+const todayFableId=fableHistoryEntries.find((entry)=>entry.date===fableDateKey)?.id;
+const usedFableIds=new Set(fableHistoryEntries.map((entry)=>entry.id));
+const dailyFableIndex=Math.max(0,dailyFables.findIndex((fable)=>(fable as any).id===todayFableId||(todayFableId===undefined&&!usedFableIds.has((fable as any).id))));
 const dailyFable=dailyFables[dailyFableIndex];
 const projects = [
 {title:'为小众服装品牌，做更清楚的商品表达',category:'设计服务',region:'欧洲',lead:'把面料、版型和穿着场景，变成容易理解的商品页面。',customer:'拥有独立站、但缺少专职内容设计师的小型服装品牌。',revenue:'按单品收取图文设计费，或按月提供新品内容服务。价格与成本需要访谈后确定。',rivals:'待研究：当地电商摄影工作室、自由设计师，以及品牌内部制作团队。正式版应列出具体名称、服务、价格与来源。',risk:'客户是否愿意为内容改善单独付费？语言能力、拍摄资源和实际转化效果仍需确认。',first:'访谈3家小型服装品牌，了解商品内容的制作流程和最耗时的环节。'},

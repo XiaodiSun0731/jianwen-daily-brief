@@ -6,6 +6,7 @@
   "scripts": {
     "check:runtime": "node scripts/check-mobile-runtime.mjs",
     "update:feed": "node scripts/update-daily-feed.mjs",
+    "update:fable": "node scripts/update-daily-fable.mjs",
     "update:runtime-lock": "node scripts/update-mobile-runtime-lock.mjs",
     "test:runtime": "playwright test",
     "test:sites": "node --test tests/sites-worker.test.mjs",

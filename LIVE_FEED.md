@@ -4,7 +4,7 @@ App 读取 `src/data/daily-feed.json`。本地文件里保留 15 条回退内容
 
 每日的两个 UTC 触发点用于覆盖意大利冬夏令时。脚本会用 `Europe/Rome` 判断是否正好是本地 07:40，只有正确的那一次才更新数据；日报内容每天更新，但 iPhone 推送仍只在周一至周五发送。手动运行 `workflow_dispatch` 可立即刷新。
 
-每日寓言不依赖新闻抓取：页面按 `Europe/Rome` 的自然日从 `src/data/daily-fables.json` 选择当天内容，因此跨过午夜会自动换成下一则；当前内容池为 7 则，按日期轮换。收藏寓言和收藏资讯共用“想法”页。
+每日寓言使用 `src/data/daily-fables.json` 作为持续增长的信息库，并用 `src/data/daily-fable-history.json` 记录日期与寓言 ID 的对应关系。每天只会分配一个从未使用过的 ID；信息库用尽时，工作流会优先用 OpenAI 生成新寓言，未配置密钥时使用本地概念库生成独立条目后入库，重复 ID 和重复标题都会被拒绝。收藏寓言和收藏资讯共用“想法”页。
 
 ## GitHub 设置
 
