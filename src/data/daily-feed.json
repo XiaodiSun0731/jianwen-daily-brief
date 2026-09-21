@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-09-21T16:03:00.203Z",
+  "generatedAt": "2026-09-21T18:25:53.358Z",
   "timezone": "Europe/Rome",
   "status": "live",
-  "heroImage": "images/daily-hero-03.png",
+  "heroImage": "images/daily-hero-01.png",
+  "weekdayLabel": "周一",
   "items": [
     {
       "id": "2026-09-21-01",
@@ -24,92 +25,92 @@
     },
     {
       "id": "2026-09-21-03",
-      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
-      "tag": "电商 · 中国",
-      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
-      "sourceName": "Google News · 淘宝电商",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNckhzeWZXc1p2bzZ5dTdmRHlFR2lFQnFaSGt2dmlDSkRaTi10NFRSdFZUVmNYcDR0SGlNajBVajRKdThZSUNmaXpMSlo3SEk1QzFTc3dOV1g1QXpGRmVCUGQtV3Y5bHVUeGJoM2ZucUd4UG4tRmlBZkxtZW04T3MwSU1rVWt3b00tMjZ5akpMVDZpNmNVX05xeDRDREdZdHE1T0xuTnUwNFRDVXFfNnloZVZ3?oc=5",
+      "title": "Kairos Power 从三星集团获得高达 1 亿美元的资金，为谷歌建造核反应堆",
+      "tag": "科技 · 全球",
+      "desc": "未来的谷歌供应商 Kairos Power 与三星 C&T 签署了一项协议，帮助建设其第一座 50 兆瓦核电站。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-04",
-      "title": "只需 80 美元即可购买 Xbox 控制器和 50 美元的 Xbox 礼品卡",
-      "tag": "科技 · 全球",
-      "desc": "Newegg 正在推出一个捆绑包，其中包括微软的无线 Xbox 控制器（黑色）和价值 50 美元的数字 Xbox 礼品卡，售价 80 美元。鉴于该模型通常位于 aro",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale",
+      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
+      "tag": "电商 · 中国",
+      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
+      "sourceName": "Google News · 淘宝电商",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUYyVG1xbTVGV1c1WEdVMHIzaDNsQ2ozcmEwSTRXVV9xaDVVUTZpWTVVVmhSYjVPR1cyckZlOEtydjRtT2pteWpFa3NVNk5DdWZ4aWsyZHFoYm9haWlTMk9Ca2YtYXpqQjdWWUEzZWg4UnE0bzlXZzlQZ1dtMjdNbUdHb1FETkIzRmg5eWt3c2dGam50dmFXbUpTbUUySzFEbFZlRk5HMA?oc=5",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-05",
-      "title": "下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系具有重要意义",
+      "title": "Meta 的 AI 代理已被禁止使用 Amazon.com",
       "tag": "科技 · 全球",
-      "desc": "下一个突破性的初创公司将来自哪里？ Benchmark 的全面合作伙伴关系将在 TechCrunch Disrupt 2026 的主舞台上发挥作用。在 9 月 25 日晚上 11:59 之前最多可节省 200 美元。",
+      "desc": "缪斯不再是受欢迎的购物者。",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-06",
-      "title": "Costco 现在通过 Uber 和 DoorDash 提供全国送货服务",
-      "tag": "电商 · 欧洲 / 美国",
-      "desc": "在当日送达引起购物者共鸣之际，这家批发商扩大了与两家电子商务提供商的合作伙伴关系。",
-      "sourceName": "Retail Dive",
-      "sourceUrl": "https://www.retaildive.com/news/costco-uber-doordash-nationwide-same-day-delivery-ecommerce/830874/",
+      "title": "通用汽车无法“带回”Apple CarPlay，因为它从未离开过",
+      "tag": "科技 · 全球",
+      "desc": "上周，通用汽车宣布为其即将推出的雪佛兰索罗德和 GMC Sierra 卡车提供新的软件体验，包括 Apple CarPlay 和 Android Auto（流行的手机）的新外观",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-07",
-      "title": "谷歌 899 美元的 Googlebook 打赌你会为双子座购买一台新笔记本电脑",
+      "title": "派拉蒙就阻止华纳兄弟 1100 亿美元合并的诉讼达成和解",
       "tag": "科技 · 全球",
-      "desc": "谷歌的人工智能原生 Googlebook 将 Gemini 与光标、听写、小部件和桌面体验的其他部分联系起来。",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "desc": "派拉蒙公司已与加利福尼亚州和其他 11 个州达成和解，这些州提起诉讼，阻止派拉蒙公司计划以 1100 亿美元收购华纳兄弟探索公司。和解协议删除了",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-08",
-      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - 搜狐网",
+      "title": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 - 微博",
+      "tag": "自媒体 · 中国",
+      "desc": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 微博",
+      "sourceName": "Google News · 抖音小红书",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwUkNvbWJ4cXdzT0RBNzJrVTJjQ1FtSmYta2NienpUUHJkWTUxMDN2M3RuZ1dwZHQ5SDZ0RkVydGd6RnRrTHNTWXc1LW1vOWdpWFpNTGp3?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-09",
+      "title": "J.C. Penney 失去市场份额，因销售额持续下滑而推出市场",
+      "tag": "电商 · 欧洲 / 美国",
+      "desc": "第二季度总净销售额下降超过 8%，但亮点包括运动服，尤其是美妆。",
+      "sourceName": "Retail Dive",
+      "sourceUrl": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-10",
+      "title": "伊森·艾伦 (Ethan Allen) 启动 CEO 搜寻工作",
+      "tag": "电商 · 欧洲 / 美国",
+      "desc": "近两个月前，一位激进投资者推动更换该零售商的董事会，其中包括首席执行官兼董事会主席 Farooq Kathwari。",
+      "sourceName": "Retail Dive",
+      "sourceUrl": "https://www.retaildive.com/news/ethan-allen-launches-ceo-search/830892/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-11",
+      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - sohu.com",
       "tag": "电商 · 中国",
-      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 搜狐网",
+      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 sohu.com",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZQNl9kWDRFSnNNN2hQd3hqM04tbnYtVXpyeWQycm5UakZqMXBYWXpaUm5EZVhZdlo2cFdBekg3SVFOdkdZOWVvdVdyaGd5UkYzelVRa010VEhGY2F6c3N3dzM5MVZFMTdCNEFadGhlVm1OSjBmWUR3U3M3UU1DQmZFblJaWVhB?oc=5",
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-09",
-      "title": "Chewy 首席运营官提供的关于获得最后一英里配送优势的 3 条建议",
-      "tag": "电商 · 欧洲 / 美国",
-      "desc": "斯科特·安德森 (Scott Anderson) 告诉 Supply Chain Dive，个性化和与承运商的密切合作可以帮助托运人在亚马逊和沃尔玛占据主导地位的领域获胜。",
-      "sourceName": "Retail Dive",
-      "sourceUrl": "https://www.retaildive.com/news/chewy-coo-gaining-last-mile-delivery-edge/830796/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-10",
-      "title": "约翰·特努斯 (John Ternus) 能否找到苹果的下一件大事？",
-      "tag": "科技 · 全球",
-      "desc": "今天，我正在采访马克·古尔曼 (Mark Gurman)，他是全球消息来源最丰富的苹果记者，既担任彭博社的首席苹果记者，又担任即将推出的播客 Power On 的主持人。乙",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-11",
+      "id": "2026-09-21-12",
       "title": "2026内容电商客服怎么接｜抖音小红书和货架店差这3条线 - t.cj.sina.cn",
       "tag": "自媒体 · 中国",
       "desc": "2026内容电商客服怎么接｜抖音小红书和货架店差这3条线 t.cj.sina.cn",
       "sourceName": "Google News · 抖音小红书",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWEJ4YV80emkwcTJhMDlBWDNBaUVVb3BjQ1d1am92ZnFQTDU5a0gzTzVMQ3N0SzZZYS15bC02VzZ0eFJabkRTNTBXQVRPZ244VUZWUU9xMlIxaGRSS3MwODQ5clUxYWpZWjR2QlhqNXRDOUFHM0lETmI4RzliN3hTNXB1cEpiOVVocTh5TjNB?oc=5",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-12",
-      "title": "国货彩妆品牌宣布将停止经营，平价产品曾在社交平台火爆出圈；年初唇釉瓶身设计被指涉嫌“擦边”，产品下架，口碑持续下滑 - thepaper.cn",
-      "tag": "自媒体 · 中国",
-      "desc": "国货彩妆品牌宣布将停止经营，平价产品曾在社交平台火爆出圈；年初唇釉瓶身设计被指涉嫌“擦边”，产品下架，口碑持续下滑 thepaper.cn",
-      "sourceName": "Google News · 抖音小红书",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PWnBvN1FjUTI4NGFvTmVZbW01Tzh2RllsTmpUcG9XSHZwWk9WSUUwSlN1cmdXRDN5RGx2NGVCUFR0dFN5UE1JMlhidGpuZmctT2YtdjE4TGtsV1RsX2c?oc=5",
       "publishedAt": "2026-09-21"
     },
     {

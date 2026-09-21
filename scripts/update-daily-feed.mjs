@@ -6,8 +6,19 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'src', 'data', 'daily-feed.json');
 const now = new Date();
-const heroPool = ['images/daily-hero-01.png', 'images/daily-hero-02.png', 'images/daily-hero-03.png'];
-const heroImage = heroPool[Math.floor(now.getTime() / 86400000) % heroPool.length];
+const weekdayBanners = [
+  { key: 'Sun', label: '周日', image: 'images/weekday-hero-07.png' },
+  { key: 'Mon', label: '周一', image: 'images/daily-hero-01.png' },
+  { key: 'Tue', label: '周二', image: 'images/daily-hero-02.png' },
+  { key: 'Wed', label: '周三', image: 'images/daily-hero-03.png' },
+  { key: 'Thu', label: '周四', image: 'images/weekday-hero-04.png' },
+  { key: 'Fri', label: '周五', image: 'images/weekday-hero-05.png' },
+  { key: 'Sat', label: '周六', image: 'images/weekday-hero-06.png' }
+];
+const localWeekday = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', weekday: 'short' }).format(now);
+const weekdayBanner = weekdayBanners.find((banner) => banner.key === localWeekday) || weekdayBanners[1];
+const heroImage = weekdayBanner.image;
+const weekdayLabel = weekdayBanner.label;
 if (process.env.GITHUB_EVENT_NAME === 'schedule') {
   const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', weekday: 'short', hour: '2-digit', hour12: false }).formatToParts(now).map(({ type, value }) => [type, value]));
   if (['Sat', 'Sun'].includes(parts.weekday) || parts.hour !== '07') {
@@ -188,5 +199,5 @@ if (!process.env.OPENAI_API_KEY || !translationComplete || needsChinesePass) {
 }
 
 await mkdir(path.dirname(output), { recursive: true });
-await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: translationComplete ? 'live' : 'live-raw', heroImage, items: enriched }, null, 2)}\n`);
+await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: translationComplete ? 'live' : 'live-raw', heroImage, weekdayLabel, items: enriched }, null, 2)}\n`);
 console.log(`Wrote ${enriched.length} items to ${path.relative(root, output)}`);

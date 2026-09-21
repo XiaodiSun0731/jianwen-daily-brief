@@ -48,7 +48,7 @@ The App now reads `src/data/daily-feed.json`; the collector in `scripts/update-d
 
 ## Daily hero and app identity review
 
-The fixed Today hero has been replaced by a `heroImage` selected by the daily feed update. Three generated editorial still lifes rotate by date and are reused on the matching article detail. A generated square app icon is wired into the favicon, Apple touch icon, web manifest, and notification payload. The previous fixed hero remains only as an unused legacy asset and is no longer rendered by the active route.
+The fixed Today hero has been replaced by a weekday banner selected by the daily feed update. Seven editorial still lifes map to Sunday through Saturday in Europe/Rome, and the selected Chinese weekday label is rendered clearly on top of the background. The current daily image is reused on the matching article detail. A generated square app icon is wired into the favicon, Apple touch icon, web manifest, and notification payload. The previous fixed hero remains only as an unused legacy asset and is no longer rendered by the active route.
 
 ## Interaction revision
 
