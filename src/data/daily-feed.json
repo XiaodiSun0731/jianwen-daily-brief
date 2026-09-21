@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-21T15:13:36.008Z",
+  "generatedAt": "2026-09-21T15:16:54.419Z",
   "timezone": "Europe/Rome",
   "status": "live-raw",
   "items": [
     {
       "id": "2026-09-21-01",
+      "title": "Grab an Xbox controller and a $50 Xbox gift card together for just $80",
+      "tag": "科技 · 全球",
+      "desc": "Newegg is hosting a bundle that includes Microsoft’s wireless Xbox controller (in black) and a $50 digital Xbox gift card together for $80. Given that this model typically sits aro",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-02",
+      "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at ",
+      "tag": "科技 · 全球",
+      "desc": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25, 11:59 p.m.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-03",
       "title": "Costco now offers nationwide delivery on Uber and DoorDash",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "The wholesaler expanded its partnerships with both e-commerce providers at a time when same-day delivery is resonating with its shoppers.",
@@ -13,7 +31,16 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-02",
+      "id": "2026-09-21-04",
+      "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+      "tag": "科技 · 全球",
+      "desc": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-05",
       "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - 搜狐网",
       "tag": "电商 · 中国",
       "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 搜狐网",
@@ -22,7 +49,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-03",
+      "id": "2026-09-21-06",
       "title": "3 tips from Chewy’s COO on gaining a last-mile delivery edge",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "Personalization and close carrier collaboration can help shippers win in a space where Amazon and Walmart loom large, Scott Anderson told Supply Chain Dive.",
@@ -31,7 +58,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-04",
+      "id": "2026-09-21-07",
       "title": "Can John Ternus find Apple’s next big thing?",
       "tag": "科技 · 全球",
       "desc": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. E",
@@ -40,16 +67,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-05",
-      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
-      "tag": "科技 · 全球",
-      "desc": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-06",
+      "id": "2026-09-21-08",
       "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
       "tag": "电商 · 中国",
       "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
@@ -58,7 +76,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-07",
+      "id": "2026-09-21-09",
       "title": "2026内容电商客服怎么接｜抖音小红书和货架店差这3条线 - t.cj.sina.cn",
       "tag": "自媒体 · 中国",
       "desc": "2026内容电商客服怎么接｜抖音小红书和货架店差这3条线 t.cj.sina.cn",
@@ -67,7 +85,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-08",
+      "id": "2026-09-21-10",
       "title": "国货彩妆品牌宣布将停止经营，平价产品曾在社交平台火爆出圈；年初唇釉瓶身设计被指涉嫌“擦边”，产品下架，口碑持续下滑 - thepaper.cn",
       "tag": "自媒体 · 中国",
       "desc": "国货彩妆品牌宣布将停止经营，平价产品曾在社交平台火爆出圈；年初唇釉瓶身设计被指涉嫌“擦边”，产品下架，口碑持续下滑 thepaper.cn",
@@ -76,7 +94,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-09",
+      "id": "2026-09-21-11",
       "title": "Nvidia’s free AI model could push the UAE closer to the U.S.",
       "tag": "商业 · 全球",
       "desc": "The Emirates owns the machines but rents the intelligence. Nvidia’s next free AI model could change that.",
@@ -85,7 +103,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-10",
+      "id": "2026-09-21-12",
       "title": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 - cn.concall.com",
       "tag": "设计 · 日韩",
       "desc": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 cn.concall.com",
@@ -94,7 +112,7 @@
       "publishedAt": "2026-09-20"
     },
     {
-      "id": "2026-09-21-11",
+      "id": "2026-09-21-13",
       "title": "Elliot March Lets the Landscape Lead the Way",
       "tag": "设计 · 全球",
       "desc": "The MAWD cofounder looks to landscapes, architecture, and the character of a place to shape spaces that feel like they belong",
@@ -103,7 +121,7 @@
       "publishedAt": "2026-09-18"
     },
     {
-      "id": "2026-09-21-12",
+      "id": "2026-09-21-14",
       "title": "Americans Aren’t Afraid of Dark Paint—They Just Want It Warmer",
       "tag": "设计 · 全球",
       "desc": "Samplize analyzed millions of paint samples to see what homeowners consider before committing to a color, revealing a shift toward warmth at every depth",
@@ -112,30 +130,12 @@
       "publishedAt": "2026-09-18"
     },
     {
-      "id": "2026-09-21-13",
+      "id": "2026-09-21-15",
       "title": "The case for a robot tax to redistribute wealth",
       "tag": "商业 · 全球",
       "desc": "In an excerpt from his book, “Innovate for Impact: A Roadmap to Sustainable Technology Beyond AI,” Alessandro Crimi explains that a tax on automation is more effective than retrain",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/robot-tax-ai-wealth-redistribution/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-09-18"
-    },
-    {
-      "id": "2026-09-21-14",
-      "title": "中国动力电池信任度超日韩 规模之外拼品质 - 搜狐网",
-      "tag": "设计 · 日韩",
-      "desc": "中国动力电池信任度超日韩 规模之外拼品质 搜狐网",
-      "sourceName": "Google News · 日韩设计",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tVnFCVFJ4QW9CRzJuWF9IdTRsODZGVlVlN0lvQjFvaks0aF9ZUVJGMGF2MGwwcHFrQnhyTlYtOTdUMU5aeHFHZVlpZkVLZ242ZHc?oc=5",
-      "publishedAt": "2026-09-18"
-    },
-    {
-      "id": "2026-09-21-15",
-      "title": "Japan Cat Litter Brand ZuttoNyan Enters US Market via Amazon and TikTok Shop - retailnews.",
-      "tag": "电商 · 欧洲 / 东南亚",
-      "desc": "Japan Cat Litter Brand ZuttoNyan Enters US Market via Amazon and TikTok Shop retailnews.asia",
-      "sourceName": "Google News · Amazon TikTok",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUZfZS1JS0JldGMzaGF2eGNkeWQ2cE4weUZ4U1R5dmExdFNLbnFVN2Z1cDg4clV5T2xTdVdfWjkzQ3NncmxLWXNFaUg4bUVyMjJaQ1Jud3lHWGl5a19UX3VQWExLT2tPRnhqMXdTNzhoWUM0LVp0X1lTM3pnUmdjWWZuanlZNVVBRmlwTW9nMFRWOFlFV18yOWhLamc3RGxqa2c?oc=5",
       "publishedAt": "2026-09-18"
     }
   ]
