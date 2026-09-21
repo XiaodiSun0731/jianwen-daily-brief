@@ -1,6 +1,6 @@
 # 见闻的实时资讯链路
 
-App 读取 `src/data/daily-feed.json`。本地文件里保留 15 条回退内容，避免资讯服务暂时不可用时空白；它们会显示为“示例内容”。GitHub Actions 运行 `scripts/update-daily-feed.mjs` 后，会把抓到的 RSS/Atom 条目（包括 Reddit Technology 当日热门）去重、按时间排序、保留原文链接，再写回同一个 JSON，下一次 Pages 部署后 App 就会读取新内容。
+App 读取 `src/data/daily-feed.json`。本地文件里保留 15 条回退内容，避免资讯服务暂时不可用时空白；它们会显示为“示例内容”。GitHub Actions 运行 `scripts/update-daily-feed.mjs` 后，会把抓到的 RSS/Atom 条目（包括 Reddit Technology 当日热门、知乎热榜、中国官方新闻与工业设计/AI 技术来源）去重、按时间排序、保留原文链接，再写回同一个 JSON，下一次 Pages 部署后 App 就会读取新内容。官方 RSS 会读取条目自身的日期，超过 45 天的旧内容不会混入今日精选。
 
 工作日的两个 UTC 触发点用于覆盖意大利冬夏令时。脚本会用 `Europe/Rome` 判断是否正好是本地 07:40，只有正确的那一次才更新数据。手动运行 `workflow_dispatch` 可立即刷新。
 
@@ -8,7 +8,7 @@ App 读取 `src/data/daily-feed.json`。本地文件里保留 15 条回退内容
 
 1. 在仓库的 **Settings → Pages** 把 Source 设为 **GitHub Actions**。
 2. 在 **Settings → Actions → General** 允许 workflow 写入 repository contents；workflow 已声明 `contents: write`。
-3. 建议添加 Actions Secret `OPENAI_API_KEY`。有这个 Secret 时，脚本会把原文标题和摘要整理成中文 `desc`，并补充 `why`；脚本随后会检查标题和摘要是否含有中文，必要时再调用翻译服务。没有可用翻译服务时会明确标记原文暂时无法翻译，不会伪装成中文。
+3. 建议添加 Actions Secret `OPENAI_API_KEY`。有这个 Secret 时，脚本会把原文标题和摘要整理成中文 `desc`，并补充 `why`；脚本随后会检查标题和摘要是否含有中文，必要时再调用 Google Translate 与 MyMemory 翻译服务。没有可用翻译服务时会明确标记原文暂时无法翻译，不会伪装成中文。
 4. 如需指定模型，可添加 repository variable `OPENAI_MODEL`；未设置时脚本使用 `gpt-5-mini`。
 5. 部署 `push-server` 后，把服务地址保存为 repository variable `PUSH_API_URL` 和 `VITE_PUSH_API_URL`，把 VAPID 公钥保存为 `VAPID_PUBLIC_KEY` 和 `VITE_VAPID_PUBLIC_KEY`，再运行一次 Pages workflow。把推送服务的密钥保存为 `PUSH_CRON_SECRET`；不要把私钥放进 repository variables 或前端。
 

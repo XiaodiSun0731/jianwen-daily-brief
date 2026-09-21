@@ -6,19 +6,19 @@ import dailyFables from './data/daily-fables.json';
 
 type News = { id?:string; title:string; tag:string; desc:string; sourceName?:string; sourceUrl?:string; publishedAt?:string; why?:string };
 const fallbackNews:News[] = [
-{title:'从服装的细节，寻找新需求',tag:'欧洲 · 服装',desc:'从面料、剪裁与功能细节出发，观察消费者尚未被满足的日常需求。'},
+{title:'从工业产品的细节，寻找新需求',tag:'工业设计 · 欧洲',desc:'从材料、结构与功能细节出发，观察消费者尚未被满足的日常需求。'},
 {title:'AI工具如何进入设计工作流？',tag:'科技 · 全球',desc:'从图像生成到3D建模，哪些环节值得用真实项目来测试？'},
 {title:'从小红书到TikTok：内容能跨市场吗？',tag:'内容与电商 · 中国 / 东南亚',desc:'同一类内容在不同平台、不同文化下，可能需要怎样的调整？'},
 {title:'小空间里的收纳，有没有设计机会？',tag:'设计 · 日本',desc:'关注使用动作与空间约束，而不只关注产品外观。'},
-{title:'独立服装品牌如何表达材质价值？',tag:'商业 · 欧洲',desc:'商品页的材料说明、触感表达和护理信息，能否帮助购买决策？'},
+{title:'工业产品如何表达材质价值？',tag:'工业设计 · 欧洲',desc:'商品页的材料说明、触感表达和使用场景，能否帮助购买决策？'},
 {title:'Amazon评论里，哪些问题反复出现？',tag:'电商 · 欧洲',desc:'按使用场景归类评论，比单看星级更容易发现具体问题。'},
-{title:'韩国的穿搭内容，如何形成辨识度？',tag:'自媒体 · 韩国',desc:'比较视觉风格与实际搭配价值，区分审美偏好和购买需求。'},
+{title:'韩国的工业设计内容，如何形成辨识度？',tag:'工业设计 · 韩国',desc:'比较视觉风格与实际使用价值，区分审美偏好和购买需求。'},
 {title:'东南亚消费者如何理解新品牌？',tag:'商业 · 东南亚',desc:'语言、气候和购物习惯不同，需要分国家观察。'},
 {title:'淘宝的细分品类，能带来哪些问题线索？',tag:'电商 · 中国',desc:'看商品解决了什么问题，再判断其他市场是否也存在。'},
 {title:'YouTube长内容如何讲清一个产品？',tag:'自媒体 · 全球',desc:'研究演示、对比与评论区追问，寻找消费者的信息缺口。'},
 {title:'抖音的演示型内容，为什么容易被理解？',tag:'自媒体 · 中国',desc:'观察一个动作如何呈现使用前后的差别。'},
 {title:'Instagram上的设计品牌如何建立风格？',tag:'设计 · 欧洲',desc:'分别观察产品、摄影与排版，避免把视觉热度当成销售表现。'},
-{title:'炎热天气里的穿衣需求值得研究吗？',tag:'服装 · 东南亚',desc:'从透气、护理与通勤场景提出问题，再寻找用户证据。'},
+{title:'炎热天气里的产品需求值得研究吗？',tag:'工业设计 · 东南亚',desc:'从散热、清洁与通勤场景提出问题，再寻找用户证据。'},
 {title:'日韩日用品，哪些细节可以被借鉴？',tag:'设计 · 日韩',desc:'把易用性、工艺与成本一起纳入比较。'},
 {title:'跨市场发现机会，第一步要确认什么？',tag:'商业 · 中国 / 欧洲',desc:'确认同样的问题是否存在，以及谁愿意为解决它付费。'}
 ];
@@ -67,7 +67,7 @@ return <><MobileScroll className="paper"><main className={`home ${kind}`}>
 kind==='projects'?<><div className="page-heading"><div className="eyebrow">WEEKLY OPPORTUNITIES</div><h1>让见闻，<br/>变成可能。</h1><p>本周的 3 个项目方向，留给你慢慢判断。</p>{demo}<div className="notice">当前是分析结构演示，尚未接入真实资讯与竞品证据。</div></div>{projects.map((p,i)=><button className="project-row" key={p.title} onClick={()=>flow.push(projectScreen(i))}><div className="eyebrow">0{i+1} / {p.category} · {p.region}</div><h2>{p.title}</h2><p>{p.lead}</p><span className="text-action">查看完整分析 <ArrowRightIcon/></span>{saved[i]&&<small>已收藏 · {saved[i].stage}</small>}</button>)}<div className="schedule-inline"><BellIcon/>每周六 15:00 · 意大利时间</div></>:
 <><div className="page-heading"><div className="eyebrow">YOUR COLLECTION</div><h1>值得留下的，<br/>再想深一点。</h1><p>{Object.keys(saved).length} 个收藏项目 · 分析与备注保存在本次原型会话</p></div><div className="filters" aria-label="收藏状态筛选">{['全部',...stages].map(s=><button key={s} className={s===filter?'selected':''} onClick={()=>setFilter(s)}>{s}</button>)}</div>{Object.entries(saved).filter(([,s])=>filter==='全部'||s.stage===filter).length?Object.entries(saved).filter(([,s])=>filter==='全部'||s.stage===filter).map(([key,s])=><button className="project-row" key={key} onClick={()=>flow.push(projectScreen(+key))}><div className="eyebrow">{s.stage} · {projects[+key].category}</div><h2>{projects[+key].title}</h2><p>{s.note||projects[+key].lead}</p><span className="text-action">查看分析与备注 <ArrowRightIcon/></span></button>):<div className="empty"><BookmarkIcon/><h2>{filter==='全部'?'给好想法，留一个位置。':'这个分类还没有项目'}</h2><p>去项目页读一读，遇到值得继续思考的方向，再点收藏。</p><button className="primary" onClick={()=>flow.replace(rootScreen('projects'))}>看看本周项目<ArrowRightIcon/></button></div>}</>}
 </main></MobileScroll><BottomSheet open={schedule} onOpenChange={setSchedule} title="你的阅读节奏"><div className="sheet-body"><h3>工作日晨报</h3><p>周一至周五 · 07:40<br/>15条精选，约10分钟读完</p><h3>每周项目整理</h3><p>周六 · 15:00<br/>查看与筛选3–5个项目</p><p>时区：Europe/Rome，随夏令时调整。</p><div className="notice">这是通知安排预览。原型尚未接入 iPhone 推送，不会实际发送提醒。</div><button className="primary" onClick={()=>setSchedule(false)}>知道了<CheckIcon/></button></div></BottomSheet></>}
-function SaveToggle({i,compact=false}:{i:number;compact?:boolean}){const {saved,setSaved}=useStore();const isSaved=Boolean(saved[i]);const toggle=()=>setSaved(v=>{const next={...v};if(next[i])delete next[i];else next[i]={note:''};return next});return <button className={`save-toggle ${compact?'compact':''} ${isSaved?'is-saved':''}`} aria-label={isSaved?'取消收藏':'收藏这条资讯'} onClick={toggle}>{isSaved?<BookmarkFilledIcon/>:<BookmarkIcon/>}<span>{isSaved?'已收藏':'收藏'}</span></button>}
+function SaveToggle({i,compact=false}:{i:number;compact?:boolean}){const {saved,setSaved}=useStore();const isSaved=Boolean(saved[i]);const toggle=()=>setSaved(v=>{const next={...v};if(next[i])delete next[i];else next[i]={note:''};return next});return <button className={`save-toggle ${compact?'compact':''} ${isSaved?'is-saved':''}`} aria-label={isSaved?'取消收藏':'收藏'} onClick={toggle}>{isSaved?<BookmarkFilledIcon/>:<BookmarkIcon/>}</button>}
 
 function TodayHome({flow}:{flow:FlowControls}){return <><div className="intro"><h1>世界的新动向，<br/>你的下一步。</h1><div className="accent-rule"/><div className="edition"><span>15 条精选 · 约 10 分钟</span>{demo}</div><p className="reading-note">按顺序浏览标题，感兴趣的再打开；收藏会自动进入想法。</p></div><DailyBanner/><div className="stories">{news.slice(0,15).map((n,i)=><div className="story-row" key={n.title}><button className="story story-main" onClick={()=>flow.push(newsScreen(i))}><span className="number">{String(i+1).padStart(2,'0')}</span><div><div className="eyebrow">{n.tag}</div><h2>{n.title}</h2><p>{n.desc}</p></div></button><SaveToggle i={i} compact/></div>)}</div><p className="closing">好问题，带来新的可能。</p></>}
 

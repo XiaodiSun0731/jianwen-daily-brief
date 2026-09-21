@@ -30,8 +30,9 @@ if (process.env.GITHUB_EVENT_NAME === 'schedule') {
 const sources = [
   { name: 'TechCrunch', tag: '科技 · 全球', url: 'https://techcrunch.com/feed/' },
   { name: 'The Verge', tag: '科技 · 全球', url: 'https://www.theverge.com/rss/index.xml' },
-  { name: 'Design Milk', tag: '设计 · 全球', url: 'https://design-milk.com/feed/' },
-  { name: 'Vogue', tag: '服装 · 欧洲 / 全球', url: 'https://www.vogue.com/feed/rss' },
+  { name: 'Design Milk', tag: '工业设计 · 全球', url: 'https://design-milk.com/feed/' },
+  { name: 'Designboom', tag: '工业设计 · 全球', url: 'https://www.designboom.com/feed/' },
+  { name: 'MIT Technology Review', tag: 'AI 技术 · 全球', url: 'https://www.technologyreview.com/feed/' },
   { name: 'Retail Dive', tag: '电商 · 欧洲 / 美国', url: 'https://www.retaildive.com/feeds/news/' },
   { name: 'Social Media Today', tag: '自媒体 · 全球', url: 'https://www.socialmediatoday.com/rss.xml' },
   { name: 'Rest of World', tag: '商业 · 全球', url: 'https://restofworld.org/feed/' },
@@ -39,6 +40,12 @@ const sources = [
   { name: 'Google News · 抖音小红书', tag: '自媒体 · 中国', url: 'https://news.google.com/rss/search?q=%E6%8A%96%E9%9F%B3+%E5%B0%8F%E7%BA%A2%E4%B9%A6&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
   { name: 'Google News · Amazon TikTok', tag: '电商 · 欧洲 / 东南亚', url: 'https://news.google.com/rss/search?q=Amazon+TikTok+commerce&hl=en-US&gl=US&ceid=US:en' },
   { name: 'Google News · 日韩设计', tag: '设计 · 日韩', url: 'https://news.google.com/rss/search?q=%E6%97%A5%E9%9F%A9+%E8%AE%BE%E8%AE%A1+%E6%B6%88%E8%B4%B9&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Google News · 工业设计', tag: '工业设计 · 中国 / 全球', url: 'https://news.google.com/rss/search?q=%E5%B7%A5%E4%B8%9A%E8%AE%BE%E8%AE%A1+%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Google News · AI 技术', tag: 'AI 技术 · 中国 / 全球', url: 'https://news.google.com/rss/search?q=AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E6%8A%80%E6%9C%AF&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Google News · 中国官方', tag: '官方 · 中国', url: 'https://news.google.com/rss/search?q=site%3Anews.cn+OR+site%3Agov.cn+%E4%B8%AD%E5%9B%BD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: '新华网 · 时政', tag: '官方 · 中国', url: 'https://www.xinhuanet.com/politics/news_politics.xml' },
+  { name: '新华网 · 国内', tag: '官方 · 中国', url: 'https://www.xinhuanet.com/local/news_province.xml' },
+  { name: '知乎热榜', tag: '高分内容 · 知乎', url: 'https://www.zhihu.com/api/v4/search/hot_search', format: 'zhihu-hot' },
   { name: 'Reddit · Technology', tag: '科技 · Reddit', url: 'https://www.reddit.com/r/technology/top/.rss?t=day' }
 ];
 
@@ -67,15 +74,27 @@ const parseFeed = (xml, source) => {
     const link = field(block, 'link') || atomLink;
     const title = field(block, 'title');
     const description = field(block, 'description') || field(block, 'summary') || field(block, 'content');
-    const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || now.toISOString();
+    const inlineDate = block.match(/(?:^|>)([A-Z][a-z]{2},\s?\d{1,2}-[A-Z][a-z]{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+GMT)(?:<|$)/i)?.[1] || '';
+    const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || inlineDate || now.toISOString();
     return { title, link, description, publishedAt, sourceName: source.name, tag: source.tag };
   }).filter((item) => item.title && item.link);
 };
+
+const parseZhihuHot = (payload, source) => (payload?.hot_search_queries || []).map((item) => ({
+  title: item.query || item.real_query,
+  link: `https://www.zhihu.com/search?type=content&q=${encodeURIComponent(item.query || item.real_query || '')}`,
+  description: `知乎热榜热度 ${item.hot_show || item.hot || '—'}，可继续查看相关高赞回答。`,
+  publishedAt: now.toISOString(),
+  sourceName: source.name,
+  tag: source.tag,
+  score: item.hot || 0
+})).filter((item) => item.title && item.link);
 
 const fetchSource = async (source) => {
   try {
     const response = await fetch(source.url, { headers: { 'user-agent': 'JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(12000) });
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+    if (source.format === 'zhihu-hot') return parseZhihuHot(await response.json(), source);
     return parseFeed(await response.text(), source);
   } catch (error) {
     console.warn(`source skipped: ${source.name} (${error.message})`);
@@ -95,7 +114,12 @@ const unique = (items) => {
 };
 
 const choose = (items) => {
-  const ranked = [...items].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  const freshnessCutoff = now.getTime() - (45 * 24 * 60 * 60 * 1000);
+  const fresh = items.filter((item) => {
+    const time = Date.parse(item.publishedAt);
+    return !Number.isFinite(time) || time >= freshnessCutoff;
+  });
+  const ranked = [...fresh].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   const selected = [];
   const sourceCounts = new Map();
   for (const item of ranked) {

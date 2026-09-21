@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:22:41.250Z",
+  "generatedAt": "2026-09-21T19:29:43.234Z",
   "timezone": "Europe/Rome",
   "status": "live",
   "heroImage": "images/daily-hero-01.png",
@@ -7,24 +7,33 @@
   "items": [
     {
       "id": "2026-09-21-01",
-      "title": "Meta的Muse正在超越ChatGPT的早期移动发布",
-      "tag": "科技 · 全球",
-      "desc": "Meta的新人工智能代理Muse在美国和加拿大的下载量和日活跃用户数量超过了ChatGPT在移动首次亮相后的同期。",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+      "title": "闲鱼暗藏涉黄产业链",
+      "tag": "高分内容 · 知乎",
+      "desc": "知乎热榜热度 570 万，可继续查看相关高赞回答。",
+      "sourceName": "知乎热榜",
+      "sourceUrl": "https://www.zhihu.com/search?type=content&q=%E9%97%B2%E9%B1%BC%E6%9A%97%E8%97%8F%E6%B6%89%E9%BB%84%E4%BA%A7%E4%B8%9A%E9%93%BE",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-02",
-      "title": "Di Petsa 2027年春季成衣系列",
-      "tag": "服装 · 欧洲 / 全球",
-      "desc": "Di Petsa 2027年春季成衣系列",
-      "sourceName": "Vogue",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/di-petsa",
+      "title": "探索下一步：还有5天时间， TechCrunch Disrupt 2026最多可节省200 $",
+      "tag": "科技 · 全球",
+      "desc": "还有5天时间，您的TechCrunch Disrupt 2026通行证最多可节省$ 200 +第二张通行证五折优惠。10月，与1万多名创始人、投资者和运营商一起参加旧金山Moscone West",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-03",
+      "title": "2026北京文化论坛：赓续文脉 共鉴文明 - 新华网",
+      "tag": "官方 · 中国",
+      "desc": "2026北京文化论坛：赓续文脉 共鉴文明 新华网",
+      "sourceName": "Google News · 中国官方",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSUs4LWhmVkUycE1COVRVSUs0MURfMm1vR3FJa2xLd0trWjBjZDRaX3duWGZ1bXFISVZGR1RXbF9hSEY1TkpITDlwWHY1RXFzdHNzQ2FFcWZ1QzA0alNlTHFPc1haVVhhTER4YkJqX3lHaHBQNGtFQW5rY0NCZUQySVZnOA?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-04",
       "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
       "tag": "电商 · 中国",
       "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
@@ -33,7 +42,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-04",
+      "id": "2026-09-21-05",
       "title": "美国总统和家族的大规模人工智能相关投资可能引发冲突",
       "tag": "科技 · Reddit",
       "desc": "提交者/u/Majano57 [link] [comments]",
@@ -42,7 +51,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-05",
+      "id": "2026-09-21-06",
       "title": "通用汽车无法“带回” Apple CarPlay ，因为它从未离开",
       "tag": "科技 · 全球",
       "desc": "上周，通用汽车宣布为其即将推出的雪佛兰Silverado和GMC Sierra卡车提供新的软件体验，包括Apple CarPlay和流行手机Android Auto的新外观",
@@ -51,7 +60,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-06",
+      "id": "2026-09-21-07",
       "title": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 - 微博",
       "tag": "自媒体 · 中国",
       "desc": "工作后消遣沉迷快节奏内容 时间感知与注意力相关 微博",
@@ -60,7 +69,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-07",
+      "id": "2026-09-21-08",
       "title": "随着销售额持续下滑， J.C. Penney失去市场份额，推出市场",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "第二季度总净销售额下降了8%以上，但亮点包括运动服装，尤其是美容产品。",
@@ -69,7 +78,43 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-08",
+      "id": "2026-09-21-09",
+      "title": "看工业设计如何改写“中国制造” - 163.com",
+      "tag": "工业设计 · 中国 / 全球",
+      "desc": "看工业设计如何改写“中国制造” 163.com",
+      "sourceName": "Google News · 工业设计",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10OUJJakpFR19sc3gzMmNEYmxnUkl6aDJmUU44SjktMkluQTBKck0tV2R0RjROS0d1clp3NnpzbXRiQ0RWRXNKb0lxcVlWd2llX0Zva1JZMFFtb2N5ZlpqUENB?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-10",
+      "title": "将近1000个木制钟声将le bruit du bois变成了高山乐器",
+      "tag": "工业设计 · 全球",
+      "desc": "对于le festival des cabanes来说，一堵可玩的木墙可以穿过阿纳西湖上方的山脉，带来不断变化的木质色调。该柱将近1000个木制风铃变成了le bruit du bois",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/architecture/1000-wooden-chimes-bruit-bois-alpine-instrument-sound-music-festival-cabanes-france/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-11",
+      "title": "下载：调查美国边境“虚拟墙”上的死亡事件",
+      "tag": "AI 技术 · 全球",
+      "desc": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。美国在边境监控上花费了数十亿美元",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-12",
+      "title": "芯位人工智能学院迎来首届新生，“AI原生大学”正式启航 - 新浪财经",
+      "tag": "AI 技术 · 中国 / 全球",
+      "desc": "芯位人工智能学院迎来首届新生，“AI原生大学”正式启航 新浪财经",
+      "sourceName": "Google News · AI 技术",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kMGM5T0g1Yy1iS3VsTmNodWIyb1IxN3kzTjJVbzhpbl9VblhkR1QxaWg4R0tseEN0UXlyQzI0NFFzeUJnMF9rTnRtZ3E1V2JTQkg4a2JybU9FZ3R6aWpMTHhHemk0cHhZTkhYdWlxdnpzanFhUm5NSg?oc=5",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-13",
       "title": "英伟达的免费人工智能模式可能会推动阿联酋更接近美国",
       "tag": "商业 · 全球",
       "desc": "阿联酋航空拥有这些机器，但租用情报。英伟达的下一个免费人工智能模式可能会改变这一点。",
@@ -78,67 +123,22 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-09",
-      "title": "MUSINSA 携LOOKAST、 FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 - cn.concall.com",
+      "id": "2026-09-21-14",
+      "title": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 - cn.concall.com",
       "tag": "设计 · 日韩",
-      "desc": "MUSINSA 携LOOKAST、 FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 cn.concall.com",
+      "desc": "MUSINSA携LOOKAST、FINDKAPOOR 等设计师品牌，限时登陆上海五角场、安福路及静安嘉里中心三大商圈 cn.concall.com",
       "sourceName": "Google News · 日韩设计",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiVktITVJyS2xUbUJfdG1veVJic2lXckdrUXFGUWFHRUJkS1JiRHozbU50Z3puMmxqdGl5YzJYWUViaFFLazhfZkd2c2tHZC1iSzhWTDZ2MG0zWGNZQk1XdjdSTQ?oc=5",
       "publishedAt": "2026-09-20"
     },
     {
-      "id": "2026-09-21-10",
-      "title": "埃利奥特·马奇（ Elliot March ）让景观引领潮流",
-      "tag": "设计 · 全球",
-      "desc": "MAWD联合创始人着眼于景观、建筑和房源的特色，塑造有归属感的空间",
+      "id": "2026-09-21-15",
+      "title": "艾略特·马奇 (Elliot March) 让风景引领道路",
+      "tag": "工业设计 · 全球",
+      "desc": "MAWD 联合创始人着眼于景观、建筑和地方特色来塑造有归属感的空间",
       "sourceName": "Design Milk",
       "sourceUrl": "https://design-milk.com/friday-five-elliot-march-mawd/",
       "publishedAt": "2026-09-18"
-    },
-    {
-      "id": "2026-09-21-11",
-      "title": "日本猫砂品牌ZuttoNyan通过亚马逊和TikTok商店进入美国市场-零售新闻",
-      "tag": "电商 · 欧洲 / 东南亚",
-      "desc": "日本猫砂品牌ZuttoNyan通过亚马逊和TikTok Shop Retail News Asia进入美国市场",
-      "sourceName": "Google News · Amazon TikTok",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUZfZS1JS0JldGMzaGF2eGNkeWQ2cE4weUZ4U1R5dmExdFNLbnFVN2Z1cDg4clV5T2xTdVdfWjkzQ3NncmxLWXNFaUg4bUVyMjJaQ1Jud3lHWGl5a19UX3VQWExLT2tPRnhqMXdTNzhoWUM0LVp0X1lTM3pnUmdjWWZuanlZNVVBRmlwTW9nMFRWOFlFV18yOWhLamc3RGxqa2c?oc=5",
-      "publishedAt": "2026-09-18"
-    },
-    {
-      "id": "2026-09-21-12",
-      "title": "Meta的Muse正在超越ChatGPT的早期移动发布",
-      "tag": "科技 · 全球",
-      "desc": "Meta的新人工智能代理Muse在美国和加拿大的下载量和日活跃用户数量超过了ChatGPT在移动首次亮相后的同期。",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-13",
-      "title": "Di Petsa 2027年春季成衣系列",
-      "tag": "服装 · 欧洲 / 全球",
-      "desc": "Di Petsa 2027年春季成衣系列",
-      "sourceName": "Vogue",
-      "sourceUrl": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/di-petsa",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-14",
-      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
-      "tag": "电商 · 中国",
-      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
-      "sourceName": "Google News · 淘宝电商",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUYyVG1xbTVGV1c1WEdVMHIzaDNsQ2ozcmEwSTRXVV9xaDVVUTZpWTVVVmhSYjVPR1cyckZlOEtydjRtT2pteWpFa3NVNk5DdWZ4aWsyZHFoYm9haWlTMk9Ca2YtYXpqQjdWWUEzZWg4UnE0bzlXZzlQZ1dtMjdNbUdHb1FETkIzRmg5eWt3c2dGam50dmFXbUpTbUUySzFEbFZlRk5HMA?oc=5",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-15",
-      "title": "美国总统和家族的大规模人工智能相关投资可能引发冲突",
-      "tag": "科技 · Reddit",
-      "desc": "提交者/u/Majano57 [link] [comments]",
-      "sourceName": "Reddit · Technology",
-      "sourceUrl": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
-      "publishedAt": "2026-09-21"
     }
   ]
 }
