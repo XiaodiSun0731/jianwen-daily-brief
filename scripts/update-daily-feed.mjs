@@ -38,7 +38,8 @@ const sources = [
   { name: 'Google News · 淘宝电商', tag: '电商 · 中国', url: 'https://news.google.com/rss/search?q=%E6%B7%98%E5%AE%9D+%E7%94%B5%E5%95%86&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
   { name: 'Google News · 抖音小红书', tag: '自媒体 · 中国', url: 'https://news.google.com/rss/search?q=%E6%8A%96%E9%9F%B3+%E5%B0%8F%E7%BA%A2%E4%B9%A6&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
   { name: 'Google News · Amazon TikTok', tag: '电商 · 欧洲 / 东南亚', url: 'https://news.google.com/rss/search?q=Amazon+TikTok+commerce&hl=en-US&gl=US&ceid=US:en' },
-  { name: 'Google News · 日韩设计', tag: '设计 · 日韩', url: 'https://news.google.com/rss/search?q=%E6%97%A5%E9%9F%A9+%E8%AE%BE%E8%AE%A1+%E6%B6%88%E8%B4%B9&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' }
+  { name: 'Google News · 日韩设计', tag: '设计 · 日韩', url: 'https://news.google.com/rss/search?q=%E6%97%A5%E9%9F%A9+%E8%AE%BE%E8%AE%A1+%E6%B6%88%E8%B4%B9&hl=zh-CN&gl=CN&ceid=CN:zh-Hans' },
+  { name: 'Reddit · Technology', tag: '科技 · Reddit', url: 'https://www.reddit.com/r/technology/top/.rss?t=day' }
 ];
 
 const decode = (value = '') => value
@@ -98,6 +99,12 @@ const choose = (items) => {
   const selected = [];
   const sourceCounts = new Map();
   for (const item of ranked) {
+    if (sourceCounts.has(item.sourceName)) continue;
+    selected.push(item);
+    sourceCounts.set(item.sourceName, 1);
+    if (selected.length === 15) return selected;
+  }
+  for (const item of ranked) {
     const count = sourceCounts.get(item.sourceName) || 0;
     if (count >= 2) continue;
     selected.push(item);
@@ -128,7 +135,9 @@ const summarizeWithOpenAI = async (items) => {
 
 const translateToChinese = async (text) => {
   const value = clean(text || '');
-  if (!value || /[\u3400-\u9fff]/.test(value)) return value;
+  const chineseChars = (value.match(/[\u3400-\u9fff]/g) || []).length;
+  const latinChars = (value.match(/[A-Za-z]/g) || []).length;
+  if (!value || (chineseChars >= 4 && chineseChars >= latinChars)) return value;
   const endpoint = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(value)}`;
   let lastError = 'translation failed';
   for (let attempt = 0; attempt < 4; attempt += 1) {

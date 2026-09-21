@@ -62,6 +62,10 @@ The prototype now separates the two actions clearly: reading records progress on
 
 The three root tabs now live in a shared tab shell: 今日, 寓言, and 想法. Moving toward a later tab animates from the right; moving back toward an earlier tab animates from the left. The bar is fixed to the bottom safe area used by the iPhone preview, with the home-indicator region kept in the same paper background.
 
+## Today feed review
+
+Today now renders all 15 selected stories in reading order, with each row keeping its own 收藏 action; the separate start-reading button is removed. The collector includes Reddit Technology as an RSS reference and checks that translated titles and summaries contain Chinese before marking the feed live.
+
 ## Content freshness review
 
 The prototype currently uses explicitly labeled example stories and does not yet fetch live sources. The visible date is now generated from the device date, while the feed itself remains a deliberate demo state until a source collector, deduplication, Chinese summarization, source links, and the weekday 07:40 scheduler are connected. The three weekly project templates now have separate step sets tailored to apparel content service, design workflow tooling, and cross-market localization.
