@@ -18,7 +18,7 @@ const sources = [
   { name: 'TechCrunch', tag: '科技 · 全球', url: 'https://techcrunch.com/feed/' },
   { name: 'The Verge', tag: '科技 · 全球', url: 'https://www.theverge.com/rss/index.xml' },
   { name: 'Design Milk', tag: '设计 · 全球', url: 'https://design-milk.com/feed/' },
-  { name: 'Vogue Business', tag: '服装 · 欧洲 / 全球', url: 'https://www.voguebusiness.com/feed/rss' },
+  { name: 'Vogue', tag: '服装 · 欧洲 / 全球', url: 'https://www.vogue.com/feed/rss' },
   { name: 'Retail Dive', tag: '电商 · 欧洲 / 美国', url: 'https://www.retaildive.com/feeds/news/' },
   { name: 'Social Media Today', tag: '自媒体 · 全球', url: 'https://www.socialmediatoday.com/rss.xml' },
   { name: 'Rest of World', tag: '商业 · 全球', url: 'https://restofworld.org/feed/' },
