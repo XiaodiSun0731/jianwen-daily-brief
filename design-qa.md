@@ -46,6 +46,10 @@ final result: passed
 
 The App now reads `src/data/daily-feed.json`; the collector in `scripts/update-daily-feed.mjs` fetches curated RSS/Atom sources, removes duplicate links, keeps source URLs and dates, and falls back to the 15 demo rows when sources are unavailable. `.github/workflows/daily-feed.yml` covers the weekday 07:40 Europe/Rome schedule across CET/CEST and can deploy the built site to GitHub Pages. The optional `push-server` stores one user's Web Push subscriptions and sends a daily payload after the feed job. The remaining deployment dependency is the user's GitHub repository and push-server environment values; local preview does not claim that iPhone notifications are active.
 
+## Daily hero and app identity review
+
+The fixed Today hero has been replaced by a `heroImage` selected by the daily feed update. Three generated editorial still lifes rotate by date and are reused on the matching article detail. A generated square app icon is wired into the favicon, Apple touch icon, web manifest, and notification payload. The previous fixed hero remains only as an unused legacy asset and is no longer rendered by the active route.
+
 ## Interaction revision
 
 The prototype now separates the three actions clearly: reading records progress only, every article has a manual 收藏 action, and 收藏 is the user's collection. The 项目 tab is now a weekly optimization shortlist and only displays saved articles moved to `准备优化` from 收藏. This revision was manually verified by saving an article, moving it to `准备优化`, and confirming it appeared in 项目 while the reading count remained independent.

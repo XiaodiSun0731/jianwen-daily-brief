@@ -1,0 +1,12 @@
+{
+  "name": "见闻 · Daily Brief",
+  "short_name": "见闻",
+  "description": "每天 15 条全球商业、科技、设计与创业资讯",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5efe5",
+  "theme_color": "#f5efe5",
+  "icons": [
+    {"src":"images/app-icon.png","sizes":"1024x1024","type":"image/png","purpose":"any maskable"}
+  ]
+}

@@ -3,8 +3,8 @@ self.addEventListener('push', (event) => {
   const data = event.data ? event.data.json() : fallback;
   event.waitUntil(self.registration.showNotification(data.title || fallback.title, {
     body: data.body || fallback.body,
-    icon: new URL('images/editorial-hero.png', self.registration.scope).href,
-    badge: new URL('images/editorial-hero.png', self.registration.scope).href,
+    icon: new URL('images/app-icon.png', self.registration.scope).href,
+    badge: new URL('images/app-icon.png', self.registration.scope).href,
     data: { url: data.url || '/' }
   }));
 });

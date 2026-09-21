@@ -6,6 +6,8 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'src', 'data', 'daily-feed.json');
 const now = new Date();
+const heroPool = ['images/daily-hero-01.png', 'images/daily-hero-02.png', 'images/daily-hero-03.png'];
+const heroImage = heroPool[Math.floor(now.getTime() / 86400000) % heroPool.length];
 if (process.env.GITHUB_EVENT_NAME === 'schedule') {
   const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', weekday: 'short', hour: '2-digit', hour12: false }).formatToParts(now).map(({ type, value }) => [type, value]));
   if (['Sat', 'Sun'].includes(parts.weekday) || parts.hour !== '07') {
@@ -186,5 +188,5 @@ if (!process.env.OPENAI_API_KEY || !translationComplete || needsChinesePass) {
 }
 
 await mkdir(path.dirname(output), { recursive: true });
-await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: translationComplete ? 'live' : 'live-raw', items: enriched }, null, 2)}\n`);
+await writeFile(output, `${JSON.stringify({ generatedAt: now.toISOString(), timezone: 'Europe/Rome', status: translationComplete ? 'live' : 'live-raw', heroImage, items: enriched }, null, 2)}\n`);
 console.log(`Wrote ${enriched.length} items to ${path.relative(root, output)}`);
