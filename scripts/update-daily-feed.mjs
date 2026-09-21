@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'src', 'data', 'daily-feed.json');
+const articleMaxLength = 20000;
 const now = new Date();
 const weekdayBanners = [
   { key: 'Sun', label: '周日', image: 'images/weekday-hero-07.png' },
@@ -85,7 +86,7 @@ const parseFeed = (xml, source) => {
     const title = field(block, 'title');
     const encodedContent = field(block, 'content:encoded') || field(block, 'encoded') || field(block, 'content');
     const description = field(block, 'description') || field(block, 'summary') || encodedContent;
-    const articleText = (encodedContent || description || title).replace(/\s+/g, ' ').trim().slice(0, 6000);
+    const articleText = (encodedContent || description || title).replace(/\s+/g, ' ').trim().slice(0, articleMaxLength);
     const inlineDate = block.match(/(?:^|>)([A-Z][a-z]{2},\s?\d{1,2}-[A-Z][a-z]{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+GMT)(?:<|$)/i)?.[1] || '';
     const publishedAt = field(block, 'pubDate') || field(block, 'published') || field(block, 'updated') || inlineDate || now.toISOString();
     return { title, link, description, articleText, publishedAt, sourceName: source.name, tag: source.tag };
@@ -111,7 +112,7 @@ const hydrateArticle = async (item) => {
     const response = await fetch(item.link, { headers: { 'user-agent': 'Mozilla/5.0 JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(10000) });
     if (!response.ok || !response.headers.get('content-type')?.includes('text/html')) return item;
     const extracted = extractArticleText(await response.text());
-    if (extracted.length > Math.max(current.length + 160, 500)) return { ...item, articleText: extracted.slice(0, 6000) };
+    if (extracted.length > Math.max(current.length + 160, 500)) return { ...item, articleText: extracted.slice(0, articleMaxLength) };
   } catch (error) {
     console.warn(`article body skipped: ${item.title} (${error.message})`);
   }
@@ -286,7 +287,7 @@ let enriched = selected.map((item, index) => ({
   title: clean(item.title, 90),
   tag: item.tag,
   desc: clean(item.description || item.title),
-  articleText: clean(item.articleText || item.description || item.title, 6000),
+  articleText: clean(item.articleText || item.description || item.title, articleMaxLength),
   sourceName: item.sourceName,
   sourceUrl: item.link,
   publishedAt: new Date(item.publishedAt).toISOString().slice(0, 10)
