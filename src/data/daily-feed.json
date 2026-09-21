@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T15:27:16.735Z",
+  "generatedAt": "2026-09-21T15:27:40.111Z",
   "timezone": "Europe/Rome",
   "status": "live-raw",
   "items": [
@@ -32,15 +32,6 @@
     },
     {
       "id": "2026-09-21-04",
-      "title": "Grab an Xbox controller and a $50 Xbox gift card together for just $80",
-      "tag": "科技 · 全球",
-      "desc": "Newegg is hosting a bundle that includes Microsoft’s wireless Xbox controller (in black) and a $50 digital Xbox gift card together for $80. Given that this model typically sits aro",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "id": "2026-09-21-05",
       "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at ",
       "tag": "科技 · 全球",
       "desc": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25, 11:59 p.m.",
@@ -49,7 +40,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-06",
+      "id": "2026-09-21-05",
       "title": "Costco now offers nationwide delivery on Uber and DoorDash",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "The wholesaler expanded its partnerships with both e-commerce providers at a time when same-day delivery is resonating with its shoppers.",
@@ -58,7 +49,7 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-07",
+      "id": "2026-09-21-06",
       "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
       "tag": "科技 · 全球",
       "desc": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
@@ -67,16 +58,16 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-08",
-      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - 搜狐网",
+      "id": "2026-09-21-07",
+      "title": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 - sohu.com",
       "tag": "电商 · 中国",
-      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 搜狐网",
+      "desc": "电商新机会？淘宝双 11 新玩法 中国商家的海外新机遇 sohu.com",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZQNl9kWDRFSnNNN2hQd3hqM04tbnYtVXpyeWQycm5UakZqMXBYWXpaUm5EZVhZdlo2cFdBekg3SVFOdkdZOWVvdVdyaGd5UkYzelVRa010VEhGY2F6c3N3dzM5MVZFMTdCNEFadGhlVm1OSjBmWUR3U3M3UU1DQmZFblJaWVhB?oc=5",
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-09",
+      "id": "2026-09-21-08",
       "title": "3 tips from Chewy’s COO on gaining a last-mile delivery edge",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "Personalization and close carrier collaboration can help shippers win in a space where Amazon and Walmart loom large, Scott Anderson told Supply Chain Dive.",
@@ -85,12 +76,21 @@
       "publishedAt": "2026-09-21"
     },
     {
-      "id": "2026-09-21-10",
+      "id": "2026-09-21-09",
       "title": "Can John Ternus find Apple’s next big thing?",
       "tag": "科技 · 全球",
       "desc": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. E",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-21-10",
+      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+      "tag": "科技 · 全球",
+      "desc": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
       "publishedAt": "2026-09-21"
     },
     {
