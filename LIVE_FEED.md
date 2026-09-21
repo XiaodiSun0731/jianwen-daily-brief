@@ -10,6 +10,7 @@ App 读取 `src/data/daily-feed.json`。本地文件里保留 15 条回退内容
 2. 在 **Settings → Actions → General** 允许 workflow 写入 repository contents；workflow 已声明 `contents: write`。
 3. 建议添加 Actions Secret `OPENAI_API_KEY`。有这个 Secret 时，脚本会把原文标题和摘要整理成中文 `desc`，并补充 `why`；没有时仍会更新原文标题、来源、链接和发布时间，但不会假装已经翻译或验证。
 4. 如需指定模型，可添加 repository variable `OPENAI_MODEL`；未设置时脚本使用 `gpt-5-mini`。
+5. 部署 `push-server` 后，把服务地址保存为 repository variable `PUSH_API_URL` 和 `VITE_PUSH_API_URL`，把 VAPID 公钥保存为 `VAPID_PUBLIC_KEY` 和 `VITE_VAPID_PUBLIC_KEY`，再运行一次 Pages workflow。把推送服务的密钥保存为 `PUSH_CRON_SECRET`；不要把私钥放进 repository variables 或前端。
 
 ## 推送边界
 

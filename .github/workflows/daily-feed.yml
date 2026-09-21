@@ -55,6 +55,8 @@ jobs:
       - name: Build app
         env:
           VITE_BASE_PATH: /jianwen-daily-brief/
+          VITE_PUSH_API_URL: ${{ vars.PUSH_API_URL }}
+          VITE_VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
         run: |
           node scripts/check-mobile-runtime.mjs
           npx tsc
