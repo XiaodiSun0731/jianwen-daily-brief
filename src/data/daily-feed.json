@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:18:23.399Z",
+  "generatedAt": "2026-09-21T21:20:49.175Z",
   "timezone": "Europe/Rome",
   "status": "live",
   "heroImage": "images/daily-hero-01.png",
@@ -59,7 +59,7 @@
       "id": "2026-09-21-06",
       "title": "享受飞行速度的电子商务交付",
       "tag": "电商 · 欧洲 / 美国",
-      "desc": "一网。两个方向。了解 SmartKargo 如何应对旺季激增。",
+      "desc": "一网。两个方向。了解 SmartKargo 如何应对旺季激增的情况。",
       "articleText": "One network. Two directions. See how SmartKargo handles the peak season surge.",
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/spons/enjoy-e-commerce-delivery-at-the-speed-of-flight/830957/",
@@ -97,10 +97,10 @@
     },
     {
       "id": "2026-09-21-10",
-      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - finance.sina.cn",
+      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
       "tag": "电商 · 中国",
-      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” finance.sina.cn",
-      "articleText": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” finance.sina.cn",
+      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
+      "articleText": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUYyVG1xbTVGV1c1WEdVMHIzaDNsQ2ozcmEwSTRXVV9xaDVVUTZpWTVVVmhSYjVPR1cyckZlOEtydjRtT2pteWpFa3NVNk5DdWZ4aWsyZHFoYm9haWlTMk9Ca2YtYXpqQjdWWUEzZWg4UnE0bzlXZzlQZ1dtMjdNbUdHb1FETkIzRmg5eWt3c2dGam50dmFXbUpTbUUySzFEbFZlRk5HMA?oc=5",
       "publishedAt": "2026-09-21"
@@ -129,7 +129,7 @@
       "id": "2026-09-21-13",
       "title": "英伟达的免费人工智能模型可能会推动阿联酋与美国的距离更近。",
       "tag": "商业 · 全球",
-      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一现状。",
+      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一点。",
       "articleText": "Nvidia’s chips are driving the United Arab Emirates’ rise as an artificial-intelligence power. Next on offer is free software, a model built to rival China’s best. Last month, Nvidia spent...",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
