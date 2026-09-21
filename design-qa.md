@@ -50,6 +50,10 @@ The App now reads `src/data/daily-feed.json`; the collector in `scripts/update-d
 
 The fixed Today hero has been replaced by a weekday banner selected by the daily feed update. Seven editorial still lifes map to Sunday through Saturday in Europe/Rome, and the selected Chinese weekday label is rendered clearly on top of the background. The current daily image is reused on the matching article detail. A generated square app icon is wired into the favicon, Apple touch icon, web manifest, and notification payload. The previous fixed hero remains only as an unused legacy asset and is no longer rendered by the active route.
 
+## Daily fable review
+
+The fourth bottom tab is a dedicated daily fable section. Each calendar day selects a different graduate-level concept from `src/data/daily-fables.json`; the page presents the allegory first, then reveals the concept near the end, followed by a formal explanation and a practical observation prompt.
+
 ## Interaction revision
 
 The prototype now separates the three actions clearly: reading records progress only, every article has a manual 收藏 action, and 收藏 is the user's collection. The 项目 tab is now a weekly optimization shortlist and only displays saved articles moved to `准备优化` from 收藏. This revision was manually verified by saving an article, moving it to `准备优化`, and confirming it appeared in 项目 while the reading count remained independent.
