@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T20:58:20.690Z",
+  "generatedAt": "2026-09-21T21:08:00.567Z",
   "timezone": "Europe/Rome",
   "status": "live",
   "heroImage": "images/daily-hero-01.png",
@@ -9,16 +9,16 @@
       "id": "2026-09-21-01",
       "title": "闲鱼暗藏涉黄产业链",
       "tag": "高分内容 · 知乎",
-      "desc": "知乎热榜热度 556 万，可继续查看相关高赞回答。",
+      "desc": "知乎热榜热度 553 万，可继续查看相关高赞回答。",
       "sourceName": "知乎热榜",
       "sourceUrl": "https://www.zhihu.com/search?type=content&q=%E9%97%B2%E9%B1%BC%E6%9A%97%E8%97%8F%E6%B6%89%E9%BB%84%E4%BA%A7%E4%B8%9A%E9%93%BE",
       "publishedAt": "2026-09-21"
     },
     {
       "id": "2026-09-21-02",
-      "title": "OpenAI敦促美国牵头为人工智能制定全球标准- AI 人工智能 - cnBeta.COM",
+      "title": "OpenAI敦促美国牵头为人工智能制定全球标准- AI 人工智能 - cnbeta.com.tw",
       "tag": "AI 技术 · 中国 / 全球",
-      "desc": "OpenAI敦促美国牵头为人工智能制定全球标准- AI 人工智能 cnBeta.COM",
+      "desc": "OpenAI敦促美国牵头为人工智能制定全球标准- AI 人工智能 cnbeta.com.tw",
       "sourceName": "Google News · AI 技术",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9maTFWclRfWmtMeUY1Skw2MTljMjFHdXFxSjJvRlZjREZWaTJGbWNIc1U0aVVzWUJFZHhScDFkOUc0ZkdEa19zRGMtaUJKNVFTbmk0R3ZibmFndlgyTmNBYw?oc=5",
       "publishedAt": "2026-09-21"
@@ -88,9 +88,9 @@
     },
     {
       "id": "2026-09-21-10",
-      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - finance.sina.cn",
+      "title": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” - 新浪财经",
       "tag": "电商 · 中国",
-      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” finance.sina.cn",
+      "desc": "跨境电商争夺内贸商家，淘宝双11挖掘海外“确定性增量” 新浪财经",
       "sourceName": "Google News · 淘宝电商",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUYyVG1xbTVGV1c1WEdVMHIzaDNsQ2ozcmEwSTRXVV9xaDVVUTZpWTVVVmhSYjVPR1cyckZlOEtydjRtT2pteWpFa3NVNk5DdWZ4aWsyZHFoYm9haWlTMk9Ca2YtYXpqQjdWWUEzZWg4UnE0bzlXZzlQZ1dtMjdNbUdHb1FETkIzRmg5eWt3c2dGam50dmFXbUpTbUUySzFEbFZlRk5HMA?oc=5",
       "publishedAt": "2026-09-21"
@@ -117,7 +117,7 @@
       "id": "2026-09-21-13",
       "title": "英伟达的免费人工智能模型可能会让阿联酋更接近美国",
       "tag": "商业 · 全球",
-      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一点。",
+      "desc": "阿联酋航空拥有这些机器，但租用了情报。英伟达的下一个免费人工智能模型可能会改变这一现状。",
       "sourceName": "Rest of World",
       "sourceUrl": "https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
       "publishedAt": "2026-09-21"
