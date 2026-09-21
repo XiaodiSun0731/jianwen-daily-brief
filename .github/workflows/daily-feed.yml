@@ -53,7 +53,9 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build app
-        run: npm run build
+        env:
+          VITE_BASE_PATH: /jianwen-daily-brief/
+        run: npm run build -- --base /jianwen-daily-brief/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
