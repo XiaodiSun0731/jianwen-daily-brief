@@ -1,13 +1,209 @@
 {
-  "generatedAt": "2026-09-28T16:03:50.605Z",
+  "generatedAt": "2026-09-28T16:37:51.249Z",
   "timezone": "Europe/Rome",
-  "status": "live-raw",
+  "status": "live",
   "heroImage": "images/daily-hero-01.png",
   "weekdayLabel": "周一",
   "items": [
     {
       "id": "2026-09-28-01",
-      "title": "David's Bridal 希望让供应商能够轻松与新人互动",
+      "title": "沃尔玛首席执行官解决动态定价问题",
+      "tag": "电商 · 欧洲 / 美国",
+      "desc": "John Furner发布了一封信，试图消除对数字货架标签和Sparky的定价担忧，但有人说沃尔玛专利敞开了大门。",
+      "articleText": "沃尔玛首席执行官解决动态定价问题\n\n约翰·弗纳（John Furner）发表了一封信，试图消除人们对数字货架标签和 Sparky 的定价担忧，但一些人表示，沃尔玛的一项专利敞开了大门。\n\n发布于 2026 年 9 月 28 日\n\n沃尔玛商店的电子货架标签。数字货架标签允许员工一次性更改价格。\n\n沃尔玛首席执行官约翰·弗纳正试图消除人们对数字货架标签等技术被用来个性化定价并向购物者收取更高费用的担忧。\n\n“我们不会根据你的身份或一天中的时间设定不同的价格，我们也不会，”这位首席执行官在周五的一封信中表示。 “您的收入、购物历史、紧迫性或我们认为您可以支付的金额不会改变价格。无论您是在炎热的下午购买杂货或电子产品，还是突然急于购买某件商品，都不是向您收取更高费用的理由。”\n\n该高管还向其人工智能购物代理 Sparky 发表讲话，指出沃尔玛不会使用与 Sparky 共享的信息来提高价格或隐藏低价商品。\n\nFurner 在 8 月份的财报电话会议上吹捧了 Sparky 所带来的销售额，指出使用 Sparky 的顾客数量比去年增加了 70%，而使用 Sparky 的顾客每笔订单的花费比不使用人工智能助手的购物者高出 40%。\n\n消费者权益保护组织 Groundwork Collaborative 表示，该公司的一项技术专利为个性化定价敞开了大门。\n\nGroundwork Collaborative 指出，沃尔玛于 2023 年获得了一项远程控制电子货架标签的专利。该专利称，标签和价格可能会以动态方式改变，例如根据顾客购物车中已有的产品来调整商品的价格。\n\n“如果顾客有金枪鱼，他们可能会获得不同的蛋黄酱价格，”该专利作为这种商店能力的一个例子说道。\n\n此外，该专利允许根据产品的供需动态改变定价。\n\nGroundwork Collaborative 总裁兼首席执行官 Lindsay Owens 在周五的一份声明中表示：“沃尔玛不会花费时间、精力和金钱来开发和部署这些技术，除非它能增加利润。” “如果沃尔玛认真对待其对购物者的承诺，它应该撤回专利申请，收回电子货架标签，并让 Sparky 为顾客服务，而不是为沃尔玛服务。”\n\n沃尔玛没有回应 Retail Dive 的询问，询问该公司为何要申请根据购物车内容动态更改定价的能力的专利，但实际上并未使用该功能。\n\nGroundwork Collaborative 还指出，沃尔玛在 2024 年收购电视制造商 Vizio 是该零售商消费者数据收集能力的一个例子。\n\n沃尔玛美国首席执行官兼总裁 David Guggina 本月早些时候在高盛全球消费者和零售会议上表示，Vizio 业务未来可能会与 Sparky 合作。\n\n“美国消费者的电视平均使用期限约为 7 年，”Guggina 说。 “因此，这使我们能够将更多设备放入客户家中，并通过广告以新的差异化方式与他们互动，你可以想象，未来 Sparky 可能会出现在你家中的电视上，帮助你在电视上购物和导航不同的应用程序。”",
+      "articleBlocks": [
+        {
+          "type": "image",
+          "value": "https://d12v9rtnomnebu.cloudfront.net/logo/printer_friendly/retaildive.jpg"
+        },
+        {
+          "type": "text",
+          "value": "沃尔玛首席执行官解决动态定价问题\n\n约翰·弗纳（John Furner）发表了一封信，试图消除人们对数字货架标签和 Sparky 的定价担忧，但一些人表示，沃尔玛的一项专利敞开了大门。\n\n发布于 2026 年 9 月 28 日"
+        },
+        {
+          "type": "image",
+          "value": "https://d1b6lhn2ymmy1x.cloudfront.net/journalist-headshots/retail/james-dani-circle-150x150.png"
+        },
+        {
+          "type": "image",
+          "value": "https://imgproxy.divecdn.com/dlMwBvt7tnlJO9QSwGG2fkEgzgcmfY2BCCFQ_qvEaNI/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9lbGVjdHJvbmljX3NoZWxmX2xhYmVsX3dhbG1hcnQuanBn.webp"
+        },
+        {
+          "type": "text",
+          "value": "沃尔玛商店的电子货架标签。数字货架标签允许员工一次性更改价格。"
+        },
+        {
+          "type": "image",
+          "value": "https://www.retaildive.com/static/img/play.svg?520919230926"
+        },
+        {
+          "type": "text",
+          "value": "沃尔玛首席执行官约翰·弗纳正试图消除人们对数字货架标签等技术被用来个性化定价并向购物者收取更高费用的担忧。\n\n“我们不会根据你的身份或一天中的时间设定不同的价格，我们也不会，”这位首席执行官在周五的一封信中表示。 “您的收入、购物历史、紧迫性或我们认为您可以支付的金额不会改变价格。无论您是在炎热的下午购买杂货或电子产品，还是突然急于购买某件商品，都不是向您收取更高费用的理由。”\n\n该高管还向其人工智能购物代理 Sparky 发表讲话，指出沃尔玛不会使用与 Sparky 共享的信息来提高价格或隐藏低价商品。\n\nFurner 在 8 月份的财报电话会议上吹捧了 Sparky 所带来的销售额，指出使用 Sparky 的顾客数量比去年增加了 70%，而使用 Sparky 的顾客每笔订单的花费比不使用人工智能助手的购物者高出 40%。\n\n消费者权益保护组织 Groundwork Collaborative 表示，该公司的一项技术专利为个性化定价敞开了大门。\n\nGroundwork Collaborative 指出，沃尔玛于 2023 年获得了一项远程控制电子货架标签的专利。该专利称，标签和价格可能会以动态方式改变，例如根据顾客购物车中已有的产品来调整商品的价格。\n\n“如果顾客有金枪鱼，他们可能会获得不同的蛋黄酱价格，”该专利作为这种商店能力的一个例子说道。\n\n此外，该专利允许根据产品的供需动态改变定价。\n\nGroundwork Collaborative 总裁兼首席执行官 Lindsay Owens 在周五的一份声明中表示：“沃尔玛不会花费时间、精力和金钱来开发和部署这些技术，除非它能增加利润。” “如果沃尔玛认真对待其对购物者的承诺，它应该撤回专利申请，收回电子货架标签，并让 Sparky 为顾客服务，而不是为沃尔玛服务。”\n\n沃尔玛没有回应 Retail Dive 的询问，询问该公司为何要申请根据购物车内容动态更改定价的能力的专利，但实际上并未使用该功能。\n\nGroundwork Collaborative 还指出，沃尔玛在 2024 年收购电视制造商 Vizio 是该零售商消费者数据收集能力的一个例子。"
+        },
+        {
+          "type": "text",
+          "value": "沃尔玛美国首席执行官兼总裁 David Guggina 本月早些时候在高盛全球消费者和零售会议上表示，Vizio 业务未来可能会与 Sparky 合作。\n\n“美国消费者的电视平均使用期限约为 7 年，”Guggina 说。 “因此，这使我们能够将更多设备放入客户家中，并通过广告以新的差异化方式与他们互动，你可以想象，未来 Sparky 可能会出现在你家中的电视上，帮助你在电视上购物和导航不同的应用程序。”"
+        }
+      ],
+      "sourceName": "Retail Dive",
+      "sourceUrl": "https://www.retaildive.com/news/walmart-ceo-dynamic-pricing-concerns/831490/",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "id": "2026-09-28-02",
+      "title": "大众汽车用全电动 Tiguan 取代 ID.4",
+      "tag": "科技 · 全球",
+      "desc": "众所周知，大众汽车周一宣布将用即将推出的ID.Tiguan取代最近退役的ID.4跨界车。该决定是对",
+      "articleText": "大众汽车周一宣布，将用即将推出的 ID.Tiguan 取代最近退役的 ID.4 跨界车，这是人们普遍预期的举措。这一决定表明这家德国汽车制造商承认，像途观这样更知名的品牌可能更容易受到消费者的欢迎，尤其是在电动汽车方面。\n\n当它于 2027 年初登陆欧洲时，ID. Tiguan 将与 ID.Polo 和 ID.Cross 一起完善大众汽车全新改进的电动汽车阵容。大众还确认，ID.Tiguan 将“稍后”登陆 ID.4 之前生产的美国。设计细节仍处于保密状态，因为 ID.Tiguan i ...\n\n请在 The Verge 上阅读完整的故事。",
+      "articleBlocks": [
+        {
+          "type": "image",
+          "value": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Original-20113-db2026au00714.jpg?quality=90&strip=all&crop=0,0,100,100"
+        },
+        {
+          "type": "text",
+          "value": "大众汽车周一宣布，将用即将推出的 ID.Tiguan 取代最近退役的 ID.4 跨界车，这是人们普遍预期的举措。这一决定表明这家德国汽车制造商承认，像途观这样更知名的品牌可能更容易受到消费者的欢迎，尤其是在电动汽车方面。\n\n当它于 2027 年初登陆欧洲时，ID. Tiguan 将与 ID.Polo 和 ID.Cross 一起完善大众汽车全新改进的电动汽车阵容。大众还确认，ID.Tiguan 将“稍后”登陆 ID.4 之前生产的美国。设计细节仍处于保密状态，因为 ID.Tiguan i ...\n\n请在 The Verge 上阅读完整的故事。"
+        }
+      ],
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "id": "2026-09-28-03",
+      "title": "Anthropic、Gamma和Clay分享了当企业在TechC实际部署人工智能时会发生什么",
+      "tag": "科技 · 全球",
+      "desc": "Anthropic、Clay和Gamma介绍了人工智能产品在2026年TechCrunchDisrupt人工智能舞台上超越演示的必要条件。注册即可加入，第二次使用通行证可享五折优惠。",
+      "articleText": "Anthropic、Gamma 和 Clay 在 Disrupt 2026 上谈论人工智能 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：Slava Blazer Photography\n\nAnthropic、Gamma 和 Clay 在 TechCrunch Disrupt 2026 上分享了企业实际部署人工智能时会发生什么\n\n太平洋夏令时间上午 8:30 · 2026 年 9 月 28 日\n\n人工智能演示可以在五分钟内看起来很精彩。然后客户开始使用该产品。他们将其推入您意想不到的工作流程中。他们希望它能够可靠地工作。他们很快就会发现它是否解决了一个足够大的问题，成为他们工作方式的一部分，或者成为他们尝试过但放弃的另一个人工智能实验。\n\n在 TechCrunch Disrupt 2026 上，来自 Anthropic、Gamma 和 Clay 的领导者将齐聚人工智能舞台，探讨“当企业实际部署 Claude 时 Anthropic 的看法”。此次对话将带来人工智能部署的两个方面：Anthropic 在企业实施中看到的模式以及创始人构建人们实际使用的人工智能产品的第一手经验。\n\n图片来源：TechCrunch\n\nAI 推出后会发生什么？\n\n关于企业人工智能的大多数讨论都集中在公司可以用它做什么。应用人工智能的人类负责人 Cat de Jong 从更有趣的地方开始：部署后会发生什么。\n\nDe Jong 直接与企业合作，将 Claude 纳入关键工作流程。在 Disrupt，她将探讨部署在哪些方面成功，哪些方面停滞，以及那些在 18 个月后仍在运行试点的组织与那些获取真正价值的组织之间的区别。\n\n如果你向企业推销人工智能，这些模式就很重要。 De Jong 的经验让我们亲眼目睹了人工智能从实验转向关键工作流程时会发生什么变化，以及为什么有些组织可以投入生产，而另一些组织却不能。\n\n你如何让人们使用你所构建的东西？\n\nAnthropic 可以看到跨企业部署的模式。 Gamma 联合创始人兼首席执行官 Grant Lee 为这次对话带来了另一个视角：从公司内部来看，构建人工智能产品并让人们实际使用它是什么样子。\n\nGamma 已将其人工智能驱动的平台从传统演示软件的替代品发展成为更广泛的视觉通信工具。 TechCrunch 在 3 月份报道称，随着将人工智能工具扩展到营销资产和其他形式的视觉内容，该公司的用户数量已接近 1 亿。\n\n这种采用方式让 Lee 在本次会议的核心问题上获得了有用的优势：是什么让人工智能产品足够有用，让客户不断回头？一旦人们开始以您意想不到的方式使用它，会发生什么变化？如何将强大的人工智能功能转化为解决人们实际问题的产品？\n\n构建人工智能产品是一回事。让人们将其纳入工作方式是另一回事。确保您获得 Disrupt 通行证，听听 Gamma 在此过程中学到了什么。\n\n当人工智能成为工作流程的一部分时会发生什么？\n\nClay 联合创始人兼首席执行官 Kareem Amin 将创始人构建人工智能的视角融入到公司寻找和接触客户的方式中。 Clay 提供了用于提取数据、运行代理工作流程和启动 GTM 游戏的基础设施。\n\n一月份，TechCrunch 报道称，当 Anthropic 在 Claude 界面中引入交互式工作场所工具时，Clay 是集成到 Claude 中的启动应用程序之一，因此他的观点与对话特别相关。\n\n这让阿明很接近本次会议将探讨的问题：人工智能在哪里真正有用，它如何适应现有的工作流程，以及一旦客户开始依赖它会发生什么。\n\n德容、李和阿明共同对这一转变提出了不同的看法。 Anthropic 可以识别整个企业部署的模式，而 Gamma 和 Clay 可以根据客户在使用人工智能产品时所看到的情况对这些模式进行压力测试。\n\n听听 AI 产品如何超越 Disrupt 2026 的演示\n\n令人印象深刻的演示可以展示人工智能的潜力。当客户开始依赖它时，更严峻的考验就会到来。在 Disrupt 大会上，Anthropic 带来了企业部署的视角，而 Gamma 和 Clay 则带来了创始人对构建人们实际使用的人工智能产品的看法。\n\n与他们一起参加 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt，届时 10,000 多名创始人、投资者、运营商和技术领导者将齐聚一堂，参加跨越 6 个行业阶段的 200 多场会议、圆桌会议和分组讨论，其中有 250 多名演讲者以及 300 多家参展初创公司、配对和网络。",
+      "articleBlocks": [
+        {
+          "type": "text",
+          "value": "Anthropic、Gamma 和 Clay 在 Disrupt 2026 上谈论人工智能 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室"
+        },
+        {
+          "type": "image",
+          "value": "https://techcrunch.com/wp-content/uploads/2025/09/Disrupt-2025-AI-Stage.jpg?w=1024"
+        },
+        {
+          "type": "text",
+          "value": "图片来源：Slava Blazer Photography\n\nAnthropic、Gamma 和 Clay 在 TechCrunch Disrupt 2026 上分享了企业实际部署人工智能时会发生什么\n\n太平洋夏令时间上午 8:30 · 2026 年 9 月 28 日\n\n人工智能演示可以在五分钟内看起来很精彩。然后客户开始使用该产品。他们将其推入您意想不到的工作流程中。他们希望它能够可靠地工作。他们很快就会发现它是否解决了一个足够大的问题，成为他们工作方式的一部分，或者成为他们尝试过但放弃的另一个人工智能实验。\n\n在 TechCrunch Disrupt 2026 上，来自 Anthropic、Gamma 和 Clay 的领导者将齐聚人工智能舞台，探讨“当企业实际部署 Claude 时 Anthropic 的看法”。此次对话将带来人工智能部署的两个方面：Anthropic 在企业实施中看到的模式以及创始人构建人们实际使用的人工智能产品的第一手经验。"
+        },
+        {
+          "type": "image",
+          "value": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_3-De-Jong-Amin-Lee_16x9-Dark.png?w=680"
+        },
+        {
+          "type": "text",
+          "value": "图片来源：TechCrunch\n\nAI 推出后会发生什么？\n\n关于企业人工智能的大多数讨论都集中在公司可以用它做什么。应用人工智能的人类负责人 Cat de Jong 从更有趣的地方开始：部署后会发生什么。\n\nDe Jong 直接与企业合作，将 Claude 纳入关键工作流程。在 Disrupt，她将探讨部署在哪些方面成功，哪些方面停滞，以及那些在 18 个月后仍在运行试点的组织与那些获取真正价值的组织之间的区别。\n\n如果你向企业推销人工智能，这些模式就很重要。 De Jong 的经验让我们亲眼目睹了人工智能从实验转向关键工作流程时会发生什么变化，以及为什么有些组织可以投入生产，而另一些组织却不能。\n\n你如何让人们使用你所构建的东西？\n\nAnthropic 可以看到跨企业部署的模式。 Gamma 联合创始人兼首席执行官 Grant Lee 为这次对话带来了另一个视角：从公司内部来看，构建人工智能产品并让人们实际使用它是什么样子。\n\nGamma 已将其人工智能驱动的平台从传统演示软件的替代品发展成为更广泛的视觉通信工具。 TechCrunch 在 3 月份报道称，随着将人工智能工具扩展到营销资产和其他形式的视觉内容，该公司的用户数量已接近 1 亿。\n\n这种采用方式让 Lee 在本次会议的核心问题上获得了有用的优势：是什么让人工智能产品足够有用，让客户不断回头？一旦人们开始以您意想不到的方式使用它，会发生什么变化？如何将强大的人工智能功能转化为解决人们实际问题的产品？\n\n构建人工智能产品是一回事。让人们将其纳入工作方式是另一回事。确保您获得 Disrupt 通行证，听听 Gamma 在此过程中学到了什么。\n\n当人工智能成为工作流程的一部分时会发生什么？\n\nClay 联合创始人兼首席执行官 Kareem Amin 将创始人构建人工智能的视角融入到公司寻找和接触客户的方式中。 Clay 提供了用于提取数据、运行代理工作流程和启动 GTM 游戏的基础设施。\n\n一月份，TechCrunch 报道称，当 Anthropic 在 Claude 界面中引入交互式工作场所工具时，Clay 是集成到 Claude 中的启动应用程序之一，因此他的观点与对话特别相关。\n\n这让阿明很接近本次会议将探讨的问题：人工智能在哪里真正有用，它如何适应现有的工作流程，以及一旦客户开始依赖它会发生什么。"
+        },
+        {
+          "type": "text",
+          "value": "德容、李和阿明共同对这一转变提出了不同的看法。 Anthropic 可以识别整个企业部署的模式，而 Gamma 和 Clay 可以根据客户在使用人工智能产品时所看到的情况对这些模式进行压力测试。\n\n听听 AI 产品如何超越 Disrupt 2026 的演示\n\n令人印象深刻的演示可以展示人工智能的潜力。当客户开始依赖它时，更严峻的考验就会到来。在 Disrupt 大会上，Anthropic 带来了企业部署的视角，而 Gamma 和 Clay 则带来了创始人对构建人们实际使用的人工智能产品的看法。\n\n与他们一起参加 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt，届时 10,000 多名创始人、投资者、运营商和技术领导者将齐聚一堂，参加跨越 6 个行业阶段的 200 多场会议、圆桌会议和分组讨论，其中有 250 多名演讲者以及 300 多家参展初创公司、配对和网络。"
+        }
+      ],
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "id": "2026-09-28-04",
+      "title": "泰国志愿者用回收木材手工建造学校厕所",
+      "tag": "工业设计 · 全球",
+      "desc": "41名志愿者花了11天时间用再生木材建造学校厕所，学习卫生设计、材料再利用和动手工艺。泰语岗位志愿者",
+      "articleText": "四十一名建筑系学生志愿者建造学校厕所\n\n在素攀武里府的一所小型小学，41 名志愿者花了 11 天的时间学习建造他们的年度营地以前从未设计过的东西：厕所。多年来，AKU ASA 志愿者营一直是建筑系学生和当地工匠交流技能的聚会场所，否则这些技能将一代一代地消失。 Song Phi Nong 小学需要一个小型卫生设施，其场地只不过是一棵成熟的 Nontri 树遮荫的空地。\n\n志愿者们抵达时几乎没有任何施工经验，只用了十一天的时间就弥补了这一差距。 AKU ASA 20 没有重复以前版本的营地中定义的展馆和多功能厅，而是提出了一个不同的问题：当每年设计相同的建筑类型时，还需要学习什么？选择厕所作为今年的项目，将重点从结构和空间转移到学生作业中很少涉及的学科：卫生设计，以及建筑及其场地如何塑造管道系统。\n\nSong Phi Nong 小学的开放场地需要一个卫生设施 |所有图片©泰国饮料公共有限公司\n\n遮阳、气流和再生木质学校厕所的设计\n\n布局直接响应周围环境：Nontri树投射的树荫和场地的自然气流将连接水槽和厕所隔间的中间空间转变为一个可以兼作凉爽、休息或玩耍的地方的区域，而不是纯粹的功能性走廊。材料将自己的历史带入了项目中。\n\n由 SEP 工作室领导的设计团队从学校原来的建筑（大约六十年前建造的中式教室）中采购了再生木材，使新结构与学校自身的过去建立了物理联系。每个组件都是由志愿者手工制作的。其结果是一座朴素的建筑，但它重新定义了学生志愿者营地可以教授的内容：建筑教育超越了形式制作，延伸到基础设施、材料再利用以及从一代人到下一代人耐心地传授工艺知识。\n\n厕所项目将管道和基础设施引入学生的建筑作品中\n\n布局直接响应学校场地的条件\n\n新建筑使用了学校原建筑中的回收木材\n\n重复利用的木材将新厕所与学校的建筑历史联系起来\n\n水槽和厕所隔间之间的阴影空间超出了流通范围\n\n志愿者手工建造了结构的每个部件\n\n该项目将卫生基础设施与实际施工相结合\n\n厕所将材料再利用引入志愿者营地的建设过程\n\nAKU ASA 20 将建筑教育扩展到基础设施和工艺知识\n\n名称: Phi Sorn Nong 厕所\n\n地点：泰国素攀武里府\n\n摄影师：泰国饮料公共有限公司\n\ndesignboom 从我们的 DIY 提交功能中收到了这个项目，我们欢迎读者提交自己的作品以供出版。请在此处查看我们的读者提交的更多项目。\n\n编辑：克里斯蒂娜·维尔戈普卢 |设计热潮\n\n泰国志愿者用回收木材手工建造学校厕所的帖子首次出现在设计邦|建筑与设计杂志。",
+      "articleBlocks": [
+        {
+          "type": "text",
+          "value": "四十一名建筑系学生志愿者建造学校厕所\n\n在素攀武里府的一所小型小学，41 名志愿者花了 11 天的时间学习建造他们的年度营地以前从未设计过的东西：厕所。多年来，AKU ASA 志愿者营一直是建筑系学生和当地工匠交流技能的聚会场所，否则这些技能将一代一代地消失。 Song Phi Nong 小学需要一个小型卫生设施，其场地只不过是一棵成熟的 Nontri 树遮荫的空地。\n\n志愿者们抵达时几乎没有任何施工经验，只用了十一天的时间就弥补了这一差距。 AKU ASA 20 没有重复以前版本的营地中定义的展馆和多功能厅，而是提出了一个不同的问题：当每年设计相同的建筑类型时，还需要学习什么？选择厕所作为今年的项目，将重点从结构和空间转移到学生作业中很少涉及的学科：卫生设计，以及建筑及其场地如何塑造管道系统。"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-1-6ab8bbcd4be02.jpg"
+        },
+        {
+          "type": "text",
+          "value": "Song Phi Nong 小学的开放场地需要一个卫生设施 |所有图片©泰国饮料公共有限公司\n\n遮阳、气流和再生木质学校厕所的设计\n\n布局直接响应周围环境：Nontri树投射的树荫和场地的自然气流将连接水槽和厕所隔间的中间空间转变为一个可以兼作凉爽、休息或玩耍的地方的区域，而不是纯粹的功能性走廊。材料将自己的历史带入了项目中。\n\n由 SEP 工作室领导的设计团队从学校原来的建筑（大约六十年前建造的中式教室）中采购了再生木材，使新结构与学校自身的过去建立了物理联系。每个组件都是由志愿者手工制作的。其结果是一座朴素的建筑，但它重新定义了学生志愿者营地可以教授的内容：建筑教育超越了形式制作，延伸到基础设施、材料再利用以及从一代人到下一代人耐心地传授工艺知识。"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-2-6ab8bbcd4be85.jpg"
+        },
+        {
+          "type": "text",
+          "value": "厕所项目将管道和基础设施引入学生的建筑作品中"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-5-6ab8bbcd4bf59.jpg"
+        },
+        {
+          "type": "text",
+          "value": "布局直接响应学校场地的条件"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-6-6ab8bbcd4bf95.jpg"
+        },
+        {
+          "type": "text",
+          "value": "新建筑使用了学校原建筑中的回收木材"
+        },
+        {
+          "type": "image",
+          "value": "https://static.designboom.com/wp-content/uploads/2026/09/school-thailand-volunteers-toilet-designboom-1800-2.jpg"
+        },
+        {
+          "type": "text",
+          "value": "重复利用的木材将新厕所与学校的建筑历史联系起来"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-3-6ab8bbcd4becf.jpg"
+        },
+        {
+          "type": "text",
+          "value": "水槽和厕所隔间之间的阴影空间超出了流通范围"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-4-6ab8bbcd4bf13.jpg"
+        },
+        {
+          "type": "text",
+          "value": "志愿者手工建造了结构的每个部件"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-7-6ab8bbcd4bfcf.jpg"
+        },
+        {
+          "type": "text",
+          "value": "该项目将卫生基础设施与实际施工相结合"
+        },
+        {
+          "type": "image",
+          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-8-6ab8bbcd4c01e.jpg"
+        },
+        {
+          "type": "text",
+          "value": "厕所将材料再利用引入志愿者营地的建设过程"
+        },
+        {
+          "type": "image",
+          "value": "https://static.designboom.com/wp-content/uploads/2026/09/school-thailand-volunteers-toilet-designboom-1800-3.jpg"
+        },
+        {
+          "type": "text",
+          "value": "AKU ASA 20 将建筑教育扩展到基础设施和工艺知识\n\n名称: Phi Sorn Nong 厕所\n\n地点：泰国素攀武里府\n\n摄影师：泰国饮料公共有限公司\n\ndesignboom 从我们的 DIY 提交功能中收到了这个项目，我们欢迎读者提交自己的作品以供出版。请在此处查看我们的读者提交的更多项目。\n\n编辑：克里斯蒂娜·维尔戈普卢 |设计热潮\n\n泰国志愿者用回收木材手工建造学校厕所的帖子首次出现在设计邦|建筑与设计杂志。"
+        }
+      ],
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/architecture/volunteer-camp-thailand-school-toilet-reclaimed-wood-sep/",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "id": "2026-09-28-05",
+      "title": "David's Bridal希望让供应商更容易与情侣互动",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "这家零售商的人工智能平台Pearl Connect根据正在积极规划婚礼的夫妇为供应商提供线索。",
       "articleText": "David's Bridal 希望让供应商能够轻松与新人互动\n\n该零售商的人工智能平台 Pearl Connect 可以根据正在积极筹划婚礼的夫妇为供应商提供线索。\n\n发布于 2026 年 9 月 28 日\n\nPearl Connect 是一个人工智能驱动的平台，供婚礼供应商与筹划婚礼的情侣建立联系。\n\n由大卫的新娘提供\n\n据 9 月 16 日发布的新闻稿称，David’s Bridal 推出了 Pearl Connect，这是一个人工智能供应商平台，允许婚礼专业人士在一个地方与新人进行营销、沟通和预订服务。\n\n该平台通过夫妇在零售商的 Pearl Planner 中分享的详细信息（包括日期、地点、风格、愿景和预算）将夫妇与婚礼专业人士联系起来。\n\nPearl Connect 推出了免费选项，而高级套餐的价格为每月 49 美元或 119 美元。\n\nDavid's Bridal 希望简化供应商与情侣交谈的方式。\n\n该零售商的 Pearl Connect 平台减少了多种沟通形式，简化了与筹划婚礼的人们交谈的方式。\n\nDavid's Bridal 总裁兼首席商务官埃琳娜·维尔克 (Elina Vilk) 在一份声明中表示：“供应商不必在前几次交流中确定该机会是否合适。” “Pearl Planner 和 Pearl Connect 共同创建了一个婚礼策划飞轮：情侣们计划并分享意图，供应商获得围绕该意图的背景信息，双方都可以通过更简单的途径实现真正的联系和切实的业务增长。”\n\n该公司的 Pearl Planner 最初于 2025 年推出，是一款帮助夫妇管理婚礼任务的人工智能工具。今年春天，该平台引入了免费的人工智能预算功能。\n\nPearl Connect 的功能包括通信中心；后续步骤，以便任务可以同步到 Google、Outlook 或 Apple 日历；为供应商提供自助服务调度和分析。\n\n该技术与该公司于 2025 年首次推出的数字优先“通道到算法”总体战略相一致。该方法的宗旨是在婚礼策划过程的每个接触点为新人提供支持。",
@@ -46,143 +242,71 @@
       "publishedAt": "2026-09-28"
     },
     {
-      "id": "2026-09-28-02",
-      "title": "大众以全电动途观取代ID.4",
+      "id": "2026-09-28-06",
+      "title": "物理AI芯片开发商SiMa.ai估值达到14.5亿美元",
       "tag": "科技 · 全球",
-      "desc": "众所周知，大众汽车周一宣布将用即将推出的ID.Tiguan取代最近退役的ID.4跨界车。该决定是对",
-      "articleText": "In a widely expected move, Volkswagen announced Monday that it will replace the recently retired ID.4 crossover with the upcoming ID.Tiguan. The decision is an acknowledgment by the German automaker that its more recognizable nameplates like Tiguan are likely an easier sell with consumers, especially when it comes to EVs.\n\nWhen it lands in Europe in early 2027, the ID. Tiguan will join the ID.Polo and ID.Cross to round out Volkswagen's new-and-improved electric lineup. VW also confirmed that the ID.Tiguan will come to the US, where the ID.4 was previously manufactured, \"at a later date.\" Design details remain under wraps, as the ID.Tiguan i …\n\nRead the full story at The Verge.",
-      "articleBlocks": [
-        {
-          "type": "image",
-          "value": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Original-20113-db2026au00714.jpg?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "type": "text",
-          "value": "In a widely expected move, Volkswagen announced Monday that it will replace the recently retired ID.4 crossover with the upcoming ID.Tiguan. The decision is an acknowledgment by the German automaker that its more recognizable nameplates like Tiguan are likely an easier sell with consumers, especially when it comes to EVs.\n\nWhen it lands in Europe in early 2027, the ID. Tiguan will join the ID.Polo and ID.Cross to round out Volkswagen's new-and-improved electric lineup. VW also confirmed that the ID.Tiguan will come to the US, where the ID.4 was previously manufactured, \"at a later date.\" Design details remain under wraps, as the ID.Tiguan i …\n\nRead the full story at The Verge."
-        }
-      ],
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev",
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "2026-09-28-03",
-      "title": "Anthropic、Gamma 和 Clay 在 TechC 分享了企业实际部署 AI 时会发生什么",
-      "tag": "科技 · 全球",
-      "desc": "Anthropic、Clay和Gamma介绍了人工智能产品在2026年TechCrunchDisrupt人工智能舞台上超越演示的必要条件。注册即可加入，第二次使用通行证可享五折优惠。",
-      "articleText": "Anthropic、Gamma 和 Clay 在 Disrupt 2026 上谈论人工智能 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：Slava Blazer Photography\n\nAnthropic、Gamma 和 Clay 在 TechCrunch Disrupt 2026 上分享了企业实际部署人工智能时会发生什么\n\n太平洋夏令时间上午 8:30 · 2026 年 9 月 28 日\n\n人工智能演示可以在五分钟内看起来很精彩。然后客户开始使用该产品。他们将其推入您意想不到的工作流程中。他们希望它能够可靠地工作。他们很快就会发现它是否解决了一个足够大的问题，成为他们工作方式的一部分，或者成为他们尝试过但放弃的另一个人工智能实验。\n\n在 TechCrunch Disrupt 2026 上，来自 Anthropic、Gamma 和 Clay 的领导者将齐聚人工智能舞台，探讨“当企业实际部署 Claude 时 Anthropic 的看法”。此次对话将带来人工智能部署的两个方面：Anthropic 在企业实施中看到的模式以及创始人构建人们实际使用的人工智能产品的第一手经验。\n\n图片来源：TechCrunch\n\nAI 推出后会发生什么？\n\n关于企业人工智能的大多数讨论都集中在公司可以用它做什么。应用人工智能的人类负责人 Cat de Jong 从更有趣的地方开始：部署后会发生什么。\n\nDe Jong 直接与企业合作，将 Claude 纳入关键工作流程。在 Disrupt，她将探讨部署在哪些方面成功，哪些方面停滞，以及那些在 18 个月后仍在运行试点的组织与那些获取真正价值的组织之间的区别。\n\n如果你向企业推销人工智能，这些模式就很重要。 De Jong 的经验让我们亲眼目睹了人工智能从实验转向关键工作流程时会发生什么变化，以及为什么有些组织可以投入生产，而另一些组织却不能。\n\n你如何让人们使用你所构建的东西？\n\nAnthropic 可以看到跨企业部署的模式。 Gamma 联合创始人兼首席执行官 Grant Lee 为这次对话带来了另一个视角：从公司内部来看，构建人工智能产品并让人们实际使用它是什么样子。\n\nGamma 已将其人工智能驱动的平台从传统演示软件的替代品发展成为更广泛的视觉通信工具。 TechCrunch 在 3 月份报道称，随着将人工智能工具扩展到营销资产和其他形式的视觉内容，该公司的用户数量已接近 1 亿。\n\n这种采用方式让 Lee 在本次会议的核心问题上获得了有用的优势：是什么让人工智能产品足够有用，让客户不断回头？一旦人们开始以您意想不到的方式使用它，会发生什么变化？如何将强大的人工智能功能转化为解决人们实际问题的产品？\n\n构建人工智能产品是一回事。让人们将其纳入工作方式是另一回事。确保您获得 Disrupt 通行证，听听 Gamma 在此过程中学到了什么。\n\n当人工智能成为工作流程的一部分时会发生什么？\n\nClay 联合创始人兼首席执行官 Kareem Amin 将创始人构建人工智能的视角融入到公司寻找和接触客户的方式中。 Clay 提供了用于提取数据、运行代理工作流程和启动 GTM 游戏的基础设施。\n\n一月份，TechCrunch 报道称，当 Anthropic 在 Claude 界面中引入交互式工作场所工具时，Clay 是集成到 Claude 中的启动应用程序之一，因此他的观点与对话特别相关。\n\n这让阿明很接近本次会议将探讨的问题：人工智能在哪里真正有用，它如何适应现有的工作流程，以及一旦客户开始依赖它会发生什么。\n\n德容、李和阿明共同对这一转变提出了不同的看法。 Anthropic 可以识别整个企业部署的模式，而 Gamma 和 Clay 可以根据客户在使用人工智能产品时所看到的情况对这些模式进行压力测试。\n\n听听 AI 产品如何超越 Disrupt 2026 的演示\n\n令人印象深刻的演示可以展示人工智能的潜力。当客户开始依赖它时，更严峻的考验就会到来。在 Disrupt 大会上，Anthropic 带来了企业部署的视角，而 Gamma 和 Clay 则带来了创始人对构建人们实际使用的人工智能产品的看法。\n\n与他们一起参加 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt，届时 10,000 多名创始人、投资者、运营商和技术领导者将齐聚一堂，参加跨越 6 个行业阶段的 200 多场会议、圆桌会议和分组讨论，其中有 250 多名演讲者以及 300 多家参展初创公司、配对和网络。",
+      "desc": "这家边缘计算初创公司筹集了1.5亿美元的C轮融资，由Fidelity和Amplify领投。",
+      "articleText": "物理 AI 芯片开发商 SiMa.ai 估值达到 $1.45B | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n太平洋夏令时间上午 8:29 · 2026 年 9 月 28 日\n\n图片来源：盖蒂图片社\n\n物理AI芯片开发商SiMa.ai估值达到$1.45B\n\nSiMa.ai 是一家开发芯片和软件的初创公司，允许机器人、无人机、相机和其他设备直接在设备上运行人工智能，该公司已以 14.5 亿美元的估值筹集了 1.5 亿美元的 C 轮融资。此轮融资由 Fidelity Management & Research Company 和 Amplify 共同领投，Alter Venture Partners、Dell Technologies Capital 和 StepStone Group 跟投。\n\n该公司由芯片制造商 Groq 的前首席运营官 Krishna Rangasayee 于 2018 年创立，提供节能芯片，无需在云端来回发送数据。 SiMa.ai 希望，与 Nvidia 的 GPU 相比，其低延迟性能和更实惠的芯片将有助于其占领不断增长的物理 AI 设备（包括人形机器人）市场。\n\n新一轮融资使SiMa.ai的融资总额超过5亿美元。根据 PitchBook 的数据，该初创公司在 2025 年 7 月筹集了 8500 万美元的 B 轮融资后，估值为 9.6 亿美元。\n\n边缘计算 , 硬件 , SiMa.ai\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\n订阅业界最大的科技新闻\n\nTechCrunch 每日新闻\n\n每个工作日和周日，您都可以获取 TechCrunch 的最佳报道。\n\nTechCrunch Mobility 是您获取交通新闻和见解的目的地。\n\n初创公司是 TechCrunch 的核心，因此我们每周都会提供最佳报道。\n\n为影响力人士提供开始新的一天所需的信息。\n\n未选择新闻通讯。\n\n提交您的电子邮件即表示您同意我们的条款和隐私声明。",
       "articleBlocks": [
         {
           "type": "text",
-          "value": "Anthropic、Gamma 和 Clay 在 Disrupt 2026 上谈论人工智能 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室"
+          "value": "物理 AI 芯片开发商 SiMa.ai 估值达到 $1.45B | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n太平洋夏令时间上午 8:29 · 2026 年 9 月 28 日"
         },
         {
           "type": "image",
-          "value": "https://techcrunch.com/wp-content/uploads/2025/09/Disrupt-2025-AI-Stage.jpg?w=1024"
+          "value": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1370479417.jpg?w=1024"
         },
         {
           "type": "text",
-          "value": "图片来源：Slava Blazer Photography\n\nAnthropic、Gamma 和 Clay 在 TechCrunch Disrupt 2026 上分享了企业实际部署人工智能时会发生什么\n\n太平洋夏令时间上午 8:30 · 2026 年 9 月 28 日\n\n人工智能演示可以在五分钟内看起来很精彩。然后客户开始使用该产品。他们将其推入您意想不到的工作流程中。他们希望它能够可靠地工作。他们很快就会发现它是否解决了一个足够大的问题，成为他们工作方式的一部分，或者成为他们尝试过但放弃的另一个人工智能实验。\n\n在 TechCrunch Disrupt 2026 上，来自 Anthropic、Gamma 和 Clay 的领导者将齐聚人工智能舞台，探讨“当企业实际部署 Claude 时 Anthropic 的看法”。此次对话将带来人工智能部署的两个方面：Anthropic 在企业实施中看到的模式以及创始人构建人们实际使用的人工智能产品的第一手经验。"
+          "value": "图片来源：盖蒂图片社"
         },
         {
           "type": "image",
-          "value": "https://techcrunch.com/wp-content/uploads/2026/09/TCD26_3-De-Jong-Amin-Lee_16x9-Dark.png?w=680"
+          "value": "https://techcrunch.com/wp-content/uploads/2025/08/IMG_0758.jpg?w=668"
         },
         {
           "type": "text",
-          "value": "图片来源：TechCrunch\n\nAI 推出后会发生什么？\n\n关于企业人工智能的大多数讨论都集中在公司可以用它做什么。应用人工智能的人类负责人 Cat de Jong 从更有趣的地方开始：部署后会发生什么。\n\nDe Jong 直接与企业合作，将 Claude 纳入关键工作流程。在 Disrupt，她将探讨部署在哪些方面成功，哪些方面停滞，以及那些在 18 个月后仍在运行试点的组织与那些获取真正价值的组织之间的区别。\n\n如果你向企业推销人工智能，这些模式就很重要。 De Jong 的经验让我们亲眼目睹了人工智能从实验转向关键工作流程时会发生什么变化，以及为什么有些组织可以投入生产，而另一些组织却不能。\n\n你如何让人们使用你所构建的东西？\n\nAnthropic 可以看到跨企业部署的模式。 Gamma 联合创始人兼首席执行官 Grant Lee 为这次对话带来了另一个视角：从公司内部来看，构建人工智能产品并让人们实际使用它是什么样子。\n\nGamma 已将其人工智能驱动的平台从传统演示软件的替代品发展成为更广泛的视觉通信工具。 TechCrunch 在 3 月份报道称，随着将人工智能工具扩展到营销资产和其他形式的视觉内容，该公司的用户数量已接近 1 亿。\n\n这种采用方式让 Lee 在本次会议的核心问题上获得了有用的优势：是什么让人工智能产品足够有用，让客户不断回头？一旦人们开始以您意想不到的方式使用它，会发生什么变化？如何将强大的人工智能功能转化为解决人们实际问题的产品？\n\n构建人工智能产品是一回事。让人们将其纳入工作方式是另一回事。确保您获得 Disrupt 通行证，听听 Gamma 在此过程中学到了什么。\n\n当人工智能成为工作流程的一部分时会发生什么？\n\nClay 联合创始人兼首席执行官 Kareem Amin 将创始人构建人工智能的视角融入到公司寻找和接触客户的方式中。 Clay 提供了用于提取数据、运行代理工作流程和启动 GTM 游戏的基础设施。\n\n一月份，TechCrunch 报道称，当 Anthropic 在 Claude 界面中引入交互式工作场所工具时，Clay 是集成到 Claude 中的启动应用程序之一，因此他的观点与对话特别相关。\n\n这让阿明很接近本次会议将探讨的问题：人工智能在哪里真正有用，它如何适应现有的工作流程，以及一旦客户开始依赖它会发生什么。"
-        },
-        {
-          "type": "text",
-          "value": "德容、李和阿明共同对这一转变提出了不同的看法。 Anthropic 可以识别整个企业部署的模式，而 Gamma 和 Clay 可以根据客户在使用人工智能产品时所看到的情况对这些模式进行压力测试。\n\n听听 AI 产品如何超越 Disrupt 2026 的演示\n\n令人印象深刻的演示可以展示人工智能的潜力。当客户开始依赖它时，更严峻的考验就会到来。在 Disrupt 大会上，Anthropic 带来了企业部署的视角，而 Gamma 和 Clay 则带来了创始人对构建人们实际使用的人工智能产品的看法。\n\n与他们一起参加 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt，届时 10,000 多名创始人、投资者、运营商和技术领导者将齐聚一堂，参加跨越 6 个行业阶段的 200 多场会议、圆桌会议和分组讨论，其中有 250 多名演讲者以及 300 多家参展初创公司、配对和网络。"
+          "value": "物理AI芯片开发商SiMa.ai估值达到$1.45B\n\nSiMa.ai 是一家开发芯片和软件的初创公司，允许机器人、无人机、相机和其他设备直接在设备上运行人工智能，该公司已以 14.5 亿美元的估值筹集了 1.5 亿美元的 C 轮融资。此轮融资由 Fidelity Management & Research Company 和 Amplify 共同领投，Alter Venture Partners、Dell Technologies Capital 和 StepStone Group 跟投。\n\n该公司由芯片制造商 Groq 的前首席运营官 Krishna Rangasayee 于 2018 年创立，提供节能芯片，无需在云端来回发送数据。 SiMa.ai 希望，与 Nvidia 的 GPU 相比，其低延迟性能和更实惠的芯片将有助于其占领不断增长的物理 AI 设备（包括人形机器人）市场。\n\n新一轮融资使SiMa.ai的融资总额超过5亿美元。根据 PitchBook 的数据，该初创公司在 2025 年 7 月筹集了 8500 万美元的 B 轮融资后，估值为 9.6 亿美元。\n\n边缘计算 , 硬件 , SiMa.ai\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\n订阅业界最大的科技新闻\n\nTechCrunch 每日新闻\n\n每个工作日和周日，您都可以获取 TechCrunch 的最佳报道。\n\nTechCrunch Mobility 是您获取交通新闻和见解的目的地。\n\n初创公司是 TechCrunch 的核心，因此我们每周都会提供最佳报道。\n\n为影响力人士提供开始新的一天所需的信息。\n\n未选择新闻通讯。\n\n提交您的电子邮件即表示您同意我们的条款和隐私声明。"
         }
       ],
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/",
       "publishedAt": "2026-09-28"
     },
     {
-      "id": "2026-09-28-04",
-      "title": "泰国志愿者营地用回收木材手工建造学校厕所",
-      "tag": "工业设计 · 全球",
-      "desc": "41名志愿者花了11天时间用再生木材建造学校厕所，学习卫生设计、材料再利用和动手工艺。岗位志愿者夏令营在",
-      "articleText": "四十一名建筑系学生志愿者建造学校厕所\n\n在素攀武里府的一所小型小学，41 名志愿者花了 11 天的时间学习建造他们的年度营地以前从未设计过的东西：厕所。多年来，AKU ASA 志愿者营一直是建筑系学生和当地工匠交流技能的聚会场所，否则这些技能将一代一代地消失。 Song Phi Nong 小学需要一个小型卫生设施，其场地只不过是一棵成熟的 Nontri 树遮荫的空地。\n\n志愿者们抵达时几乎没有任何施工经验，只用了十一天的时间就弥补了这一差距。 AKU ASA 20 没有重复以前版本的营地中定义的展馆和多功能厅，而是提出了一个不同的问题：当每年设计相同的建筑类型时，还需要学习什么？选择厕所作为今年的项目，将重点从结构和空间转移到学生作业中很少涉及的学科：卫生设计，以及建筑及其场地如何塑造管道系统。\n\n遮阳、气流和再生木质学校厕所的设计\n\n布局直接响应周围环境：Nontri树投射的树荫和场地的自然气流将连接水槽和厕所隔间的中间空间转变为一个可以兼作凉爽、休息或玩耍的地方的区域，而不是纯粹的功能性走廊。材料将自己的历史带入了项目中。\n\n由 SEP 工作室领导的设计团队从学校原来的建筑（大约六十年前建造的中式教室）中采购了再生木材，使新结构与学校自身的过去建立了物理联系。每个组件都是由志愿者手工制作的。其结果是一座朴素的建筑，但它重新定义了学生志愿者营地可以教授的内容：建筑教育超越了形式制作，延伸到基础设施、材料再利用以及从一代人到下一代人耐心地传授工艺知识。\n\n名称: Phi Sorn Nong 厕所\n\n地点：泰国素攀武里府\n\ndesignboom 从我们的 DIY 提交功能中收到了这个项目，我们欢迎读者提交自己的作品以供出版。请在此处查看我们的读者提交的更多项目。\n\n编辑：克里斯蒂娜·维尔戈普卢 |设计热潮\n\n泰国后志愿者营地用回收木材手工建造学校厕所首次亮相设计邦|建筑与设计杂志。",
+      "id": "2026-09-28-07",
+      "title": "Dreame的爬台阶式X50超级拖地吸尘器已关闭数百次",
+      "tag": "科技 · 全球",
+      "desc": "自从我们看到有能力的机器人吸尘器和拖把混合动力车大幅降价以来，已经有一段时间了，这种混合动力车可以通过短步骤和阈值进行扩展，以寻找混乱。Dreame的X50 Ultra是",
+      "articleText": "我们已经有一段时间没有看到一款功能强大的扫地机器人和拖把混合机器人大幅降价了，这种混合机器人可以通过短步和阈值进行扩展来清理混乱。 Dreame 的 X50 Ultra 是我的同事 Jen 推荐用于硬地板和地毯的型号，Prime 会员在亚马逊的售价为 899.99 美元（原价 1,599.99 美元，但通常在 1,100 美元左右）。如果你有免费帐户，直接通过 Dreame 网站购买实际上会便宜一些（849.99 美元）。\n\n亚马逊 $1099.99 $899.99（Prime 会员）\n\nDreame 1099.99 美元 849.99 美元（免费帐户）\n\nX50 Ultra 于 2025 年初首次亮相，并且仍然入选 Jen 的 2026 年最佳机器人吸尘器名单，这要归功于其大部分功能都执行得很好。它是一款很棒的吸尘器和拖把，它的拖把垫可以伸出来，清扫橱柜和其他靠近地板的家具下面。另外值得注意的是，它能够爬过高达 6 厘米（超过 2 英寸）的门槛，确保它不会卡在其他吸尘器可能绊倒的地方。\n\n就像任何好的扫地机器人和拖把机器人一样，您无需做太多日常维护工作。它可以自动移除、清洗和烘干拖把，它的自动清空垃圾箱可以收集几周内吸走的碎片。 Dreame 声称 100 天内你不必清空它，但这显然取决于你的地方有多混乱。此外，如果您经常拖地，您可能需要经常给水箱加水。\n\n其他经 Verge 批准的精彩优惠\n\nWoot 对配备 AMD Ryzen Z1 Extreme 处理器（16GB RAM、512GB SSD）的华硕 ROG Ally 的“A 级”状况翻新设备进行了相当不错的交易，并提供 90 天保修。售价为 529.99 美元，使用优惠码 CHEERS 可在当天剩余时间（9 月 28 日）享受 20% 的折扣。使用该代码的新客户可享受 30% 的折扣。如果享受 20% 的折扣，大约需要 425 美元，如果享受 30% 的折扣，大约需要 371 美元。该型号是 Steam Deck LCD 的有力竞争对手，具有更高分辨率的 1080p 屏幕和 120Hz 刷新率。它的 Z1 Extreme 处理器也更快，所以如果你正在寻找手持设备，这可能是你一直在寻找的交易。阅读我们的 2023 年回顾。\n\nWoot 推出的另一项交易是针对 PlayStation、PC 和 Switch 的 SteelSeries Arctis Nova Pro 无线耳机。全新状态下的白色版本售价约为 192 美元，使用代码 CHEERS ，如果您碰巧是使用该代码的 Woot 新客户，则价格降至 168 美元左右。目前 239.99 美元的价格已经足以在本次综述中占据一席之地，但当前的折扣使其降至“有史以来最好”的水平。即使与继任者 399 美元的 Nova Pro Omni 相比，这款 2022 年耳机仍然是一个绝佳的选择。它具有可更换电池、舒适的设计和可靠的基站，可以从多个来源输入音频。阅读我们对 Nova Pro 的评论。\n\n三星的 32 英寸 4K 智能屏幕名为 The Movingstyle Essential，立减 200 美元。亚马逊 Prime 会员原价 699.99 美元，现价 499.99 美元。这似乎是三星对 LG StanbyMe 的模仿，尽管在这次折扣之前它的价格要便宜得多（值得注意的是，三星的 StanbyMe 需要插入电源，与配备电池的 LG 型号不同）。屏幕连接到高度可调的滚动支架（最高 50.8 英寸），并且支持旋转、侧转和倾斜。它具有两个全尺寸 HDMI 端口（其中一个支持 ARC）、具有 65W 直通功率的 USB-C 端口以及两个用于查看本地媒体的 USB-A 端口。",
       "articleBlocks": [
         {
-          "type": "text",
-          "value": "四十一名建筑系学生志愿者建造学校厕所\n\n在素攀武里府的一所小型小学，41 名志愿者花了 11 天的时间学习建造他们的年度营地以前从未设计过的东西：厕所。多年来，AKU ASA 志愿者营一直是建筑系学生和当地工匠交流技能的聚会场所，否则这些技能将一代一代地消失。 Song Phi Nong 小学需要一个小型卫生设施，其场地只不过是一棵成熟的 Nontri 树遮荫的空地。\n\n志愿者们抵达时几乎没有任何施工经验，只用了十一天的时间就弥补了这一差距。 AKU ASA 20 没有重复以前版本的营地中定义的展馆和多功能厅，而是提出了一个不同的问题：当每年设计相同的建筑类型时，还需要学习什么？选择厕所作为今年的项目，将重点从结构和空间转移到学生作业中很少涉及的学科：卫生设计，以及建筑及其场地如何塑造管道系统。"
-        },
-        {
           "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-1-6ab8bbcd4be02.jpg"
+          "value": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/dreamex50ultra.png?quality=90&strip=all&crop=0,0,100,100"
         },
         {
           "type": "text",
-          "value": "遮阳、气流和再生木质学校厕所的设计\n\n布局直接响应周围环境：Nontri树投射的树荫和场地的自然气流将连接水槽和厕所隔间的中间空间转变为一个可以兼作凉爽、休息或玩耍的地方的区域，而不是纯粹的功能性走廊。材料将自己的历史带入了项目中。\n\n由 SEP 工作室领导的设计团队从学校原来的建筑（大约六十年前建造的中式教室）中采购了再生木材，使新结构与学校自身的过去建立了物理联系。每个组件都是由志愿者手工制作的。其结果是一座朴素的建筑，但它重新定义了学生志愿者营地可以教授的内容：建筑教育超越了形式制作，延伸到基础设施、材料再利用以及从一代人到下一代人耐心地传授工艺知识。"
+          "value": "我们已经有一段时间没有看到一款功能强大的扫地机器人和拖把混合机器人大幅降价了，这种混合机器人可以通过短步和阈值进行扩展来清理混乱。 Dreame 的 X50 Ultra 是我的同事 Jen 推荐用于硬地板和地毯的型号，Prime 会员在亚马逊的售价为 899.99 美元（原价 1,599.99 美元，但通常在 1,100 美元左右）。如果你有免费帐户，直接通过 Dreame 网站购买实际上会便宜一些（849.99 美元）。"
         },
         {
           "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-2-6ab8bbcd4be85.jpg"
-        },
-        {
-          "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-5-6ab8bbcd4bf59.jpg"
-        },
-        {
-          "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-6-6ab8bbcd4bf95.jpg"
-        },
-        {
-          "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-3-6ab8bbcd4becf.jpg"
-        },
-        {
-          "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-4-6ab8bbcd4bf13.jpg"
-        },
-        {
-          "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-7-6ab8bbcd4bfcf.jpg"
-        },
-        {
-          "type": "image",
-          "value": "https://www.designboom.com/wp-content/dbsub/468284/2026-09-27/starting-from-zero-the-aku-asa-volunteer-camp-builds-a-school-toilet-from-reclaimed-wood-8-6ab8bbcd4c01e.jpg"
+          "value": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/8A0A2554.jpeg?w=300"
         },
         {
           "type": "text",
-          "value": "名称: Phi Sorn Nong 厕所\n\n地点：泰国素攀武里府\n\ndesignboom 从我们的 DIY 提交功能中收到了这个项目，我们欢迎读者提交自己的作品以供出版。请在此处查看我们的读者提交的更多项目。\n\n编辑：克里斯蒂娜·维尔戈普卢 |设计热潮\n\n泰国后志愿者营地用回收木材手工建造学校厕所首次亮相设计邦|建筑与设计杂志。"
+          "value": "亚马逊 $1099.99 $899.99（Prime 会员）\n\nDreame 1099.99 美元 849.99 美元（免费帐户）\n\nX50 Ultra 于 2025 年初首次亮相，并且仍然入选 Jen 的 2026 年最佳机器人吸尘器名单，这要归功于其大部分功能都执行得很好。它是一款很棒的吸尘器和拖把，它的拖把垫可以伸出来，清扫橱柜和其他靠近地板的家具下面。另外值得注意的是，它能够爬过高达 6 厘米（超过 2 英寸）的门槛，确保它不会卡在其他吸尘器可能绊倒的地方。\n\n就像任何好的扫地机器人和拖把机器人一样，您无需做太多日常维护工作。它可以自动移除、清洗和烘干拖把，它的自动清空垃圾箱可以收集几周内吸走的碎片。 Dreame 声称 100 天内你不必清空它，但这显然取决于你的地方有多混乱。此外，如果您经常拖地，您可能需要经常给水箱加水。\n\n其他经 Verge 批准的精彩优惠\n\nWoot 对配备 AMD Ryzen Z1 Extreme 处理器（16GB RAM、512GB SSD）的华硕 ROG Ally 的“A 级”状况翻新设备进行了相当不错的交易，并提供 90 天保修。售价为 529.99 美元，使用优惠码 CHEERS 可在当天剩余时间（9 月 28 日）享受 20% 的折扣。使用该代码的新客户可享受 30% 的折扣。如果享受 20% 的折扣，大约需要 425 美元，如果享受 30% 的折扣，大约需要 371 美元。该型号是 Steam Deck LCD 的有力竞争对手，具有更高分辨率的 1080p 屏幕和 120Hz 刷新率。它的 Z1 Extreme 处理器也更快，所以如果你正在寻找手持设备，这可能是你一直在寻找的交易。阅读我们的 2023 年回顾。\n\nWoot 推出的另一项交易是针对 PlayStation、PC 和 Switch 的 SteelSeries Arctis Nova Pro 无线耳机。全新状态下的白色版本售价约为 192 美元，使用代码 CHEERS ，如果您碰巧是使用该代码的 Woot 新客户，则价格降至 168 美元左右。目前 239.99 美元的价格已经足以在本次综述中占据一席之地，但当前的折扣使其降至“有史以来最好”的水平。即使与继任者 399 美元的 Nova Pro Omni 相比，这款 2022 年耳机仍然是一个绝佳的选择。它具有可更换电池、舒适的设计和可靠的基站，可以从多个来源输入音频。阅读我们对 Nova Pro 的评论。"
+        },
+        {
+          "type": "text",
+          "value": "三星的 32 英寸 4K 智能屏幕名为 The Movingstyle Essential，立减 200 美元。亚马逊 Prime 会员原价 699.99 美元，现价 499.99 美元。这似乎是三星对 LG StanbyMe 的模仿，尽管在这次折扣之前它的价格要便宜得多（值得注意的是，三星的 StanbyMe 需要插入电源，与配备电池的 LG 型号不同）。屏幕连接到高度可调的滚动支架（最高 50.8 英寸），并且支持旋转、侧转和倾斜。它具有两个全尺寸 HDMI 端口（其中一个支持 ARC）、具有 65W 直通功率的 USB-C 端口以及两个用于查看本地媒体的 USB-A 端口。"
         }
       ],
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/architecture/volunteer-camp-thailand-school-toilet-reclaimed-wood-sep/",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/gadgets/1001313/dreame-x50-ultra-robot-vacuum-mop-asus-rog-ally-deal-sale",
       "publishedAt": "2026-09-28"
     },
     {
-      "id": "2026-09-28-05",
-      "title": "下载：流氓代理责任和人工智能炒作指数",
-      "tag": "AI 技术 · 全球",
-      "desc": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。当人工智能特工流氓时，谁负有责任？完毕",
-      "articleText": "这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。\n\n当人工智能代理失控时，谁该承担责任？\n\n在过去的几个月里，人工智能代理发起的一系列网络攻击震惊了世界。今年 7 月，OpenAI 披露，其一群代理已逃离沙箱，并侵入人工智能平台 Hugging Face，以在网络安全测试中作弊。\n\n许多专家表示，人工智能代理绕过沙箱访问不应访问的系统的更具破坏性的事件发生只是时间问题。\n\n但最大的问题是：当公司失去对人工智能代理的控制时，我们如何让公司承担责任？\n\n将人工智能现实与炒作的虚构分开并不总是那么容易。这就是我们创建人工智能炒作指数的原因，它是对当前行业影响因素的简单、一目了然的总结。\n\n最新版本包括中国芯片制造商、德国维基网站和美国终结者。查看本月指数中的所有内容。\n\n圆桌会议：虚拟边界墙的致命失败\n\n上周，我们发表了《麻省理工科技评论》的一项调查，发现在美国边境沿线监视塔的广告范围内有一千多人死亡。\n\n今天晚些时候，我们的主编马特·霍南 (Mat Honan)、高级人工智能记者詹姆斯·奥唐纳 (James O’Donnell) 和负责专题报道和调查的高级记者艾琳·郭 (EileenGuo) 将参加一场仅限订阅者参与的对话，内容涉及调查及其影响。\n\n立即报名参加 9 月 28 日星期一英国夏令时间下午 7:00/美国东部时间下午 2:00/太平洋夏令时间上午 11:00 的活动。\n\n想加入对话吗？订阅《麻省理工学院技术评论》，独家访问我们所有的圆桌会议。\n\n请在此处阅读完整的《麻省理工科技评论》调查。\n\n我梳理了互联网，为您找到当今最有趣/最重要/最可怕/最迷人的技术故事\n\n1 OpenAI 表示已暂停模型训练\n\n该决定是在其代理人与美国政府网站互动后做出的。 （美联社）\n\n+ 特朗普昨晚在白宫举行晚宴，招待了人类老板达里奥·阿莫代。 （英国金融时报）\n\n+ 评估人员在人工智能公司内部到底有多少访问权？ （大西洋）\n\n+ 为什么我们不能让流氓人工智能远离互联网？ （边缘）\n\n+ 民主党人正在疯狂地争夺让人工智能“正确”。 （纽约杂志）\n\n+ 毕竟，人工智能终止开关并不是那么简单。 （彭博社）\n\n+ 人工智能真的会杀死我们所有人吗？你的问题，回答d。 （麻省理工科技评论）\n\n2 为什么数据中心的强烈反对不是气候清算？\n\n让人们关心他们所产生的排放仍然很困难。 （有线）\n\n+ 气候运动现在在做什么？ （大西洋）\n\n+ 数据中心和能源背后的数学。 （麻省理工科技评论）\n\n3 华尔街大空头还没有准备好做空人工智能\n\n泡沫言论越来越多，但没有多少人愿意与大众背道而驰。 （信息$）\n\n+ AI泡沫到底是什么？ （麻省理工科技评论）\n\n4 Anthropic的AI真的自己做出了科学发现吗？\n\n一位科学家与克劳德分享了研究成果，并表示新发现相符。唔。 （纽约时报）\n\n+ 科学人工智能需要推理，而不仅仅是数据。 （麻省理工科技评论）\n\n5 古老的超级细菌可能帮助我们对抗抗生素耐药性\n\n它们可能正从永久冻土层中显现出来。 （新科学家）\n\n6 更可靠、更不易堵塞的 GPS 替代品即将问世\n\n使用地球的量子场可能会更安全。 （经济学家）\n\n7 为什么社交媒体禁令不足以保证儿童安全\n\n网络儿童安全需要更细致的政策。 （IEEE 频谱，意见）\n\n8 美国就是这样攻击中国对关键矿产的控制\n\n这是一项耗资数十亿美元的努力，旨在放松北京的封锁。它正在发挥作用。 （华尔街日报）\n\n9 没有人愿意和科技兄弟约会了\n\n他们曾经是书呆子和无害的，现在他们有一个真正的形象问题。 （有线）\n\n10 现在手机礼仪有哪些规定？\n\n例如，是否有义务立即回复某人短信？ （沃克斯）\n\n“如果你是邪恶的，你至少是有能力的。如果你是邪恶的，你并不坏，因此你实际上可能是善良的，因为你至少完成了一些事情。”\n\n——风险投资家兼 PayPal 联合创始人 Peter Thiel 在接受 Axel Springer 首席执行官 Mathias Döpfner 采访时分享了他对能力与道德的不同寻常看法。\n\n在家训练人形机器人的零工工人\n\n尼日利亚的一名医科学生 Zeus 在医院度过了漫长的一天后回到自己的公寓，他将 iPhone 绑在额头上，记录自己做家务的情况。\n\nZeus 是 Micro1 的数据记录器，该公司将他收集的数据出售给机器人公司。随着这些公司竞相打造人形机器人，Zeus 等工人的视频已成为最热门的培训新方式。\n\nMicro1 已在 50 多个国家/地区雇用了数千名员工，其中包括印度、尼日利亚和阿根廷。这些工作在当地薪酬很高，但会引发有关隐私和知情同意的棘手问题。这项工作可能充满挑战，而且很奇怪。阅读全文。\n\n我们仍然可以拥有美好的事物\n\n一个舒适、有趣、分散注意力的地方，让您的一天充满活力。 （有什么想法吗？给我留言。）\n\n+ 这款冲浪板内置有一个 10 升啤酒桶。\n\n+ 好莱坞标志性的 Cinerama 圆顶电影院终于将于 2028 年初重新开放。\n\n+ 从德古拉到玛丽莲·梦露，这里有 25 条你可能听错的流行文化名言。\n\n+ 迷你豆荚中的小龙虾和真人大小的漂浮睡莲凸显了这组令人惊叹的科学照片。",
-      "articleBlocks": [
-        {
-          "type": "text",
-          "value": "这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。\n\n当人工智能代理失控时，谁该承担责任？\n\n在过去的几个月里，人工智能代理发起的一系列网络攻击震惊了世界。今年 7 月，OpenAI 披露，其一群代理已逃离沙箱，并侵入人工智能平台 Hugging Face，以在网络安全测试中作弊。\n\n许多专家表示，人工智能代理绕过沙箱访问不应访问的系统的更具破坏性的事件发生只是时间问题。\n\n但最大的问题是：当公司失去对人工智能代理的控制时，我们如何让公司承担责任？\n\n将人工智能现实与炒作的虚构分开并不总是那么容易。这就是我们创建人工智能炒作指数的原因，它是对当前行业影响因素的简单、一目了然的总结。\n\n最新版本包括中国芯片制造商、德国维基网站和美国终结者。查看本月指数中的所有内容。\n\n圆桌会议：虚拟边界墙的致命失败\n\n上周，我们发表了《麻省理工科技评论》的一项调查，发现在美国边境沿线监视塔的广告范围内有一千多人死亡。\n\n今天晚些时候，我们的主编马特·霍南 (Mat Honan)、高级人工智能记者詹姆斯·奥唐纳 (James O’Donnell) 和负责专题报道和调查的高级记者艾琳·郭 (EileenGuo) 将参加一场仅限订阅者参与的对话，内容涉及调查及其影响。\n\n立即报名参加 9 月 28 日星期一英国夏令时间下午 7:00/美国东部时间下午 2:00/太平洋夏令时间上午 11:00 的活动。\n\n想加入对话吗？订阅《麻省理工学院技术评论》，独家访问我们所有的圆桌会议。\n\n请在此处阅读完整的《麻省理工科技评论》调查。\n\n我梳理了互联网，为您找到当今最有趣/最重要/最可怕/最迷人的技术故事\n\n1 OpenAI 表示已暂停模型训练\n\n该决定是在其代理人与美国政府网站互动后做出的。 （美联社）\n\n+ 特朗普昨晚在白宫举行晚宴，招待了人类老板达里奥·阿莫代。 （英国金融时报）\n\n+ 评估人员在人工智能公司内部到底有多少访问权？ （大西洋）\n\n+ 为什么我们不能让流氓人工智能远离互联网？ （边缘）\n\n+ 民主党人正在疯狂地争夺让人工智能“正确”。 （纽约杂志）\n\n+ 毕竟，人工智能终止开关并不是那么简单。 （彭博社）\n\n+ 人工智能真的会杀死我们所有人吗？你的问题，回答d。 （麻省理工科技评论）\n\n2 为什么数据中心的强烈反对不是气候清算？\n\n让人们关心他们所产生的排放仍然很困难。 （有线）"
-        },
-        {
-          "type": "text",
-          "value": "+ 气候运动现在在做什么？ （大西洋）\n\n+ 数据中心和能源背后的数学。 （麻省理工科技评论）\n\n3 华尔街大空头还没有准备好做空人工智能\n\n泡沫言论越来越多，但没有多少人愿意与大众背道而驰。 （信息$）\n\n+ AI泡沫到底是什么？ （麻省理工科技评论）\n\n4 Anthropic的AI真的自己做出了科学发现吗？\n\n一位科学家与克劳德分享了研究成果，并表示新发现相符。唔。 （纽约时报）\n\n+ 科学人工智能需要推理，而不仅仅是数据。 （麻省理工科技评论）\n\n5 古老的超级细菌可能帮助我们对抗抗生素耐药性\n\n它们可能正从永久冻土层中显现出来。 （新科学家）\n\n6 更可靠、更不易堵塞的 GPS 替代品即将问世\n\n使用地球的量子场可能会更安全。 （经济学家）\n\n7 为什么社交媒体禁令不足以保证儿童安全\n\n网络儿童安全需要更细致的政策。 （IEEE 频谱，意见）\n\n8 美国就是这样攻击中国对关键矿产的控制\n\n这是一项耗资数十亿美元的努力，旨在放松北京的封锁。它正在发挥作用。 （华尔街日报）\n\n9 没有人愿意和科技兄弟约会了\n\n他们曾经是书呆子和无害的，现在他们有一个真正的形象问题。 （有线）\n\n10 现在手机礼仪有哪些规定？\n\n例如，是否有义务立即回复某人短信？ （沃克斯）\n\n“如果你是邪恶的，你至少是有能力的。如果你是邪恶的，你并不坏，因此你实际上可能是善良的，因为你至少完成了一些事情。”\n\n——风险投资家兼 PayPal 联合创始人 Peter Thiel 在接受 Axel Springer 首席执行官 Mathias Döpfner 采访时分享了他对能力与道德的不同寻常看法。\n\n在家训练人形机器人的零工工人\n\n尼日利亚的一名医科学生 Zeus 在医院度过了漫长的一天后回到自己的公寓，他将 iPhone 绑在额头上，记录自己做家务的情况。\n\nZeus 是 Micro1 的数据记录器，该公司将他收集的数据出售给机器人公司。随着这些公司竞相打造人形机器人，Zeus 等工人的视频已成为最热门的培训新方式。\n\nMicro1 已在 50 多个国家/地区雇用了数千名员工，其中包括印度、尼日利亚和阿根廷。这些工作在当地薪酬很高，但会引发有关隐私和知情同意的棘手问题。这项工作可能充满挑战，而且很奇怪。阅读全文。\n\n我们仍然可以拥有美好的事物\n\n一个舒适、有趣、分散注意力的地方，让您的一天充满活力。 （有什么想法吗？给我留言。）"
-        },
-        {
-          "type": "text",
-          "value": "+ 这款冲浪板内置有一个 10 升啤酒桶。\n\n+ 好莱坞标志性的 Cinerama 圆顶电影院终于将于 2028 年初重新开放。\n\n+ 从德古拉到玛丽莲·梦露，这里有 25 条你可能听错的流行文化名言。\n\n+ 迷你豆荚中的小龙虾和真人大小的漂浮睡莲凸显了这组令人惊叹的科学照片。"
-        }
-      ],
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "2026-09-28-06",
+      "id": "2026-09-28-08",
       "title": "沃尔玛整合商家团队，注重风格",
       "tag": "电商 · 欧洲 / 美国",
       "desc": "这家零售巨头在开始运气不佳、以时尚为导向的“Project Impact”近20年后，正在合并其时尚、家居和美容业务。",
@@ -223,70 +347,6 @@
       ],
       "sourceName": "Retail Dive",
       "sourceUrl": "https://www.retaildive.com/news/walmart-fashion-home-beauty-merchant-teams-style-organization/831464/",
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "2026-09-28-07",
-      "title": "物理AI芯片开发商SiMa.ai估值达到14.5亿美元",
-      "tag": "科技 · 全球",
-      "desc": "这家边缘计算初创公司筹集了1.5亿美元的C轮融资，由Fidelity和Amplify领投。",
-      "articleText": "物理 AI 芯片开发商 SiMa.ai 估值达到 $1.45B | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n太平洋夏令时间上午 8:29 · 2026 年 9 月 28 日\n\n图片来源：盖蒂图片社\n\n物理AI芯片开发商SiMa.ai估值达到$1.45B\n\nSiMa.ai 是一家开发芯片和软件的初创公司，允许机器人、无人机、相机和其他设备直接在设备上运行人工智能，该公司已以 14.5 亿美元的估值筹集了 1.5 亿美元的 C 轮融资。此轮融资由 Fidelity Management & Research Company 和 Amplify 共同领投，Alter Venture Partners、Dell Technologies Capital 和 StepStone Group 跟投。\n\n该公司由芯片制造商 Groq 的前首席运营官 Krishna Rangasayee 于 2018 年创立，提供节能芯片，无需在云端来回发送数据。 SiMa.ai 希望，与 Nvidia 的 GPU 相比，其低延迟性能和更实惠的芯片将有助于其占领不断增长的物理 AI 设备（包括人形机器人）市场。\n\n新一轮融资使SiMa.ai的融资总额超过5亿美元。根据 PitchBook 的数据，该初创公司在 2025 年 7 月筹集了 8500 万美元的 B 轮融资后，估值为 9.6 亿美元。\n\n边缘计算 , 硬件 , SiMa.ai\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\n订阅业界最大的科技新闻\n\nTechCrunch 每日新闻\n\n每个工作日和周日，您都可以获取 TechCrunch 的最佳报道。\n\nTechCrunch Mobility 是您获取交通新闻和见解的目的地。\n\n初创公司是 TechCrunch 的核心，因此我们每周都会提供最佳报道。\n\n为影响力人士提供开始新的一天所需的信息。\n\n未选择新闻通讯。\n\n提交您的电子邮件即表示您同意我们的条款和隐私声明。",
-      "articleBlocks": [
-        {
-          "type": "text",
-          "value": "物理 AI 芯片开发商 SiMa.ai 估值达到 $1.45B | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n太平洋夏令时间上午 8:29 · 2026 年 9 月 28 日"
-        },
-        {
-          "type": "image",
-          "value": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1370479417.jpg?w=1024"
-        },
-        {
-          "type": "text",
-          "value": "图片来源：盖蒂图片社"
-        },
-        {
-          "type": "image",
-          "value": "https://techcrunch.com/wp-content/uploads/2025/08/IMG_0758.jpg?w=668"
-        },
-        {
-          "type": "text",
-          "value": "物理AI芯片开发商SiMa.ai估值达到$1.45B\n\nSiMa.ai 是一家开发芯片和软件的初创公司，允许机器人、无人机、相机和其他设备直接在设备上运行人工智能，该公司已以 14.5 亿美元的估值筹集了 1.5 亿美元的 C 轮融资。此轮融资由 Fidelity Management & Research Company 和 Amplify 共同领投，Alter Venture Partners、Dell Technologies Capital 和 StepStone Group 跟投。\n\n该公司由芯片制造商 Groq 的前首席运营官 Krishna Rangasayee 于 2018 年创立，提供节能芯片，无需在云端来回发送数据。 SiMa.ai 希望，与 Nvidia 的 GPU 相比，其低延迟性能和更实惠的芯片将有助于其占领不断增长的物理 AI 设备（包括人形机器人）市场。\n\n新一轮融资使SiMa.ai的融资总额超过5亿美元。根据 PitchBook 的数据，该初创公司在 2025 年 7 月筹集了 8500 万美元的 B 轮融资后，估值为 9.6 亿美元。\n\n边缘计算 , 硬件 , SiMa.ai\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\n订阅业界最大的科技新闻\n\nTechCrunch 每日新闻\n\n每个工作日和周日，您都可以获取 TechCrunch 的最佳报道。\n\nTechCrunch Mobility 是您获取交通新闻和见解的目的地。\n\n初创公司是 TechCrunch 的核心，因此我们每周都会提供最佳报道。\n\n为影响力人士提供开始新的一天所需的信息。\n\n未选择新闻通讯。\n\n提交您的电子邮件即表示您同意我们的条款和隐私声明。"
-        }
-      ],
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/",
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "2026-09-28-08",
-      "title": "Dreame的爬台阶式X50超级拖地吸尘器已关闭数百次",
-      "tag": "科技 · 全球",
-      "desc": "自从我们看到有能力的机器人吸尘器和拖把混合动力车大幅降价以来，已经有一段时间了，这种混合动力车可以通过短步骤和阈值进行扩展，以寻找混乱。Dreame的X50 Ultra是",
-      "articleText": "我们已经有一段时间没有看到一款功能强大的扫地机器人和拖把混合机器人大幅降价了，这种混合机器人可以通过短步和阈值进行扩展来清理混乱。 Dreame 的 X50 Ultra 是我的同事 Jen 推荐用于硬地板和地毯的型号，Prime 会员在亚马逊的售价为 899.99 美元（原价 1,599.99 美元，但通常在 1,100 美元左右）。如果你有免费帐户，直接通过 Dreame 网站购买实际上会便宜一些（849.99 美元）。\n\n亚马逊 $1099.99 $899.99（Prime 会员）\n\nDreame 1099.99 美元 849.99 美元（免费帐户）\n\nX50 Ultra 于 2025 年初首次亮相，并且仍然入选 Jen 的 2026 年最佳机器人吸尘器名单，这要归功于其大部分功能都执行得很好。它是一款很棒的吸尘器和拖把，它的拖把垫可以伸出来，清扫橱柜和其他靠近地板的家具下面。另外值得注意的是，它能够爬过高达 6 厘米（超过 2 英寸）的门槛，确保它不会卡在其他吸尘器可能绊倒的地方。\n\n就像任何好的扫地机器人和拖把机器人一样，您无需做太多日常维护工作。它可以自动移除、清洗和烘干拖把，它的自动清空垃圾箱可以收集几周内吸走的碎片。 Dreame 声称 100 天内你不必清空它，但这显然取决于你的地方有多混乱。此外，如果您经常拖地，您可能需要经常给水箱加水。\n\n其他经 Verge 批准的精彩优惠\n\nWoot 对配备 AMD Ryzen Z1 Extreme 处理器（16GB RAM、512GB SSD）的华硕 ROG Ally 的“A 级”状况翻新设备进行了相当不错的交易，并提供 90 天保修。售价为 529.99 美元，使用优惠码 CHEERS 可在当天剩余时间（9 月 28 日）享受 20% 的折扣。使用该代码的新客户可享受 30% 的折扣。如果享受 20% 的折扣，大约需要 425 美元，如果享受 30% 的折扣，大约需要 371 美元。该型号是 Steam Deck LCD 的有力竞争对手，具有更高分辨率的 1080p 屏幕和 120Hz 刷新率。它的 Z1 Extreme 处理器也更快，所以如果你正在寻找手持设备，这可能是你一直在寻找的交易。阅读我们的 2023 年回顾。\n\nWoot 推出的另一项交易是针对 PlayStation、PC 和 Switch 的 SteelSeries Arctis Nova Pro 无线耳机。全新状态下的白色版本售价约为 192 美元，使用代码 CHEERS ，如果您碰巧是使用该代码的 Woot 新客户，则价格降至 168 美元左右。目前 239.99 美元的价格已经足以在本次综述中占据一席之地，但当前的折扣使其降至“有史以来最好”的水平。即使与继任者 399 美元的 Nova Pro Omni 相比，这款 2022 年耳机仍然是一个绝佳的选择。它具有可更换电池、舒适的设计和可靠的基站，可以从多个来源输入音频。阅读我们对 Nova Pro 的评论。\n\n三星的 32 英寸 4K 智能屏幕名为 The Movingstyle Essential，立减 200 美元。亚马逊 Prime 会员原价 699.99 美元，现价 499.99 美元。这似乎是三星对 LG StanbyMe 的模仿，尽管在这次折扣之前它的价格要便宜得多（值得注意的是，三星的 StanbyMe 需要插入电源，与配备电池的 LG 型号不同）。屏幕连接到高度可调的滚动支架（最高 50.8 英寸），并且支持旋转、侧转和倾斜。它具有两个全尺寸 HDMI 端口（其中一个支持 ARC）、具有 65W 直通功率的 USB-C 端口以及两个用于查看本地媒体的 USB-A 端口。",
-      "articleBlocks": [
-        {
-          "type": "image",
-          "value": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/dreamex50ultra.png?quality=90&strip=all&crop=0,0,100,100"
-        },
-        {
-          "type": "text",
-          "value": "我们已经有一段时间没有看到一款功能强大的扫地机器人和拖把混合机器人大幅降价了，这种混合机器人可以通过短步和阈值进行扩展来清理混乱。 Dreame 的 X50 Ultra 是我的同事 Jen 推荐用于硬地板和地毯的型号，Prime 会员在亚马逊的售价为 899.99 美元（原价 1,599.99 美元，但通常在 1,100 美元左右）。如果你有免费帐户，直接通过 Dreame 网站购买实际上会便宜一些（849.99 美元）。"
-        },
-        {
-          "type": "image",
-          "value": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/8A0A2554.jpeg?w=300"
-        },
-        {
-          "type": "text",
-          "value": "亚马逊 $1099.99 $899.99（Prime 会员）\n\nDreame 1099.99 美元 849.99 美元（免费帐户）\n\nX50 Ultra 于 2025 年初首次亮相，并且仍然入选 Jen 的 2026 年最佳机器人吸尘器名单，这要归功于其大部分功能都执行得很好。它是一款很棒的吸尘器和拖把，它的拖把垫可以伸出来，清扫橱柜和其他靠近地板的家具下面。另外值得注意的是，它能够爬过高达 6 厘米（超过 2 英寸）的门槛，确保它不会卡在其他吸尘器可能绊倒的地方。\n\n就像任何好的扫地机器人和拖把机器人一样，您无需做太多日常维护工作。它可以自动移除、清洗和烘干拖把，它的自动清空垃圾箱可以收集几周内吸走的碎片。 Dreame 声称 100 天内你不必清空它，但这显然取决于你的地方有多混乱。此外，如果您经常拖地，您可能需要经常给水箱加水。\n\n其他经 Verge 批准的精彩优惠\n\nWoot 对配备 AMD Ryzen Z1 Extreme 处理器（16GB RAM、512GB SSD）的华硕 ROG Ally 的“A 级”状况翻新设备进行了相当不错的交易，并提供 90 天保修。售价为 529.99 美元，使用优惠码 CHEERS 可在当天剩余时间（9 月 28 日）享受 20% 的折扣。使用该代码的新客户可享受 30% 的折扣。如果享受 20% 的折扣，大约需要 425 美元，如果享受 30% 的折扣，大约需要 371 美元。该型号是 Steam Deck LCD 的有力竞争对手，具有更高分辨率的 1080p 屏幕和 120Hz 刷新率。它的 Z1 Extreme 处理器也更快，所以如果你正在寻找手持设备，这可能是你一直在寻找的交易。阅读我们的 2023 年回顾。\n\nWoot 推出的另一项交易是针对 PlayStation、PC 和 Switch 的 SteelSeries Arctis Nova Pro 无线耳机。全新状态下的白色版本售价约为 192 美元，使用代码 CHEERS ，如果您碰巧是使用该代码的 Woot 新客户，则价格降至 168 美元左右。目前 239.99 美元的价格已经足以在本次综述中占据一席之地，但当前的折扣使其降至“有史以来最好”的水平。即使与继任者 399 美元的 Nova Pro Omni 相比，这款 2022 年耳机仍然是一个绝佳的选择。它具有可更换电池、舒适的设计和可靠的基站，可以从多个来源输入音频。阅读我们对 Nova Pro 的评论。"
-        },
-        {
-          "type": "text",
-          "value": "三星的 32 英寸 4K 智能屏幕名为 The Movingstyle Essential，立减 200 美元。亚马逊 Prime 会员原价 699.99 美元，现价 499.99 美元。这似乎是三星对 LG StanbyMe 的模仿，尽管在这次折扣之前它的价格要便宜得多（值得注意的是，三星的 StanbyMe 需要插入电源，与配备电池的 LG 型号不同）。屏幕连接到高度可调的滚动支架（最高 50.8 英寸），并且支持旋转、侧转和倾斜。它具有两个全尺寸 HDMI 端口（其中一个支持 ARC）、具有 65W 直通功率的 USB-C 端口以及两个用于查看本地媒体的 USB-A 端口。"
-        }
-      ],
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/1001313/dreame-x50-ultra-robot-vacuum-mop-asus-rog-ally-deal-sale",
       "publishedAt": "2026-09-28"
     },
     {
@@ -362,7 +422,7 @@
       "title": "在深度伪造的声音欺骗了她的祖父之后，这位创始人迅速采取行动",
       "tag": "科技 · 全球",
       "desc": "Tarini Padmanabhuni的祖父被他哥哥的深度假声音欺骗后，他创立了DetectifAI ，这是一家旧金山的初创公司，建立的人工智能模型足够小，可以运行direc",
-      "articleText": "一个深假声音欺骗了她的祖父后，这位创始人立即采取行动 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：TechCrunch 的 ChatGPT /\n\n在一个深假声音愚弄了她的祖父后，这位创始人立即采取了行动\n\n太平洋夏令时间上午 8:00 · 2026 年 9 月 28 日\n\n当电话打来时，塔里尼·帕德马纳布尼的祖父相信他正在和他的兄弟通话。电话那头的声音说他被绑架了，让他回来的唯一方法就是支付赎金。她的祖父付了钱，后来才知道他的兄弟完全在别的地方，完全不知道发生了什么事。事实证明，这个声音是深度伪造的，是人工智能生成的模仿品。\n\n“留在我心里的不是钱，”帕德马纳布尼谈到这起事件时说道。 “那是他无从说起。”\n\n那是大约两年前的事了。她说，如今，她创立的旧金山公司 DetectifAI 的目标是确保其他人不会以同样的方式被蒙蔽。\n\n这是一个日益严重的大问题，并且有与之相匹配的市场。根据 FBI 的数据，去年美国人因人工智能驱动的诈骗损失了近 9 亿美元，比 2024 年增加了 24%。60 岁及以上的人损失是 50 岁至 59 岁的人的两倍。\n\nDeepfake 语音检测领域不乏来自 Reality Defender、Pindrop、Resemble AI、Microsoft Azure AI Content Safety 和 Nuance（微软也拥有）等公司的竞争。但帕德马纳布尼认为，当今的检测产品在远程服务器的云端运行，因此手机制造商无法将它们直接构建到他们的设备中，从而使成为目标的人几乎没有防御手段。\n\nDetectifAI 表示，它从一开始就设计了紧凑的人工智能模型，这些模型足够小，可以在智能手机的操作系统中运行，而不是像一些公司那样缩小大型云模型以适应手机。其目的是在通话、语音消息和其他音频中即时判断语音是否是人工智能生成的，而无需音频离开设备。\n\nDetectifAI 首先向手机制造商销售，授权其软件工具，以便检测可以作为手机操作系统的内置功能提供。她的比喻是 AT&T 在最初的 iPhone 发布中所扮演的角色，当时该运营商的独家协议使其从竞争对手中脱颖而出：她认为，第一家推出 DetectifAI 的手机制造商将比竞争对手获得优势，而 Deepfake 检测将成为标准规格，就像相机分辨率一样。\n\n该产品的核心是DetectifAI的软件开发套件（SDK），这是其他公司可以构建到其产品中的代码包，并可以通过现有渠道获得许可。帕德马纳布尼表示，第二个收入来源将来自向企业和防欺诈公司授权技术。\n\nPadmanabhuni 表示，与此同时，这家初创公司已经获得了早期收入，每月为印度的金融机构处理超过 100,000 个电话。这些电话由人工智能语音代理拨打，负责处理债务催收并跟进贷款文件，每次通话都会进行深度造假检测和说话人验证（确认来电者是他们声称的身份）。她以保密协议为由拒绝透露客户姓名。\n\nPadmanabhuni 说，她从 12 岁开始从事机器学习工作，后来在印度马尼帕尔理工学院学习网络物理系统（将软件与物理机械连接起来的技术），并在那里成为国际学生工程竞赛“学生方程式”印度第一个无人驾驶赛车部门最年轻的领队。\n\n当被问及迄今为止这家初创公司最有价值的时刻时，她提到了 WhatsApp 的一个小型 Beta 测试，用户可以转发可疑的语音留言，并获得对这些语音留言是否真实的评估。一位自己的亲戚被骗的测试者打电话说，他们会毫不犹豫地付钱。 “我的祖父没有这个，”她说。\n\nDetectifAI 迄今为止已从投资者 Josh Constine（TechCrunch 前编辑）和咨询服务公司 KM Growth 负责人 Manohar Kamath 那里筹集了少量种子资金。该公司是 TechCrunch 编辑团队审查的初创公司之一，将参加其著名的“初创公司战场”竞赛，该竞赛将于 10 月 13 日至 15 日在旧金山市中心的 TechCrunch Disrupt 上举行。\n\n人工智能 , 战地 200 , TC\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\n主编兼总经理\n\n洛伊佐斯自 90 年代末加入最初的《红鲱鱼》杂志以来，一直在报道硅谷。她曾担任 TechCrunch 的硅谷编辑，并于 2023 年 9 月被任命为 TechCrunch 的主编兼总经理。她还是 StrictlyVC 的创始人，StrictlyVC 是一份每日电子通讯和系列讲座，于 2023 年 8 月被雅虎收购，现在作为 TechCrunch 的子品牌运营。\n\n您可以通过发送电子邮件至 connie@strictlyvc.com 或 connie@techcrunch.com 或通过 Signal 上的 ConnieLoizos.53 发送加密消息来联系或验证 Connie 的联系。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯\n\nAnthropic 表示其生物实验室已经发现了重大发现\n\nPitPro 首个轮胎更换机器人在加拿大上线",
+      "articleText": "一个深假声音欺骗了她的祖父后，这位创始人立即采取行动 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：TechCrunch 的 ChatGPT /\n\n在一个深假声音愚弄了她的祖父后，这位创始人立即采取了行动\n\n太平洋夏令时间上午 8:00 · 2026 年 9 月 28 日\n\n当电话打来时，塔里尼·帕德马纳布尼的祖父相信他正在和他的兄弟通话。电话那头的声音说他被绑架了，让他回来的唯一方法就是支付赎金。她的祖父付了钱，后来才知道他的兄弟完全在别的地方，完全不知道发生了什么事。事实证明，这个声音是深度伪造的，是人工智能生成的模仿品。\n\n“留在我心里的不是钱，”帕德马纳布尼谈到这起事件时说道。 “那是他无从说起。”\n\n那是大约两年前的事了。她说，如今，她创立的旧金山公司 DetectifAI 的目标是确保其他人不会以同样的方式被蒙蔽。\n\n这是一个日益严重的大问题，并且有与之相匹配的市场。根据 FBI 的数据，去年美国人因人工智能驱动的诈骗损失了近 9 亿美元，比 2024 年增加了 24%。60 岁及以上的人损失是 50 岁至 59 岁的人的两倍。\n\nDeepfake 语音检测领域不乏来自 Reality Defender、Pindrop、Resemble AI、Microsoft Azure AI Content Safety 和 Nuance（微软也拥有）等公司的竞争。但帕德马纳布尼认为，当今的检测产品在远程服务器的云端运行，因此手机制造商无法将它们直接构建到他们的设备中，从而使成为目标的人几乎没有防御手段。\n\nDetectifAI 表示，它从一开始就设计了紧凑的人工智能模型，这些模型足够小，可以在智能手机的操作系统中运行，而不是像一些公司那样缩小大型云模型以适应手机。其目的是在通话、语音消息和其他音频中即时判断语音是否是人工智能生成的，而无需音频离开设备。\n\nDetectifAI 首先向手机制造商销售，授权其软件工具，以便检测可以作为手机操作系统的内置功能提供。她的比喻是 AT&T 在最初的 iPhone 发布中所扮演的角色，当时该运营商的独家协议使其从竞争对手中脱颖而出：她认为，第一家推出 DetectifAI 的手机制造商将比竞争对手获得优势，而 Deepfake 检测将成为标准规格，就像相机分辨率一样。\n\n该产品的核心是DetectifAI的软件开发套件（SDK），这是其他公司可以构建到其产品中的代码包，并可以通过现有渠道获得许可。帕德马纳布尼表示，第二个收入来源将来自向企业和防欺诈公司授权技术。\n\nPadmanabhuni 表示，与此同时，这家初创公司已经获得了早期收入，每月为印度的金融机构处理超过 100,000 个电话。这些电话由人工智能语音代理拨打，负责处理债务催收并跟进贷款文件，每次通话都会进行深度造假检测和说话人验证（确认来电者是他们声称的身份）。她以保密协议为由拒绝透露客户姓名。\n\nPadmanabhuni 说，她从 12 岁开始从事机器学习工作，后来在印度马尼帕尔理工学院学习网络物理系统（将软件与物理机械连接起来的技术），并在那里成为国际学生工程竞赛“学生方程式”印度第一个无人驾驶赛车部门最年轻的领队。\n\n当被问及迄今为止这家初创公司最有价值的时刻时，她提到了 WhatsApp 的一个小型 Beta 测试，用户可以转发可疑的语音留言，并获得对这些语音留言是否真实的评估。一位自己的亲戚被骗的测试者打电话说，他们会毫不犹豫地付费。 “我的祖父没有这个，”她说。\n\nDetectifAI 迄今为止已从投资者 Josh Constine（TechCrunch 前编辑）和咨询服务公司 KM Growth 负责人 Manohar Kamath 那里筹集了少量种子资金。该公司是 TechCrunch 编辑团队审查的初创公司之一，将参加其著名的“初创公司战场”竞赛，该竞赛将于 10 月 13 日至 15 日在旧金山市中心的 TechCrunch Disrupt 上举行。\n\n人工智能 , 战地 200 , TC\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\n主编兼总经理\n\n洛伊佐斯自 90 年代末加入最初的《红鲱鱼》杂志以来，一直在报道硅谷。她曾担任 TechCrunch 的硅谷编辑，并于 2023 年 9 月被任命为 TechCrunch 的主编兼总经理。她还是 StrictlyVC 的创始人，StrictlyVC 是一份每日电子通讯和系列讲座，于 2023 年 8 月被雅虎收购，现在作为 TechCrunch 的子品牌运营。\n\n您可以通过发送电子邮件至 connie@strictlyvc.com 或 connie@techcrunch.com 或通过 Signal 上的 ConnieLoizos.53 发送加密消息来联系或验证 Connie 的联系。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯\n\nAnthropic 表示其生物实验室已经发现了重大发现\n\nPitPro 首个轮胎更换机器人在加拿大上线",
       "articleBlocks": [
         {
           "type": "text",
@@ -378,7 +438,7 @@
         },
         {
           "type": "text",
-          "value": "该产品的核心是DetectifAI的软件开发套件（SDK），这是其他公司可以构建到其产品中的代码包，并可以通过现有渠道获得许可。帕德马纳布尼表示，第二个收入来源将来自向企业和防欺诈公司授权技术。\n\nPadmanabhuni 表示，与此同时，这家初创公司已经获得了早期收入，每月为印度的金融机构处理超过 100,000 个电话。这些电话由人工智能语音代理拨打，负责处理债务催收并跟进贷款文件，每次通话都会进行深度造假检测和说话人验证（确认来电者是他们声称的身份）。她以保密协议为由拒绝透露客户姓名。\n\nPadmanabhuni 说，她从 12 岁开始从事机器学习工作，后来在印度马尼帕尔理工学院学习网络物理系统（将软件与物理机械连接起来的技术），并在那里成为国际学生工程竞赛“学生方程式”印度第一个无人驾驶赛车部门最年轻的领队。\n\n当被问及迄今为止这家初创公司最有价值的时刻时，她提到了 WhatsApp 的一个小型 Beta 测试，用户可以转发可疑的语音留言，并获得对这些语音留言是否真实的评估。一位自己的亲戚被骗的测试者打电话说，他们会毫不犹豫地付钱。 “我的祖父没有这个，”她说。\n\nDetectifAI 迄今为止已从投资者 Josh Constine（TechCrunch 前编辑）和咨询服务公司 KM Growth 负责人 Manohar Kamath 那里筹集了少量种子资金。该公司是 TechCrunch 编辑团队审查的初创公司之一，将参加其著名的“初创公司战场”竞赛，该竞赛将于 10 月 13 日至 15 日在旧金山市中心的 TechCrunch Disrupt 上举行。\n\n人工智能 , 战地 200 , TC\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\n主编兼总经理\n\n洛伊佐斯自 90 年代末加入最初的《红鲱鱼》杂志以来，一直在报道硅谷。她曾担任 TechCrunch 的硅谷编辑，并于 2023 年 9 月被任命为 TechCrunch 的主编兼总经理。她还是 StrictlyVC 的创始人，StrictlyVC 是一份每日电子通讯和系列讲座，于 2023 年 8 月被雅虎收购，现在作为 TechCrunch 的子品牌运营。"
+          "value": "该产品的核心是DetectifAI的软件开发套件（SDK），这是其他公司可以构建到其产品中的代码包，并可以通过现有渠道获得许可。帕德马纳布尼表示，第二个收入来源将来自向企业和防欺诈公司授权技术。\n\nPadmanabhuni 表示，与此同时，这家初创公司已经获得了早期收入，每月为印度的金融机构处理超过 100,000 个电话。这些电话由人工智能语音代理拨打，负责处理债务催收并跟进贷款文件，每次通话都会进行深度造假检测和说话人验证（确认来电者是他们声称的身份）。她以保密协议为由拒绝透露客户姓名。\n\nPadmanabhuni 说，她从 12 岁开始从事机器学习工作，后来在印度马尼帕尔理工学院学习网络物理系统（将软件与物理机械连接起来的技术），并在那里成为国际学生工程竞赛“学生方程式”印度第一个无人驾驶赛车部门最年轻的领队。\n\n当被问及迄今为止这家初创公司最有价值的时刻时，她提到了 WhatsApp 的一个小型 Beta 测试，用户可以转发可疑的语音留言，并获得对这些语音留言是否真实的评估。一位自己的亲戚被骗的测试者打电话说，他们会毫不犹豫地付费。 “我的祖父没有这个，”她说。\n\nDetectifAI 迄今为止已从投资者 Josh Constine（TechCrunch 前编辑）和咨询服务公司 KM Growth 负责人 Manohar Kamath 那里筹集了少量种子资金。该公司是 TechCrunch 编辑团队审查的初创公司之一，将参加其著名的“初创公司战场”竞赛，该竞赛将于 10 月 13 日至 15 日在旧金山市中心的 TechCrunch Disrupt 上举行。\n\n人工智能 , 战地 200 , TC\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\n主编兼总经理\n\n洛伊佐斯自 90 年代末加入最初的《红鲱鱼》杂志以来，一直在报道硅谷。她曾担任 TechCrunch 的硅谷编辑，并于 2023 年 9 月被任命为 TechCrunch 的主编兼总经理。她还是 StrictlyVC 的创始人，StrictlyVC 是一份每日电子通讯和系列讲座，于 2023 年 8 月被雅虎收购，现在作为 TechCrunch 的子品牌运营。"
         },
         {
           "type": "text",
@@ -394,7 +454,7 @@
       "title": "Commonwealth Fusion Systems的Brandon Sorbom和Helion的David Kirtley谈融合",
       "tag": "科技 · 全球",
       "desc": "CFS的Brandon Sorbom和Helion的David Kirtley加入了TechCrunch Disrupt 2026的智能系统舞台，讨论推动融合向前发展的突破，以及剩余的挑战",
-      "articleText": "CFS 的 Brandon Sorbom 和 Helion 的 David Kirtley 加入 Disrupt 2026 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：诺姆·加莱/盖蒂图片社\n\nCommonwealth Fusion Systems 的 Brandon Sorbom 和 Helion 的 David Kirtley 在 TechCrunch Disrupt 2026 上将融合引入电网\n\n太平洋夏令时间上午 8:00 · 2026 年 9 月 28 日\n\n几十年来，商业聚变发电似乎永远遥不可及。现在，两家公司正在朝着更具体的目标迈进：将聚变发电并入电网。\n\nCommonwealth Fusion Systems (CFS) 正在建造 SPARC，这是一款示范聚变机，旨在为其首个商业发电厂 ARC 铺平道路。 Helion 正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在从 2028 年开始为微软供电。\n\n在 TechCrunch Disrupt 2026 上，CFS 联合创始人兼首席科学官 Brandon Sorbom 和 Helion 创始人兼首席执行官 David Kirtley 将登上智能系统舞台，展示“将融合带入电网”。他们将讨论推动聚变发展的突破、仍然存在的挑战，以及如何向电网大规模提供聚变电力。\n\n图片来源：TechCrunch\n\n想听听当今的融合突破和商业力量之间的差距吗？带上您的联合创始人、合作伙伴或同事，带上您的通行证即可享受 50% 的通行证折扣。共同探索塑造融合未来的见解。\n\n将融合从科学力量转向商业力量\n\nSorbom 于 2018 年与他人共同创立了 CFS，目标是及时将聚变能源商业化，以帮助应对气候变化。作为首席科学官，他领导公司的科学方向和研发，并帮助推进 ARC 的设计。这个想法源于他在麻省理工学院的工作，Sorbom 是该校论文的主要作者，该论文提出了最初的 ARC 设计，同时获得了博士学位。在核科学与工程领域。\n\n如今，CFS 正致力于通过该公司的演示融合机 SPARC 实现 ARC。 4 月，CFS 成为第一家申请加入美国最大电力批发市场 PJM Interconnection 的聚变公司，这是最终将 ARC 连接到电网的必要步骤。 7 月，该公司又筹集了 10 亿美元，使其总资金达到 40 亿美元。\n\n对于创始人和技术领导者来说，Sorbom 带来的视角涵盖了从学术研究到设计商业聚变发电厂的整个过程，以及这一过程中必须解决的科学和工程挑战。\n\n如何将数十年的聚变研究转化为商业力量？获得您的 Disrupt 通行证，并以 50% 的折扣抢先聆听一位致力于实现这一转变的科学家的心声。\n\n测试聚变功率\n\nKirtley 创立了 Helion，致力于开发聚变技术，最终实现商业规模的电力输送。作为 NSF 和 NASA 高级概念研究员，他在能源和空间推进应用的高 Beta 等离子体方面拥有专业知识，如今领导 Helion 致力于商业聚变发电。\n\n今年 2 月，Helion 宣布其 Polaris 原型机已将等离子体加热至 1.5 亿摄氏度。该公司目前正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在最早于 2028 年为微软供电。6 月，Helion 宣布了建设和运营该发电厂过程中的一个重要监管里程碑。其 G 轮融资最初于 6 月份宣布为 4.65 亿美元，9 月份以 5 亿美元结束。\n\n图片来源：Helion\n\n该时间表使 Disrupt 会议的核心问题成为焦点。科学里程碑很重要，但商业核聚变还必须实现飞跃，成为能够可靠地向客户提供电力的正常运转的发电厂。\n\n怎样才能将聚变里程碑转化为电网电力？注册 Disrupt，并带人一起享受 50% 的折扣，听听 Kirtley 对未来工作的看法。\n\n在 Disrupt 2026 上了解融合与电网之间仍然存在哪些障碍\n\nCFS 和 Helion 正在寻求不同的聚变方法，但两者都面临着本次会议的中心挑战：从科学和工程进步转向商业力量。\n\n在 Disrupt，Sorbom 和 Kirtley 将带来围绕这一转型打造公司的第一手经验。对于创始人、投资者和技术领导者来说，他们的对话提供了一个机会，了解什么正在使聚变更接近商业化，仍然存在哪些挑战，以及如何将聚变发电大规模引入电网。\n\n他们的会议是 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt 大会上跨越 6 个行业阶段、圆桌会议和分组讨论的 200 多场会议之一。预计将有超过 10,000 名创始人、投资者、运营商和技术领导者，以及 250 多名演讲者和 300 多家初创公司参展。除了议程之外，牵线搭桥、交易和网络也创造了与创始人、投资者和建设者建立联系的机会，以塑造未来的发展。\n\n核聚变作为未来的能源技术已经存在了数十年。听听两位致力于使其更接近电网的领导人的说法。现在是抢购通行证并以 50% 折扣购买第二张同类型通行证的最后几天。\n\n图片来源：Eric Slomonson，The Photo Group\n\nCommonwealth Fusion Systems 、 Helion 、 初创公司 、 TC 、 TechCrunch Disrupt\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯\n\nAnthropic 表示其生物实验室已经发现了重大发现\n\nPitPro 首个轮胎更换机器人在加拿大上线",
+      "articleText": "CFS 的 Brandon Sorbom 和 Helion 的 David Kirtley 加入 Disrupt 2026 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：诺姆·加莱/盖蒂图片社\n\nCommonwealth Fusion Systems 的 Brandon Sorbom 和 Helion 的 David Kirtley 在 TechCrunch Disrupt 2026 上谈论将融合引入电网\n\n太平洋夏令时间上午 8:00 · 2026 年 9 月 28 日\n\n几十年来，商业聚变发电似乎永远遥不可及。现在，两家公司正在朝着更具体的目标迈进：将聚变发电并入电网。\n\nCommonwealth Fusion Systems (CFS) 正在建造 SPARC，这是一款示范聚变机，旨在为其首个商业发电厂 ARC 铺平道路。 Helion 正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在从 2028 年开始为微软供电。\n\n在 TechCrunch Disrupt 2026 上，CFS 联合创始人兼首席科学官 Brandon Sorbom 和 Helion 创始人兼首席执行官 David Kirtley 将登上智能系统舞台，展示“将融合带入电网”。他们将讨论推动聚变发展的突破、仍然存在的挑战，以及如何向电网大规模提供聚变电力。\n\n图片来源：TechCrunch\n\n想听听当今的融合突破与商业力量之间的差距是什么？带上您的联合创始人、合作伙伴或同事，带上您的通行证即可享受 50% 的通行证折扣。共同探索塑造融合未来的见解。\n\n将融合从科学力量转向商业力量\n\nSorbom 于 2018 年与他人共同创立了 CFS，目标是及时将聚变能源商业化，以帮助应对气候变化。作为首席科学官，他领导公司的科学方向和研发，并帮助推进 ARC 的设计。这个想法源于他在麻省理工学院的工作，Sorbom 是该校论文的主要作者，该论文提出了最初的 ARC 设计，同时获得了博士学位。在核科学与工程领域。\n\n如今，CFS 正致力于通过该公司的演示融合机 SPARC 实现 ARC。 4 月，CFS 成为第一家申请加入美国最大电力批发市场 PJM Interconnection 的聚变公司，这是最终将 ARC 连接到电网的必要步骤。 7 月，该公司又筹集了 10 亿美元，使其融资总额达到 40 亿美元。\n\n对于创始人和技术领导者来说，Sorbom 带来的视角涵盖了从学术研究到设计商业聚变发电厂的整个过程，以及这一过程中必须解决的科学和工程挑战。\n\n如何将数十年的聚变研究转化为商业力量？获得您的 Disrupt 通行证，并以 50% 的折扣抢先聆听一位致力于实现这一转变的科学家的心声。\n\n测试聚变功率\n\nKirtley 创立了 Helion，致力于开发聚变技术，最终实现商业规模的电力输送。作为 NSF 和 NASA 高级概念研究员，他在能源和空间推进应用的高 Beta 等离子体方面拥有专业知识，如今领导 Helion 致力于商业聚变发电。\n\n今年 2 月，Helion 宣布其 Polaris 原型机已将等离子体加热至 1.5 亿摄氏度。该公司目前正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在最早于 2028 年为微软供电。6 月，Helion 宣布了建设和运营该发电厂过程中的一个重要监管里程碑。其 G 轮融资最初于 6 月份宣布为 4.65 亿美元，9 月份以 5 亿美元结束。\n\n图片来源：Helion\n\n该时间表使 Disrupt 会议的核心问题成为焦点。科学里程碑很重要，但商业核聚变还必须实现飞跃，成为能够可靠地向客户提供电力的正常运转的发电厂。\n\n怎样才能将聚变里程碑转化为电网电力？注册 Disrupt，并带人一起享受 50% 的折扣，听听 Kirtley 对未来工作的看法。\n\n在 Disrupt 2026 上了解融合与电网之间仍然存在哪些障碍\n\nCFS 和 Helion 正在寻求不同的聚变方法，但两者都面临着本次会议的中心挑战：从科学和工程进步转向商业力量。\n\n在 Disrupt，Sorbom 和 Kirtley 将带来围绕这一转型打造公司的第一手经验。对于创始人、投资者和技术领导者来说，他们的对话提供了一个机会，了解什么正在使聚变更接近商业化，仍然存在哪些挑战，以及如何将聚变发电大规模引入电网。\n\n他们的会议是 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt 大会上跨越 6 个行业阶段、圆桌会议和分组讨论的 200 多场会议之一。预计将有超过 10,000 名创始人、投资者、运营商和技术领导者，以及 250 多家演讲者和 300 多家初创公司参展。除了议程之外，牵线搭桥、交易和网络也创造了与创始人、投资者和建设者建立联系的机会，以塑造未来的发展。\n\n核聚变作为未来的能源技术已经存在了数十年。听听两位致力于使其更接近电网的领导人的说法。现在是抢购通票并以 50% 折扣购买第二张同类型通票的最后几天。\n\n图片来源：Eric Slomonson，The Photo Group\n\nCommonwealth Fusion Systems 、 Helion 、 初创公司 、 TC 、 TechCrunch Disrupt\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯\n\nAnthropic 表示其生物实验室已经发现了重大发现\n\nPitPro 首个轮胎更换机器人在加拿大上线",
       "articleBlocks": [
         {
           "type": "text",
@@ -406,7 +466,7 @@
         },
         {
           "type": "text",
-          "value": "图片来源：诺姆·加莱/盖蒂图片社\n\nCommonwealth Fusion Systems 的 Brandon Sorbom 和 Helion 的 David Kirtley 在 TechCrunch Disrupt 2026 上将融合引入电网\n\n太平洋夏令时间上午 8:00 · 2026 年 9 月 28 日\n\n几十年来，商业聚变发电似乎永远遥不可及。现在，两家公司正在朝着更具体的目标迈进：将聚变发电并入电网。\n\nCommonwealth Fusion Systems (CFS) 正在建造 SPARC，这是一款示范聚变机，旨在为其首个商业发电厂 ARC 铺平道路。 Helion 正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在从 2028 年开始为微软供电。\n\n在 TechCrunch Disrupt 2026 上，CFS 联合创始人兼首席科学官 Brandon Sorbom 和 Helion 创始人兼首席执行官 David Kirtley 将登上智能系统舞台，展示“将融合带入电网”。他们将讨论推动聚变发展的突破、仍然存在的挑战，以及如何向电网大规模提供聚变电力。"
+          "value": "图片来源：诺姆·加莱/盖蒂图片社\n\nCommonwealth Fusion Systems 的 Brandon Sorbom 和 Helion 的 David Kirtley 在 TechCrunch Disrupt 2026 上谈论将融合引入电网\n\n太平洋夏令时间上午 8:00 · 2026 年 9 月 28 日\n\n几十年来，商业聚变发电似乎永远遥不可及。现在，两家公司正在朝着更具体的目标迈进：将聚变发电并入电网。\n\nCommonwealth Fusion Systems (CFS) 正在建造 SPARC，这是一款示范聚变机，旨在为其首个商业发电厂 ARC 铺平道路。 Helion 正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在从 2028 年开始为微软供电。\n\n在 TechCrunch Disrupt 2026 上，CFS 联合创始人兼首席科学官 Brandon Sorbom 和 Helion 创始人兼首席执行官 David Kirtley 将登上智能系统舞台，展示“将融合带入电网”。他们将讨论推动聚变发展的突破、仍然存在的挑战，以及如何向电网大规模提供聚变电力。"
         },
         {
           "type": "image",
@@ -414,7 +474,7 @@
         },
         {
           "type": "text",
-          "value": "图片来源：TechCrunch\n\n想听听当今的融合突破和商业力量之间的差距吗？带上您的联合创始人、合作伙伴或同事，带上您的通行证即可享受 50% 的通行证折扣。共同探索塑造融合未来的见解。\n\n将融合从科学力量转向商业力量\n\nSorbom 于 2018 年与他人共同创立了 CFS，目标是及时将聚变能源商业化，以帮助应对气候变化。作为首席科学官，他领导公司的科学方向和研发，并帮助推进 ARC 的设计。这个想法源于他在麻省理工学院的工作，Sorbom 是该校论文的主要作者，该论文提出了最初的 ARC 设计，同时获得了博士学位。在核科学与工程领域。\n\n如今，CFS 正致力于通过该公司的演示融合机 SPARC 实现 ARC。 4 月，CFS 成为第一家申请加入美国最大电力批发市场 PJM Interconnection 的聚变公司，这是最终将 ARC 连接到电网的必要步骤。 7 月，该公司又筹集了 10 亿美元，使其总资金达到 40 亿美元。\n\n对于创始人和技术领导者来说，Sorbom 带来的视角涵盖了从学术研究到设计商业聚变发电厂的整个过程，以及这一过程中必须解决的科学和工程挑战。\n\n如何将数十年的聚变研究转化为商业力量？获得您的 Disrupt 通行证，并以 50% 的折扣抢先聆听一位致力于实现这一转变的科学家的心声。\n\n测试聚变功率\n\nKirtley 创立了 Helion，致力于开发聚变技术，最终实现商业规模的电力输送。作为 NSF 和 NASA 高级概念研究员，他在能源和空间推进应用的高 Beta 等离子体方面拥有专业知识，如今领导 Helion 致力于商业聚变发电。\n\n今年 2 月，Helion 宣布其 Polaris 原型机已将等离子体加热至 1.5 亿摄氏度。该公司目前正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在最早于 2028 年为微软供电。6 月，Helion 宣布了建设和运营该发电厂过程中的一个重要监管里程碑。其 G 轮融资最初于 6 月份宣布为 4.65 亿美元，9 月份以 5 亿美元结束。"
+          "value": "图片来源：TechCrunch\n\n想听听当今的融合突破与商业力量之间的差距是什么？带上您的联合创始人、合作伙伴或同事，带上您的通行证即可享受 50% 的通行证折扣。共同探索塑造融合未来的见解。\n\n将融合从科学力量转向商业力量\n\nSorbom 于 2018 年与他人共同创立了 CFS，目标是及时将聚变能源商业化，以帮助应对气候变化。作为首席科学官，他领导公司的科学方向和研发，并帮助推进 ARC 的设计。这个想法源于他在麻省理工学院的工作，Sorbom 是该校论文的主要作者，该论文提出了最初的 ARC 设计，同时获得了博士学位。在核科学与工程领域。\n\n如今，CFS 正致力于通过该公司的演示融合机 SPARC 实现 ARC。 4 月，CFS 成为第一家申请加入美国最大电力批发市场 PJM Interconnection 的聚变公司，这是最终将 ARC 连接到电网的必要步骤。 7 月，该公司又筹集了 10 亿美元，使其融资总额达到 40 亿美元。\n\n对于创始人和技术领导者来说，Sorbom 带来的视角涵盖了从学术研究到设计商业聚变发电厂的整个过程，以及这一过程中必须解决的科学和工程挑战。\n\n如何将数十年的聚变研究转化为商业力量？获得您的 Disrupt 通行证，并以 50% 的折扣抢先聆听一位致力于实现这一转变的科学家的心声。\n\n测试聚变功率\n\nKirtley 创立了 Helion，致力于开发聚变技术，最终实现商业规模的电力输送。作为 NSF 和 NASA 高级概念研究员，他在能源和空间推进应用的高 Beta 等离子体方面拥有专业知识，如今领导 Helion 致力于商业聚变发电。\n\n今年 2 月，Helion 宣布其 Polaris 原型机已将等离子体加热至 1.5 亿摄氏度。该公司目前正在开发 Orion，这是一座 50 兆瓦的聚变发电厂，旨在最早于 2028 年为微软供电。6 月，Helion 宣布了建设和运营该发电厂过程中的一个重要监管里程碑。其 G 轮融资最初于 6 月份宣布为 4.65 亿美元，9 月份以 5 亿美元结束。"
         },
         {
           "type": "image",
@@ -422,7 +482,7 @@
         },
         {
           "type": "text",
-          "value": "图片来源：Helion\n\n该时间表使 Disrupt 会议的核心问题成为焦点。科学里程碑很重要，但商业核聚变还必须实现飞跃，成为能够可靠地向客户提供电力的正常运转的发电厂。\n\n怎样才能将聚变里程碑转化为电网电力？注册 Disrupt，并带人一起享受 50% 的折扣，听听 Kirtley 对未来工作的看法。\n\n在 Disrupt 2026 上了解融合与电网之间仍然存在哪些障碍\n\nCFS 和 Helion 正在寻求不同的聚变方法，但两者都面临着本次会议的中心挑战：从科学和工程进步转向商业力量。\n\n在 Disrupt，Sorbom 和 Kirtley 将带来围绕这一转型打造公司的第一手经验。对于创始人、投资者和技术领导者来说，他们的对话提供了一个机会，了解什么正在使聚变更接近商业化，仍然存在哪些挑战，以及如何将聚变发电大规模引入电网。\n\n他们的会议是 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt 大会上跨越 6 个行业阶段、圆桌会议和分组讨论的 200 多场会议之一。预计将有超过 10,000 名创始人、投资者、运营商和技术领导者，以及 250 多名演讲者和 300 多家初创公司参展。除了议程之外，牵线搭桥、交易和网络也创造了与创始人、投资者和建设者建立联系的机会，以塑造未来的发展。\n\n核聚变作为未来的能源技术已经存在了数十年。听听两位致力于使其更接近电网的领导人的说法。现在是抢购通行证并以 50% 折扣购买第二张同类型通行证的最后几天。"
+          "value": "图片来源：Helion\n\n该时间表使 Disrupt 会议的核心问题成为焦点。科学里程碑很重要，但商业核聚变还必须实现飞跃，成为能够可靠地向客户提供电力的正常运转的发电厂。\n\n怎样才能将聚变里程碑转化为电网电力？注册 Disrupt，并带人一起享受 50% 的折扣，听听 Kirtley 对未来工作的看法。\n\n在 Disrupt 2026 上了解融合与电网之间仍然存在哪些障碍\n\nCFS 和 Helion 正在寻求不同的聚变方法，但两者都面临着本次会议的中心挑战：从科学和工程进步转向商业力量。\n\n在 Disrupt，Sorbom 和 Kirtley 将带来围绕这一转型打造公司的第一手经验。对于创始人、投资者和技术领导者来说，他们的对话提供了一个机会，了解什么正在使聚变更接近商业化，仍然存在哪些挑战，以及如何将聚变发电大规模引入电网。\n\n他们的会议是 10 月 13 日至 15 日在旧金山 Moscone West 举行的 Disrupt 大会上跨越 6 个行业阶段、圆桌会议和分组讨论的 200 多场会议之一。预计将有超过 10,000 名创始人、投资者、运营商和技术领导者，以及 250 多家演讲者和 300 多家初创公司参展。除了议程之外，牵线搭桥、交易和网络也创造了与创始人、投资者和建设者建立联系的机会，以塑造未来的发展。\n\n核聚变作为未来的能源技术已经存在了数十年。听听两位致力于使其更接近电网的领导人的说法。现在是抢购通票并以 50% 折扣购买第二张同类型通票的最后几天。"
         },
         {
           "type": "image",
@@ -442,7 +502,7 @@
       "title": "据报道，在黑客窃取特工的个人数据后，联邦调查局宣布“网络安全事件”",
       "tag": "科技 · 全球",
       "desc": "该局尚未公开确认违规行为，但已告知其代理人，他们的个人信息和社会安全号码已被曝光。",
-      "articleText": "据报道，黑客窃取特工个人数据后，FBI 宣布“网络安全事件” TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：凯文·卡特\n\n据报道，黑客窃取特工个人数据后，FBI 宣布“网络安全事件”\n\n太平洋夏令时间上午 7:50 · 2026 年 9 月 28 日\n\n据报道，联邦调查局告诉其特工和支持人员，他们的个人信息在最近针对该局工作申请门户的网络攻击中被盗。\n\n这是该局首次承认联邦调查局特工的个人信息在此次泄露中被盗。除了上周发表的一份声明外，联邦调查局尚未公开证实此次违规行为，该机构在声明中表示，它知道一个黑客组织声称发动了网络攻击，但数据被盗的情况“仍未确定”。\n\n据《MS NOW》记者肯·迪拉尼安周末报道，联邦调查局此后在给员工的内部通知中宣布这是一起“网络安全事件”，告诉员工他们的姓名、地址、职位和社会安全号码被泄露。\n\n新消息：联邦调查局在一份内部通知中告诉员工，它已宣布发生与 https://t.co/l4iJxC0jA2 门户网站遭到黑客攻击有关的“网络安全事件”。 Personally identifiable information of FBI employees, including social security numbers, addresses and job titles,…\n\n— Ken Dilanian (@KDilanianMSNOW) September 26, 2026\n\n此后，多家媒体证实，部分被盗数据包括医疗信息，例如与血液和尿液样本相关的记录，以及精神病学报告。\n\n名为 ShinyHunters 的黑客组织此前告诉 TechCrunch，他们“拥有几乎所有 FBI 的数据”，以及通过 FBIJobs.gov 门户申请的申请人的“大量”信息。黑客利用 Oracle PeopleSoft 服务器中的漏洞进行了入侵，该服务器托管着通过门户申请的代理和现任员工的大量人力资源信息。\n\n黑客告诉 TechCrunch，他们并不是在寻求经济赎金，而是要求更正联邦调查局早些时候发布的一份报告，他们称该报告歪曲了他们的活动。\n\n国家安全专家贾斯汀·谢尔曼 (Justin Sherman) 在 Lawfare 的一篇博客文章中称这次数据泄露对美国政府来说是一场“反情报灾难”。他警告说，数据盗窃将“使数千名联邦调查局人员面临分析、网络钓鱼、外国情报手段等等。”\n\n虽然该局已通知员工，但尚不清楚联邦调查局是否已向监督联邦调查局的国会议员披露了这一事件。 Under federal law , alerting Congress is required when an intrusion meets the bar of a “major incident” — such as if a data breach involves the theft of personally identifiable information that is “likely to result in demonstrable harm” to U.S. national security.\n\n该局的律师现在可能正在试图解决这个问题。如果需要披露，这将是联邦调查局今年向立法者发出的第二份已知的数据泄露通知，此前疑似中国人的黑客闯入了一个监控系统，暴露了联邦调查局监控和调查的目标。\n\n周一，联邦调查局发言人没有回应 TechCrunch 的置评请求，白宫发言人也没有回应询问该局是否已宣布重大事件的电子邮件。\n\n负责监督联邦调查局的几位立法者的代表没有立即得到任何答复。\n\n据美国广播公司新闻报道，自 2017 年以来，联邦调查局的求职网站一直是申请该局工作的主要方式。截至发稿时，该门户网站仍处于关闭状态。\n\n您是否在 FBI 工作并收到过有关数据泄露的通知？我们希望收到您的来信。您可以通过 Signal（zackwhittaker.1337）安全地联系本记者，或通过电子邮件 zack.whittaker@techcrunch.com 与他联系。\n\n网络安全 , 数据泄露 , FBI , 政府与政策 , 安全\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\nZack Whittaker 是 TechCrunch 的安全编辑。他还撰写了每周网络安全时事通讯，本周在安全领域。\n\n您可以通过 Signal 上的 zackwhittaker.1337 加密消息联系到他。您还可以通过电子邮件联系他，或者通过 zack.whittaker@techcrunch.com 来验证联系方式。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯\n\nAnthropic 表示其生物实验室已经发现了重大发现\n\nPitPro 首个轮胎更换机器人在加拿大上线",
+      "articleText": "据报道，黑客窃取特工个人数据后，FBI 宣布“网络安全事件” TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：凯文·卡特\n\n据报道，黑客窃取特工个人数据后，FBI 宣布“网络安全事件”\n\n太平洋夏令时间上午 7:50 · 2026 年 9 月 28 日\n\n据报道，联邦调查局告诉其特工和支持人员，他们的个人信息在最近针对该局工作申请门户的网络攻击中被盗。\n\n这是该局首次承认联邦调查局特工的个人信息在此次泄露中被盗。除了上周发表的一份声明外，联邦调查局尚未公开证实此次违规行为，该机构在声明中表示，它知道一个黑客组织声称发动了网络攻击，但数据被盗的情况“仍未确定”。\n\n据《MS NOW》记者肯·迪拉尼安周末报道，联邦调查局此后在给员工的内部通知中宣布这是一起“网络安全事件”，告诉员工他们的姓名、地址、职位和社会安全号码被泄露。\n\n新消息：联邦调查局在一份内部通知中告诉员工，它已宣布发生与 https://t.co/l4iJxC0jA2 门户网站遭到黑客攻击有关的“网络安全事件”。 FBI 员工的个人身份信息，包括社会安全号码、地址和职位……\n\n- 肯·迪拉尼安 (@KDilanianMSNOW) 2026 年 9 月 26 日\n\n此后，多家媒体证实，部分被盗数据包括医疗信息，例如与血液和尿液样本相关的记录，以及精神病学报告。\n\n名为 ShinyHunters 的黑客组织此前告诉 TechCrunch，他们“拥有几乎所有 FBI 的数据”，以及通过 FBIJobs.gov 门户申请的申请人的“大量”信息。黑客利用 Oracle PeopleSoft 服务器中的漏洞进行了入侵，该服务器托管着通过门户申请的代理和现任员工的大量人力资源信息。\n\n黑客告诉 TechCrunch，他们并不是在寻求经济赎金，而是要求更正联邦调查局早些时候发布的一份报告，他们称该报告歪曲了他们的活动。\n\n国家安全专家贾斯汀·谢尔曼 (Justin Sherman) 在 Lawfare 的一篇博客文章中称这次数据泄露对美国政府来说是一场“反情报灾难”。他警告说，数据盗窃将“使数千名联邦调查局人员面临分析、网络钓鱼、外国情报手段等等。”\n\n虽然该局已通知员工，但尚不清楚联邦调查局是否已向监督联邦调查局的国会议员披露了这一事件。根据联邦法律，当入侵达到“重大事件”的标准时，例如数据泄露涉及盗窃个人身份信息，并且“可能对美国国家安全造成明显损害”，则需要向国会发出警报。\n\n该局的律师现在可能正在试图解决这个问题。如果需要披露，这将是联邦调查局今年向立法者发出的第二份已知的数据泄露通知，此前疑似中国人的黑客闯入了一个监控系统，暴露了联邦调查局监控和调查的目标。\n\n周一，联邦调查局发言人没有回应 TechCrunch 的置评请求，白宫发言人也没有回应询问该局是否已宣布重大事件的电子邮件。\n\n负责监督联邦调查局的几位立法者的代表没有立即得到任何答复。\n\n据美国广播公司新闻报道，自 2017 年以来，联邦调查局的求职网站一直是申请该局工作的主要方式。截至发稿时，该门户网站仍处于关闭状态。\n\n您是否在 FBI 工作并收到过有关数据泄露的通知？我们希望收到您的来信。您可以通过 Signal（zackwhittaker.1337）安全地联系本记者，或通过电子邮件 zack.whittaker@techcrunch.com 与他联系。\n\n网络安全 , 数据泄露 , FBI , 政府与政策 , 安全\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\nZack Whittaker 是 TechCrunch 的安全编辑。他还撰写了每周网络安全时事通讯，本周在安全领域。\n\n您可以通过 Signal 上的 zackwhittaker.1337 加密消息联系到他。您还可以通过电子邮件联系他，或者通过 zack.whittaker@techcrunch.com 来验证联系方式。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯\n\nAnthropic 表示其生物实验室已经发现了重大发现\n\nPitPro 首个轮胎更换机器人在加拿大上线",
       "articleBlocks": [
         {
           "type": "text",
@@ -454,11 +514,11 @@
         },
         {
           "type": "text",
-          "value": "图片来源：凯文·卡特\n\n据报道，黑客窃取特工个人数据后，FBI 宣布“网络安全事件”\n\n太平洋夏令时间上午 7:50 · 2026 年 9 月 28 日\n\n据报道，联邦调查局告诉其特工和支持人员，他们的个人信息在最近针对该局工作申请门户的网络攻击中被盗。\n\n这是该局首次承认联邦调查局特工的个人信息在此次泄露中被盗。除了上周发表的一份声明外，联邦调查局尚未公开证实此次违规行为，该机构在声明中表示，它知道一个黑客组织声称发动了网络攻击，但数据被盗的情况“仍未确定”。\n\n据《MS NOW》记者肯·迪拉尼安周末报道，联邦调查局此后在给员工的内部通知中宣布这是一起“网络安全事件”，告诉员工他们的姓名、地址、职位和社会安全号码被泄露。\n\n新消息：联邦调查局在一份内部通知中告诉员工，它已宣布发生与 https://t.co/l4iJxC0jA2 门户网站遭到黑客攻击有关的“网络安全事件”。 Personally identifiable information of FBI employees, including social security numbers, addresses and job titles,…\n\n— Ken Dilanian (@KDilanianMSNOW) September 26, 2026\n\n此后，多家媒体证实，部分被盗数据包括医疗信息，例如与血液和尿液样本相关的记录，以及精神病学报告。\n\n名为 ShinyHunters 的黑客组织此前告诉 TechCrunch，他们“拥有几乎所有 FBI 的数据”，以及通过 FBIJobs.gov 门户申请的申请人的“大量”信息。黑客利用 Oracle PeopleSoft 服务器中的漏洞进行了入侵，该服务器托管着通过门户申请的代理和现任员工的大量人力资源信息。\n\n黑客告诉 TechCrunch，他们并不是在寻求经济赎金，而是要求更正联邦调查局早些时候发布的一份报告，他们称该报告歪曲了他们的活动。\n\n国家安全专家贾斯汀·谢尔曼 (Justin Sherman) 在 Lawfare 的一篇博客文章中称这次数据泄露对美国政府来说是一场“反情报灾难”。他警告说，数据盗窃将“使数千名联邦调查局人员面临分析、网络钓鱼、外国情报手段等等。”"
+          "value": "图片来源：凯文·卡特\n\n据报道，黑客窃取特工个人数据后，FBI 宣布“网络安全事件”\n\n太平洋夏令时间上午 7:50 · 2026 年 9 月 28 日\n\n据报道，联邦调查局告诉其特工和支持人员，他们的个人信息在最近针对该局工作申请门户的网络攻击中被盗。\n\n这是该局首次承认联邦调查局特工的个人信息在此次泄露中被盗。除了上周发表的一份声明外，联邦调查局尚未公开证实此次违规行为，该机构在声明中表示，它知道一个黑客组织声称发动了网络攻击，但数据被盗的情况“仍未确定”。\n\n据《MS NOW》记者肯·迪拉尼安周末报道，联邦调查局此后在给员工的内部通知中宣布这是一起“网络安全事件”，告诉员工他们的姓名、地址、职位和社会安全号码被泄露。\n\n新消息：联邦调查局在一份内部通知中告诉员工，它已宣布发生与 https://t.co/l4iJxC0jA2 门户网站遭到黑客攻击有关的“网络安全事件”。 FBI 员工的个人身份信息，包括社会安全号码、地址和职位……\n\n- 肯·迪拉尼安 (@KDilanianMSNOW) 2026 年 9 月 26 日\n\n此后，多家媒体证实，部分被盗数据包括医疗信息，例如与血液和尿液样本相关的记录，以及精神病学报告。\n\n名为 ShinyHunters 的黑客组织此前告诉 TechCrunch，他们“拥有几乎所有 FBI 的数据”，以及通过 FBIJobs.gov 门户申请的申请人的“大量”信息。黑客利用 Oracle PeopleSoft 服务器中的漏洞进行了入侵，该服务器托管着通过门户申请的代理和现任员工的大量人力资源信息。\n\n黑客告诉 TechCrunch，他们并不是在寻求经济赎金，而是要求更正联邦调查局早些时候发布的一份报告，他们称该报告歪曲了他们的活动。\n\n国家安全专家贾斯汀·谢尔曼 (Justin Sherman) 在 Lawfare 的一篇博客文章中称这次数据泄露对美国政府来说是一场“反情报灾难”。他警告说，数据盗窃将“使数千名联邦调查局人员面临分析、网络钓鱼、外国情报手段等等。”"
         },
         {
           "type": "text",
-          "value": "虽然该局已通知员工，但尚不清楚联邦调查局是否已向监督联邦调查局的国会议员披露了这一事件。 Under federal law , alerting Congress is required when an intrusion meets the bar of a “major incident” — such as if a data breach involves the theft of personally identifiable information that is “likely to result in demonstrable harm” to U.S. national security.\n\n该局的律师现在可能正在试图解决这个问题。如果需要披露，这将是联邦调查局今年向立法者发出的第二份已知的数据泄露通知，此前疑似中国人的黑客闯入了一个监控系统，暴露了联邦调查局监控和调查的目标。\n\n周一，联邦调查局发言人没有回应 TechCrunch 的置评请求，白宫发言人也没有回应询问该局是否已宣布重大事件的电子邮件。\n\n负责监督联邦调查局的几位立法者的代表没有立即得到任何答复。\n\n据美国广播公司新闻报道，自 2017 年以来，联邦调查局的求职网站一直是申请该局工作的主要方式。截至发稿时，该门户网站仍处于关闭状态。\n\n您是否在 FBI 工作并收到过有关数据泄露的通知？我们希望收到您的来信。您可以通过 Signal（zackwhittaker.1337）安全地联系本记者，或通过电子邮件 zack.whittaker@techcrunch.com 与他联系。\n\n网络安全 , 数据泄露 , FBI , 政府与政策 , 安全\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\nZack Whittaker 是 TechCrunch 的安全编辑。他还撰写了每周网络安全时事通讯，本周在安全领域。\n\n您可以通过 Signal 上的 zackwhittaker.1337 加密消息联系到他。您还可以通过电子邮件联系他，或者通过 zack.whittaker@techcrunch.com 来验证联系方式。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯"
+          "value": "虽然该局已通知员工，但尚不清楚联邦调查局是否已向监督联邦调查局的国会议员披露了这一事件。根据联邦法律，当入侵达到“重大事件”的标准时，例如数据泄露涉及盗窃个人身份信息，并且“可能对美国国家安全造成明显损害”，则需要向国会发出警报。\n\n该局的律师现在可能正在试图解决这个问题。如果需要披露，这将是联邦调查局今年向立法者发出的第二份已知的数据泄露通知，此前疑似中国人的黑客闯入了一个监控系统，暴露了联邦调查局监控和调查的目标。\n\n周一，联邦调查局发言人没有回应 TechCrunch 的置评请求，白宫发言人也没有回应询问该局是否已宣布重大事件的电子邮件。\n\n负责监督联邦调查局的几位立法者的代表没有立即得到任何答复。\n\n据美国广播公司新闻报道，自 2017 年以来，联邦调查局的求职网站一直是申请该局工作的主要方式。截至发稿时，该门户网站仍处于关闭状态。\n\n您是否在 FBI 工作并收到过有关数据泄露的通知？我们希望收到您的来信。您可以通过 Signal（zackwhittaker.1337）安全地联系本记者，或通过电子邮件 zack.whittaker@techcrunch.com 与他联系。\n\n网络安全 , 数据泄露 , FBI , 政府与政策 , 安全\n\n当您通过我们文章中的链接购买时，我们可能会赚取少量佣金。这并不影响我们的编辑独立性。\n\nZack Whittaker 是 TechCrunch 的安全编辑。他还撰写了每周网络安全时事通讯，本周在安全领域。\n\n您可以通过 Signal 上的 zackwhittaker.1337 加密消息联系到他。您还可以通过电子邮件联系他，或者通过 zack.whittaker@techcrunch.com 来验证联系方式。\n\nDisrupt 的经验是值得分享的。获取通行证并带一位同事、合作伙伴或同伴一起享受 50% 的折扣。通过建立联系、建立动力并发现初创生态系统的下一步发展，覆盖更多领域。\n\nCrusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 1.25B 美元计划\n\nAstra 和 Opus 刚刚通过了图灵的另一项测试\n\n甲骨文就其新墨西哥州 Stargate 数据中心发出不可抗力通知\n\nMeta 为其 Muse AI 代理制作了一款类似电子宠物的可穿戴设备\n\n《Vogue》将机器人送上了《Vogue World》的 T 台，但人们并没有留下深刻的印象\n\n多米尼克·马多里·戴维斯"
         },
         {
           "type": "text",
@@ -471,10 +531,10 @@
     },
     {
       "id": "2026-09-28-14",
-      "title": "接下来的五家风投将在TechCrunch Disrupt 2026评选初创公司Battlefield 200的竞争者",
+      "title": "接下来的5位风投在TechCrunch Disrupt 2026评选初创公司Battlefield 200竞争者",
       "tag": "科技 · 全球",
       "desc": "成千上万的申请。多轮审核。花了数百个小时评估来自世界各地的创业公司。现在每个人都在等待的部分来了。启动B",
-      "articleText": "接下来五位风险投资家将在 Disrupt 2026 上评判 Startup Battlefield 200 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：金伯利怀特/盖蒂图片社\n\n接下来的五位风险投资家将在 TechCrunch Disrupt 2026 上评判 Startup Battlefield 200 竞争者\n\n太平洋夏令时间上午 7:30 · 2026 年 9 月 28 日\n\n数以千计的应用程序。多轮评审。花费数百小时评估来自世界各地的初创公司。现在到了大家一直在等待的部分。\n\n《Startup Battlefield 200》即将到来，随着今天的宣布，评审团也即将完成。在短短几周内，200 家精心挑选的初创公司将齐聚 TechCrunch Disrupt 2026 进行展示、会见投资者并争夺初创公司世界中最令人垂涎​​的机会之一。只有经过挑选的团队才能进入现场竞赛，他们将在数千名创始人、投资者、媒体和客户面前进行演讲，并面对一些最敏锐的技术头脑的问题。\n\n图片来源：金伯利怀特/盖蒂图片社\n\n如今的评委拥有数十年创建公司、支持创始人以及在变革性想法变得显而易见之前发现它们的经验。他们将帮助决定哪些初创公司继续他们的创业战场决赛之旅，并最终决定谁有机会举起今年的奖杯。如果您想在世界其他地方之前看到明天的行业领导者，那么没有比 TechCrunch Disrupt 更好的地方了。\n\n想要站在 Disrupt 舞台的前沿并见证年度终极推介竞赛的唯一方法就是注册 TechCrunch Disrupt。拿起您的通行证，带上您的联合创始人、合作伙伴或同行即可享受 50% 的折扣。带来四人或四人以上的社区？购买通票可节省高达 30% 的费用。\n\n认识下一波创业战场评委\n\n通过访问 Disrupt 议程来了解迄今为止透露的所有 20 名评委。请继续关注最终公告，我们将公布五位评委，他们将对决赛入围者进行评估，并决定谁将获得 100,000 美元的无股权奖金和令人垂涎的 Disrupt Cup。\n\n图片来源：TechCrunch\n\nCaleb Appleton，Bison Ventures 合伙人\n\nCaleb Appleton 是 Bison Ventures 的合伙人，他在技术生物、机器人和现实世界智能领域投资物理人工智能。作为一名训练有素的生物医学工程师，他的投资包括 Cobot、Vivodyne、Passkey、Sleuth、Inner Logic、Cosmon 和 Grid Aero。此前，Appleton 在 Innovation Endeavors 投资了前沿技术，并在 TuneIn 担任了几年运营商，这让他在早期科学、风险投资和扩展技术业务方面拥有丰富的经验。\n\nSara Deshpande，Maven Ventures 普通合伙人\n\nSara Deshpande 是 Maven Ventures 的普通合伙人，她投资于围绕新兴消费者行为和趋势建立的种子期公司。她专注于涵盖数字健康和人工智能消费者应用的消费者软件。 Deshpande 于 2014 年作为第一位员工加入 Maven，并在风险投资领域工作了十年。她在斯坦福大学获得了 MBA 学位，现在在那里教授初创企业和创业课程。\n\nAatish Nayak，凯鹏华盈合伙人\n\nAatish Nayak 于 2026 年 5 月作为合伙人加入凯鹏华盈，专注于与在所有领域拥有深厚垂直专业知识的 AI 原生创始人合作。\n\n在加入 KPCB 之前，Narak 是 Harvey 的首位产品经理和副总裁，帮助建立了早期的产品、设计、营销、分析和支持团队。在此之前，他是 Scale AI 的早期产品负责人，致力于电子商务、早期 NLP (GPT-2) 和自动驾驶汽车的数据基础设施。在此之前，他在 Shield AI 从事拯救生命的机器人防御系统的核心知识堆栈工作。\n\nJason Risch，Greylock 合伙人\n\nJason Risch 是 Greylock 的合伙人，负责投资企业安全、人工智能和机器学习基础设施、数据平台和开发工具。他的产品组合包括 Onehouse（一个云原生管理的 Lakehouse 平台）和 Baseten（一个为数据科学团队提供的 ML 模型服务工具包）。在加入 Greylock 之前，Risch 曾在 Opendoor 从事业务运营工作，在麦肯锡湾区业务部门担任管理顾问，并在人工智能基金担任初创公司建设者。他在斯坦福大学学习数学和计算科学。\n\n徐马克，指数创投合伙人\n\nMark Xu 是 Index Ventures 的合伙人，他在网络安全、基础设施和人工智能领域进行跨阶段投资。他支持过在人工智能前沿进行建设的公司，包括 Fireworks、Parallel、7AI、Simile 和 Flapping Airplanes，此前他曾担任 Lightspeed 的成长投资者，支持过 Wiz、Glean 和 Grafana 等公司。徐寻找技术深厚的创始人，他们将领域专业知识与忙碌和对客户的痴迷结合起来。\n\n抓住你的 Disrupt 通行证，不要错过 Startup Battlefield\n\nTechCrunch Disrupt 2026 将于 10 月 13 日至 15 日在旧金山 Moscone West 举行，汇聚 10,000 多名技术领导者、风险投资家和创始人，与下一代突破性初创公司会面，与能够改变其初创公司发展轨迹的领导者建立联系，并抢占行业发展的前排席位。",
+      "articleText": "接下来五位风险投资家将在 Disrupt 2026 上评判 Startup Battlefield 200 | TechCrunch\n\n10 月 2 日是向 10,000 多名技术领导者展示您的突破的最后一天。立即预订展位。\n\n9 月 25 日晚上 11:59 止，第二场门票可节省高达 200 美元 + 50% 折扣PT。在这里注册。\n\n媒体与娱乐\n\nTechCrunch 的更多内容\n\nTechCrunch 品牌工作室\n\n图片来源：金伯利怀特/盖蒂图片社\n\n接下来 5 位风投将在 TechCrunch Disrupt 2026 上评判 Startup Battlefield 200 竞争者\n\n太平洋夏令时间上午 7:30 · 2026 年 9 月 28 日\n\n数以千计的应用程序。多轮评审。花费数百小时评估来自世界各地的初创公司。现在到了大家一直在等待的部分。\n\n《Startup Battlefield 200》即将到来，随着今天的宣布，评审团也即将完成。在短短几周内，200 家精心挑选的初创公司将齐聚 TechCrunch Disrupt 2026 进行展示、会见投资者并争夺初创公司世界中最令人垂涎​​的机会之一。只有经过挑选的团队才能进入现场竞赛，他们将在数千名创始人、投资者、媒体和客户面前进行演讲，并面对一些最敏锐的技术头脑的问题。\n\n图片来源：金伯利怀特/盖蒂图片社\n\n如今的评委拥有数十年创建公司、支持创始人以及在变革性想法变得显而易见之前发现它们的经验。他们将帮助决定哪些初创公司继续他们的创业战场决赛之旅，并最终决定谁有机会举起今年的奖杯。如果您想在世界其他地方之前看到明天的行业领导者，那么没有比 TechCrunch Disrupt 更好的地方了。\n\n想要站在 Disrupt 舞台的前沿并见证年度终极推介竞赛的唯一方法就是注册 TechCrunch Disrupt。拿起您的通行证，带上您的联合创始人、合作伙伴或同行即可享受 50% 的折扣。带来一个四人或更多人的社区？购买通票可节省高达 30% 的费用。\n\n认识下一波创业战场评委\n\n访问 Disrupt 议程，了解目前公布的 20 名评委。请继续关注最终公告，我们将公布五位评委，他们将对决赛入围者进行评估，并决定谁将获得 100,000 美元的无股权奖金和令人垂涎的 Disrupt Cup。\n\n图片来源：TechCrunch\n\nCaleb Appleton，Bison Ventures 合伙人\n\nCaleb Appleton 是 Bison Ventures 的合伙人，他在技术生物、机器人和现实世界智能领域投资物理人工智能。作为一名训练有素的生物医学工程师，他的投资包括 Cobot、Vivodyne、Passkey、Sleuth、Inner Logic、Cosmon 和 Grid Aero。此前，Appleton 在 Innovation Endeavors 投资了前沿技术，并在 TuneIn 担任了几年运营商，这让他在早期科学、风险投资和扩展技术业务方面拥有丰富的经验。\n\nSara Deshpande，Maven Ventures 普通合伙人\n\nSara Deshpande 是 Maven Ventures 的普通合伙人，她投资于围绕新兴消费者行为和趋势建立的种子期公司。她专注于涵盖数字健康和人工智能消费者应用的消费者软件。 Deshpande 于 2014 年作为第一位员工加入 Maven，并在风险投资领域工作了十年。她在斯坦福大学获得了 MBA 学位，现在在那里教授初创企业和创业课程。\n\nAatish Nayak，凯鹏华盈合伙人\n\nAatish Nayak 于 2026 年 5 月作为合伙人加入凯鹏华盈，专注于与在所有领域拥有深厚垂直专业知识的 AI 原生创始人合作。\n\n在加入 KPCB 之前，Narak 是 Harvey 的首位产品经理和副总裁，帮助建立了早期的产品、设计、营销、分析和支持团队。在此之前，他是 Scale AI 的早期产品负责人，致力于电子商务、早期 NLP (GPT-2) 和自动驾驶汽车的数据基础设施。在此之前，他在 Shield AI 从事拯救生命的机器人防御系统的核心知识堆栈工作。\n\nJason Risch，Greylock 合伙人\n\nJason Risch 是 Greylock 的合伙人，负责投资企业安全、人工智能和机器学习基础设施、数据平台和开发工具。他的产品组合包括 Onehouse（一个云原生管理的 Lakehouse 平台）和 Baseten（一个为数据科学团队提供的 ML 模型服务工具包）。在加入 Greylock 之前，Risch 曾在 Opendoor 从事业务运营工作，在麦肯锡湾区业务部门担任管理顾问，并在人工智能基金担任初创公司建设者。他在斯坦福大学学习数学和计算科学。\n\n徐马克，指数创投合伙人\n\nMark Xu 是 Index Ventures 的合伙人，他在网络安全、基础设施和人工智能领域进行跨阶段投资。他支持过在人工智能前沿进行建设的公司，包括 Fireworks、Parallel、7AI、Simile 和 Flapping Airplanes，此前他曾担任 Lightspeed 的成长投资者，支持过 Wiz、Glean 和 Grafana 等公司。徐寻找技术深厚的创始人，他们将领域专业知识与忙碌和对客户的痴迷结合起来。\n\n抓住你的 Disrupt 通行证，不要错过 Startup Battlefield\n\nTechCrunch Disrupt 2026 将于 10 月 13 日至 15 日在旧金山 Moscone West 举行，汇聚 10,000 多名技术领导者、风险投资家和创始人，与下一代突破性初创公司会面，与能够改变其初创公司发展轨迹的领导者建立联系，并抢占行业发展的前排席位。",
       "articleBlocks": [
         {
           "type": "text",
@@ -486,7 +546,7 @@
         },
         {
           "type": "text",
-          "value": "图片来源：金伯利怀特/盖蒂图片社\n\n接下来的五位风险投资家将在 TechCrunch Disrupt 2026 上评判 Startup Battlefield 200 竞争者\n\n太平洋夏令时间上午 7:30 · 2026 年 9 月 28 日\n\n数以千计的应用程序。多轮评审。花费数百小时评估来自世界各地的初创公司。现在到了大家一直在等待的部分。\n\n《Startup Battlefield 200》即将到来，随着今天的宣布，评审团也即将完成。在短短几周内，200 家精心挑选的初创公司将齐聚 TechCrunch Disrupt 2026 进行展示、会见投资者并争夺初创公司世界中最令人垂涎​​的机会之一。只有经过挑选的团队才能进入现场竞赛，他们将在数千名创始人、投资者、媒体和客户面前进行演讲，并面对一些最敏锐的技术头脑的问题。"
+          "value": "图片来源：金伯利怀特/盖蒂图片社\n\n接下来 5 位风投将在 TechCrunch Disrupt 2026 上评判 Startup Battlefield 200 竞争者\n\n太平洋夏令时间上午 7:30 · 2026 年 9 月 28 日\n\n数以千计的应用程序。多轮评审。花费数百小时评估来自世界各地的初创公司。现在到了大家一直在等待的部分。\n\n《Startup Battlefield 200》即将到来，随着今天的宣布，评审团也即将完成。在短短几周内，200 家精心挑选的初创公司将齐聚 TechCrunch Disrupt 2026 进行展示、会见投资者并争夺初创公司世界中最令人垂涎​​的机会之一。只有经过挑选的团队才能进入现场竞赛，他们将在数千名创始人、投资者、媒体和客户面前进行演讲，并面对一些最敏锐的技术头脑的问题。"
         },
         {
           "type": "image",
@@ -494,7 +554,7 @@
         },
         {
           "type": "text",
-          "value": "图片来源：金伯利怀特/盖蒂图片社\n\n如今的评委拥有数十年创建公司、支持创始人以及在变革性想法变得显而易见之前发现它们的经验。他们将帮助决定哪些初创公司继续他们的创业战场决赛之旅，并最终决定谁有机会举起今年的奖杯。如果您想在世界其他地方之前看到明天的行业领导者，那么没有比 TechCrunch Disrupt 更好的地方了。\n\n想要站在 Disrupt 舞台的前沿并见证年度终极推介竞赛的唯一方法就是注册 TechCrunch Disrupt。拿起您的通行证，带上您的联合创始人、合作伙伴或同行即可享受 50% 的折扣。带来四人或四人以上的社区？购买通票可节省高达 30% 的费用。\n\n认识下一波创业战场评委\n\n通过访问 Disrupt 议程来了解迄今为止透露的所有 20 名评委。请继续关注最终公告，我们将公布五位评委，他们将对决赛入围者进行评估，并决定谁将获得 100,000 美元的无股权奖金和令人垂涎的 Disrupt Cup。"
+          "value": "图片来源：金伯利怀特/盖蒂图片社\n\n如今的评委拥有数十年创建公司、支持创始人以及在变革性想法变得显而易见之前发现它们的经验。他们将帮助决定哪些初创公司继续他们的创业战场决赛之旅，并最终决定谁有机会举起今年的奖杯。如果您想在世界其他地方之前看到明天的行业领导者，那么没有比 TechCrunch Disrupt 更好的地方了。\n\n想要站在 Disrupt 舞台的前沿并见证年度终极推介竞赛的唯一方法就是注册 TechCrunch Disrupt。拿起您的通行证，带上您的联合创始人、合作伙伴或同行即可享受 50% 的折扣。带来一个四人或更多人的社区？购买通票可节省高达 30% 的费用。\n\n认识下一波创业战场评委\n\n访问 Disrupt 议程，了解目前公布的 20 名评委。请继续关注最终公告，我们将公布五位评委，他们将对决赛入围者进行评估，并决定谁将获得 100,000 美元的无股权奖金和令人垂涎的 Disrupt Cup。"
         },
         {
           "type": "image",
@@ -518,7 +578,7 @@
       "title": "Bose 11年来的首款有线耳机增加了噪音消除功能",
       "tag": "科技 · 全球",
       "desc": "一切都是新的，因为今天Bose宣布了自2015年停止该选项以来的第一对有线耳机。新的系留式耳机，简称为Bo",
-      "articleText": "一切旧事又焕然一新，今天 Bose 宣布推出自 2015 年停产以来的第一对有线耳塞。新款系留耳塞简称为 Bose 降噪有线耳塞，消除了电池焦虑，也无需记住每隔几天充电一次。它们的功能有限，但确实利用了过去 11 年的耳塞创新，增加了主动降噪功能。\n\n该耳塞现已可通过 Bose 在线商店预订，价格为 99 美元，有三种颜色可供选择：黑色、烟白色和“限量版”绿色（称为露珠薄荷色）。虽然发布...\n\n请在 The Verge 上阅读完整的故事。",
+      "articleText": "一切旧事又焕然一新，今天 Bose 宣布推出自 2015 年停产以来的第一对有线耳塞。新款系留耳塞简称为 Bose 降噪有线耳塞，消除了电池焦虑，也无需记住每隔几天充电一次。它们的功能有限，但确实利用了过去 11 年的耳塞创新，增加了主动降噪功能。\n\n该耳塞现已可通过 Bose 在线商店预订，价格为 99 美元，有三种颜色可供选择：黑色、烟白色和“限量版”绿色（称为露珠薄荷色）。虽然发布了……\n\n请在 The Verge 上阅读完整的故事。",
       "articleBlocks": [
         {
           "type": "image",
@@ -526,7 +586,7 @@
         },
         {
           "type": "text",
-          "value": "一切旧事又焕然一新，今天 Bose 宣布推出自 2015 年停产以来的第一对有线耳塞。新款系留耳塞简称为 Bose 降噪有线耳塞，消除了电池焦虑，也无需记住每隔几天充电一次。它们的功能有限，但确实利用了过去 11 年的耳塞创新，增加了主动降噪功能。\n\n该耳塞现已可通过 Bose 在线商店预订，价格为 99 美元，有三种颜色可供选择：黑色、烟白色和“限量版”绿色（称为露珠薄荷色）。虽然发布...\n\n请在 The Verge 上阅读完整的故事。"
+          "value": "一切旧事又焕然一新，今天 Bose 宣布推出自 2015 年停产以来的第一对有线耳塞。新款系留耳塞简称为 Bose 降噪有线耳塞，消除了电池焦虑，也无需记住每隔几天充电一次。它们的功能有限，但确实利用了过去 11 年的耳塞创新，增加了主动降噪功能。\n\n该耳塞现已可通过 Bose 在线商店预订，价格为 99 美元，有三种颜色可供选择：黑色、烟白色和“限量版”绿色（称为露珠薄荷色）。虽然发布了……\n\n请在 The Verge 上阅读完整的故事。"
         }
       ],
       "sourceName": "The Verge",
