@@ -107,7 +107,10 @@ const articleBlocksFromHtml = (html = '', baseUrl = '') => {
     }
     const withBreaks = part
       .replace(/<(?:br|p|div|li|h[1-6]|figcaption|blockquote)\b[^>]*>/gi, '\n')
-      .replace(/<\/[^>]+>/g, '\n');
+      .replace(/<\/(?:p|div|li|h[1-6]|figcaption|blockquote)\s*>/gi, '\n')
+      // Strip inline tags after block boundaries are established. `[^>]*` also
+      // spans newlines, which prevents multiline attributes leaking as text.
+      .replace(/<[^>]+>/g, ' ');
     for (const line of withBreaks.split(/\n+/)) {
       const text = decode(line).trim();
       if (text.length < 20) continue;
