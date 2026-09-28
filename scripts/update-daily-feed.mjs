@@ -87,6 +87,24 @@ const extractBingDestination = (value = '') => {
   }
 };
 
+// Publishers often place recommendation rails, newsletter prompts, ad slots,
+// and infinite-scroll controls inside the article element. They are not part
+// of the story, so remove them before translation and before saving the feed.
+const articleFooterMarkerPattern = /(?:loading the next article|error loading the next article|正在加载下一篇文章|加载下一篇文章时出错)/i;
+const articleNoisePattern = /^(?:loading the next article|error loading the next article|正在加载下一篇文章|加载下一篇文章时出错|techcrunch (?:desktop|mobile) logo|techcrunch 桌面徽标|techcrunch 移动徽标|媒体与娱乐|techcrunch 的更多内容|techcrunch 品牌工作室|second ticket|second pass|第二次通行证|确保您获得 disrupt|10 月 2 日是向|9 月 25 日晚上|subscribe to the biggest tech news|订阅业界最大的科技新闻|未选择新闻通讯|advertiser content from|广告商内容来自|this is the title for the native ad|这是原生广告的标题|posts from this (?:topic|author) will be added to your daily email digest and your homepage feed\.?|该(?:主题|作者)的帖子将添加到你的每日电子邮件摘要和主页源中|follow topics and authors from this story|关注此故事中的主题和作者|see all .* works|查看 .*全部作品|listen to the article|收听文章|this audio is auto-generated|该音频是自动生成的|the most important news.*free daily digest|最重要新闻的免费每日摘要|©\s*\d{4}.*(?:techcrunch|媒体|有限公司))/i;
+const articleFooterStartPattern = /(?:when you purchase through (?:our|the) (?:article )?links|当您通过我们文章中的链接购买|second ticket|second pass|第二次通行证|订阅业界最大的科技新闻|subscribe to the biggest tech news|follow topics and authors from this story|关注此故事中的主题和作者|posts from this (?:topic|author) will be added|该(?:主题|作者)的帖子将添加|advertiser content from|广告商内容来自|loading the next article|error loading the next article|正在加载下一篇文章|加载下一篇文章时出错|©\s*\d{4})/i;
+const articleImageNoisePattern = /(?:tc-lockup-hp|tc-logo-mobile|\/themes\/tc-24\/dist\/svg\/tc-logo|disrupt2026-color|social[-_]?icon|share[-_]?icon|doubleclick|googlesyndication|adservice|native[-_]?ad|placeholder|pixel|spacer|(?:^|[\/_-])ad(?:[\/_?.-]|$)|w=150)/i;
+
+const stripArticleFooter = (value = '') => String(value)
+  .replace(/\s+(?:second ticket|第二次通行证可享 50% 折扣|subscribe to the biggest tech news|订阅业界最大的科技新闻|advertiser content from|广告商内容来自|follow topics and authors from this story|关注此故事中的主题和作者|see all .* works|查看 .*全部作品|posts from this (?:topic|author) will be added[\s\S]*|该(?:主题|作者)的帖子将添加到[\s\S]*|the most important news.*free daily digest[\s\S]*|最重要新闻的免费每日摘要[\s\S]*)[\s\S]*$/i, ' ')
+  .replace(/\s*(?:loading the next article|error loading the next article|正在加载下一篇文章|加载下一篇文章时出错)[\s\S]*$/i, ' ')
+  .replace(/\s*©\s*\d{4}[\s\S]*$/i, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
+
+const isArticleNoise = (value = '') => articleNoisePattern.test(String(value).trim());
+const isArticleImageNoise = (value = '') => articleImageNoisePattern.test(String(value));
+
 const articleBlocksFromHtml = (html = '', baseUrl = '') => {
   const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] || html;
   const sanitized = article.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<noscript[\s\S]*?<\/noscript>|<svg[\s\S]*?<\/svg>/gi, ' ');
@@ -94,10 +112,12 @@ const articleBlocksFromHtml = (html = '', baseUrl = '') => {
   const blocks = [];
   const seenImages = new Set();
   let textLength = 0;
+  let footerStarted = false;
   for (const part of parts) {
+    if (footerStarted) continue;
     if (/^<img\b/i.test(part)) {
       const source = part.match(/\b(?:src|data-src|data-original|data-lazy-src)=['"]([^'"]+)['"]/i)?.[1];
-      if (!source || /^data:/i.test(source) || seenImages.has(source) || seenImages.size >= 12) continue;
+      if (!source || /^data:/i.test(source) || isArticleImageNoise(source) || seenImages.has(source) || seenImages.size >= 12) continue;
       let imageUrl = source;
       try { imageUrl = new URL(source, baseUrl).href; } catch { /* keep the source as provided */ }
       if (!seenImages.has(imageUrl)) {
@@ -113,8 +133,13 @@ const articleBlocksFromHtml = (html = '', baseUrl = '') => {
       // spans newlines, which prevents multiline attributes leaking as text.
       .replace(/<[^>]+>/g, ' ');
     for (const line of withBreaks.split(/\n+/)) {
-      const text = decode(line).trim();
+      const text = stripArticleFooter(decode(line));
       if (text.length < 20) continue;
+      if (articleFooterStartPattern.test(text)) {
+        footerStarted = true;
+        continue;
+      }
+      if (isArticleNoise(text)) continue;
       if (textLength + text.length > articleMaxLength) break;
       blocks.push({ type: 'text', value: text });
       textLength += text.length;
