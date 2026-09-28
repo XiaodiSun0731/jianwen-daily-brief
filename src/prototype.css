@@ -22,3 +22,12 @@
   .phone-stage .status-bar,.phone-stage .home-indicator-svg,.phone-stage .android-navigation-bar{display:none}
   .device-screen,.device-screen *{cursor:auto!important}
 }
+
+/* Notification setup is a compact row inside the bottom sheet. Do not let
+   the global full-width secondary button stretch across this row. */
+.push-setup{min-width:0;align-items:center;gap:12px}
+.push-setup>div{min-width:0;flex:1}
+.push-setup button.secondary,.sheet-body .push-setup .secondary{width:auto;min-width:92px;flex:0 0 auto;margin-top:0;padding:10px 12px;white-space:nowrap;font-size:12px!important;line-height:1.2}
+.push-setup strong{line-height:1.35}
+.push-setup small{line-height:1.45}
+.sheet-body{overflow-x:hidden}
