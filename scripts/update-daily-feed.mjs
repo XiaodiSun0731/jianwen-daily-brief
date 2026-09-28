@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'src', 'data', 'daily-feed.json');
 const articleMaxLength = 20000;
+const translationChunkLength = 2600;
 const now = new Date();
 const weekdayBanners = [
   { key: 'Sun', label: '周日', image: 'images/weekday-hero-07.png' },
@@ -298,12 +299,94 @@ const translateToChinese = async (text) => {
   throw new Error(lastError);
 };
 
+const translateLongToChinese = async (text) => {
+  const value = String(text || '').trim();
+  const chineseChars = (value.match(/[\u3400-\u9fff]/g) || []).length;
+  const latinChars = (value.match(/[A-Za-z]/g) || []).length;
+  if (!value || (chineseChars >= 8 && chineseChars >= latinChars)) return value;
+  let lastError = 'Google article translation failed';
+  for (const host of ['translate.google.com', 'translate.googleapis.com']) {
+    try {
+      const endpoint = `https://${host}/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(value)}`;
+      const response = await fetch(endpoint, { headers: { 'user-agent': 'Mozilla/5.0 JianwenDailyBrief/1.0' }, signal: AbortSignal.timeout(12000) });
+      if (!response.ok) throw new Error(`Google article translation ${response.status}`);
+      const payload = await response.json();
+      const translated = (payload?.[0] || []).map((part) => part?.[0] || '').join('').trim();
+      if (!translated) throw new Error('Google article translation returned empty text');
+      return translated;
+    } catch (error) {
+      lastError = error.message;
+    }
+  }
+  throw new Error(lastError);
+};
+
+const splitTranslationText = (value, maxLength = translationChunkLength) => {
+  const chunks = [];
+  let rest = value.trim();
+  while (rest.length > maxLength) {
+    const candidates = [rest.lastIndexOf(' ', maxLength), rest.lastIndexOf('。', maxLength), rest.lastIndexOf('.', maxLength), rest.lastIndexOf('！', maxLength), rest.lastIndexOf('?', maxLength)];
+    const breakAt = Math.max(...candidates.filter((position) => position > Math.floor(maxLength * 0.55)), -1);
+    const end = breakAt >= 0 ? breakAt + 1 : maxLength;
+    chunks.push(rest.slice(0, end).trim());
+    rest = rest.slice(end).trim();
+  }
+  if (rest) chunks.push(rest);
+  return chunks;
+};
+
+const translateArticleBlocks = async (blocks = []) => {
+  const translatedBlocks = [];
+  let pending = [];
+  let pendingLength = 0;
+  let complete = true;
+  const flush = async () => {
+    if (!pending.length) return;
+    const original = pending.join('\n\n');
+    try {
+      const translatedChunks = [];
+      for (const chunk of splitTranslationText(original)) {
+        translatedChunks.push(await translateLongToChinese(chunk));
+        await new Promise((resolve) => setTimeout(resolve, 180));
+      }
+      const translated = translatedChunks.join('\n\n');
+      translatedBlocks.push({ type: 'text', value: translated });
+    } catch (error) {
+      complete = false;
+      translatedBlocks.push({ type: 'text', value: original });
+      console.warn(`article translation skipped (${error.message})`);
+    }
+    pending = [];
+    pendingLength = 0;
+  };
+  for (const block of blocks) {
+    if (block.type === 'image') {
+      await flush();
+      translatedBlocks.push(block);
+      continue;
+    }
+    const value = String(block.value || '').trim();
+    if (!value) continue;
+    if (pendingLength + value.length + 2 > translationChunkLength && pending.length) await flush();
+    for (const chunk of splitTranslationText(value)) {
+      if (pendingLength + chunk.length + 2 > translationChunkLength && pending.length) await flush();
+      pending.push(chunk);
+      pendingLength += chunk.length + 2;
+    }
+  }
+  await flush();
+  return { blocks: translatedBlocks, complete };
+};
+
 const translateItems = async (items) => {
   let complete = true;
   const translated = [];
   for (const item of items) {
     try {
-      translated.push({ ...item, title: await translateToChinese(item.title), desc: await translateToChinese(item.desc) });
+      const articleResult = await translateArticleBlocks(item.articleBlocks || [{ type: 'text', value: item.articleText || item.description || item.title }]);
+      const translatedArticleText = articleResult.blocks.filter((block) => block.type === 'text').map((block) => block.value).join('\n\n');
+      translated.push({ ...item, title: await translateToChinese(item.title), desc: await translateToChinese(item.desc), articleText: translatedArticleText || item.articleText, articleBlocks: articleResult.blocks });
+      if (!articleResult.complete) complete = false;
       await new Promise((resolve) => setTimeout(resolve, 500));
     } catch (error) {
       console.warn(`translation skipped: ${item.title} (${error.message})`);
